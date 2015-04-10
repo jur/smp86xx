@@ -1,0 +1,1 @@
+#define CONFIG_TANGOX_XENV_READ 1

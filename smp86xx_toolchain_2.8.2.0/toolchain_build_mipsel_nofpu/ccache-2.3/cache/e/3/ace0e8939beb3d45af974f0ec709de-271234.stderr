@@ -1,0 +1,12 @@
+src/genlib/net/http/httpreadwrite.c: In function 'http_Connect':
+src/genlib/net/http/httpreadwrite.c:207: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+src/genlib/net/http/httpreadwrite.c: In function 'http_SendMessage':
+src/genlib/net/http/httpreadwrite.c:405: warning: implicit declaration of function 'fseeko'
+src/genlib/net/http/httpreadwrite.c: In function 'http_RequestAndResponse':
+src/genlib/net/http/httpreadwrite.c:611: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+src/genlib/net/http/httpreadwrite.c: In function 'http_OpenHttpPost':
+src/genlib/net/http/httpreadwrite.c:1132: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+src/genlib/net/http/httpreadwrite.c: In function 'http_OpenHttpGetProxy':
+src/genlib/net/http/httpreadwrite.c:1759: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness
+src/genlib/net/http/httpreadwrite.c: In function 'http_OpenHttpGetEx':
+src/genlib/net/http/httpreadwrite.c:2459: warning: pointer targets in passing argument 5 of 'getsockopt' differ in signedness

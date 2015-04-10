@@ -1,0 +1,4 @@
+drivers/mtd/chips/cfi_cmdset_0020.c: In function 'cfi_staa_init':
+drivers/mtd/chips/cfi_cmdset_0020.c:1417: warning: 'inter_module_register' is deprecated (declared at include/linux/module.h:571)
+drivers/mtd/chips/cfi_cmdset_0020.c: In function 'cfi_staa_exit':
+drivers/mtd/chips/cfi_cmdset_0020.c:1423: warning: 'inter_module_unregister' is deprecated (declared at include/linux/module.h:572)

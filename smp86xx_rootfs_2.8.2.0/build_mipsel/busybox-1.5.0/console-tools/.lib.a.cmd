@@ -1,0 +1,1 @@
+cmd_console-tools/lib.a := rm -f console-tools/lib.a; ar  rcs console-tools/lib.a console-tools/chvt.o console-tools/clear.o console-tools/deallocvt.o console-tools/openvt.o console-tools/reset.o console-tools/setconsole.o console-tools/setlogcons.o

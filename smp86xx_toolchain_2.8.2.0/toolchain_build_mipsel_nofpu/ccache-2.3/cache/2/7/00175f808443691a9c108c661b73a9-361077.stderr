@@ -1,0 +1,5 @@
+ipc/msg.c: In function 'sys_msgctl':
+ipc/msg.c:333: warning: 'setbuf.qbytes' may be used uninitialized in this function
+ipc/msg.c:333: warning: 'setbuf.uid' may be used uninitialized in this function
+ipc/msg.c:333: warning: 'setbuf.gid' may be used uninitialized in this function
+ipc/msg.c:333: warning: 'setbuf.mode' may be used uninitialized in this function

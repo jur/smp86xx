@@ -1,0 +1,5 @@
+fs/nfs/callback_xdr.c: In function 'nfs4_callback_compound':
+fs/nfs/callback_xdr.c:403: warning: 'hdr_res.nops' may be used uninitialized in this function
+fs/nfs/callback_xdr.c:362: warning: 'op_nr' may be used uninitialized in this function
+fs/nfs/callback_xdr.c: In function 'encode_getattr_res':
+fs/nfs/callback_xdr.c:333: warning: 'savep' may be used uninitialized in this function

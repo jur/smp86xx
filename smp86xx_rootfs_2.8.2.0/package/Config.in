@@ -1,0 +1,28 @@
+menu "Package Selection for the target"
+
+comment "The large file support"
+config BR2_LARGEFILE
+        bool "Support for large files"
+        default y
+	help
+          This is to support Large Files. Useful to list BD Files.
+
+comment "The default minimal system"
+source "package/busybox/Config.in"
+
+
+comment "The minimum needed to build a uClibc development system"
+source "package/bash/Config.in"
+
+comment "Other stuff"
+source "package/customize/Config.in"
+source "toolchain/gdb/Config.in"
+source "package/dmalloc/Config.in"
+source "package/openssl/Config.in"
+source "package/mtd/Config.in"
+source "package/zlib/Config.in"
+source "package/wireless-tools/Config.in"
+source "package/xenv-utils/Config.in"
+source "package/testapps/Config.in"
+source "package/boot_auth/Config.in"
+endmenu

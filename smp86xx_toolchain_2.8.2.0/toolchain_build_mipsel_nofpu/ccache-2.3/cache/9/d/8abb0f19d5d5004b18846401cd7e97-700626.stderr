@@ -1,0 +1,8 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c: In function 'REPORT_ETHERNET_FRAME_TO_LLC':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c:69: warning: unused variable 'pRxPkt'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c: In function 'REPORT_ETHERNET_FRAME_TO_LLC_WITH_NON_COPY':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c:106: warning: unused variable 'pRxPkt'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c: In function 'RTMPHardTransmit':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c:2127: warning: unused variable 'pNextPacketBufVA'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c:2126: warning: unused variable 'NextPacketInfo'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_data.c:2126: warning: unused variable 'PacketInfo'

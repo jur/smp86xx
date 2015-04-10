@@ -1,0 +1,2 @@
+/Users/chet/src/bash/src/parse.y: In function 'report_syntax_error':
+/Users/chet/src/bash/src/parse.y:4437: warning: assignment discards qualifiers from pointer target type

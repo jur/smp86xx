@@ -1,0 +1,44 @@
+Q: I've heard that these headers are for PLD Linux Distribution only?
+A: It's true that linux-libc-headers where started to get 2.6 kernel based
+   PLD version working, but they are, and always will be, vanilla kernel
+   compatible. The first three digits of llh's version tag correspond to
+   the version of linux kernel of which abi is exported (keep in mind
+   there are lots of 2.4 kernel compatibilities included). Any PLD (or any
+   other distro for that matter) specific changes are kept away from the 
+   main tree. So no need to worry (and try not to call them 'pld headers').
+   
+Q: Compilation of $INSERTYOURAPP failed after inclusion of linux/config.h
+A: The llh package is distribution and kernel configuration agnostic therefore
+   it can not provide any kernel config. In an ideal world all applications
+   would have runtime detection of what kernel does and doesn't support.
+   Unfortunately applications don't always do that and in some specific
+   situations it's advisable to link your current kernel's config file to
+   replace linux/config.h (do note, that one has to have really good reasons
+   to do that, since it will probably generate more problems, than it fixes).
+   That error message is there to force users to be aware of this situation.
+   Distribution vendors (and most users) will most likely want to get rid of it
+   by emptying the config.h file.
+
+Q: When compiling $INSERTYOURAPP I got an error message saying I shouldn't
+   be including kernel only files.
+A: The llh package is for providing userland interfaces. It doesn't contain
+   internal kernel definitions. If you get such an error you most likely need
+   to fix your app either not to include offending files or to search for
+   headers inside kernel sources.
+   If you believe your sources are correct mail the maintainer (check AUTHORS
+   file for his address) to clear the matter up.
+
+Q: I try to compile $INSERTYOURAPP but some headers were missing/wouldn't
+   parse/any other reason resulting in errors. What now?
+A: Email the maintainer. Never assume something is broken because the
+   maintainer wanted it that way. These headers are still *full* of possible
+   errors and that won't change without user feedback.
+
+Q: What should I do with the scsi directory that comes with llh? Glibc has
+   one already.
+A: Not too sure on that one. There are some problems with glibc's scsi headers
+   (lack of functionality as usual) but I'm not certain if using llh's 
+   should be a preferred method. Best bet is to stick with glibc unless one
+   encounters some problems.
+
+

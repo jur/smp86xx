@@ -1,0 +1,2 @@
+./umask.def: In function 'umask_builtin':
+./umask.def:112: warning: passing argument 2 of 'sh_erange' discards qualifiers from pointer target type

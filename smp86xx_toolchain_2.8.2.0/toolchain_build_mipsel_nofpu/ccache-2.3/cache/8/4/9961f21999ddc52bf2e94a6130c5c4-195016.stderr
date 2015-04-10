@@ -1,0 +1,18 @@
+test.c: In function 'beyond':
+test.c:154: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c: In function 'integer_expected_error':
+test.c:163: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c: In function 'term':
+test.c:361: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c:363: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c:378: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c: In function 'binary_operator':
+test.c:543: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c: In function 'two_arguments':
+test.c:787: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c:790: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c: In function 'three_arguments':
+test.c:830: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c: In function 'test_command':
+test.c:905: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type
+test.c:921: warning: passing argument 1 of 'test_syntax_error' discards qualifiers from pointer target type

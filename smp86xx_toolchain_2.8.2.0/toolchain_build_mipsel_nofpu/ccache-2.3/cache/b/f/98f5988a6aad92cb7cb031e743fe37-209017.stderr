@@ -1,0 +1,2 @@
+display.c: In function 'rl_character_len':
+display.c:1782: warning: comparison is always true due to limited range of data type

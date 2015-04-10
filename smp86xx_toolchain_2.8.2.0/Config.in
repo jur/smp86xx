@@ -1,0 +1,64 @@
+#
+
+mainmenu "Buildroot2 Configuration"
+
+config BR2_HAVE_DOT_CONFIG
+	bool
+	default y
+
+config BR2_mipsel
+	bool
+#	"mipsel"
+	default y
+
+config BR2_ARCH
+	string
+	default "mipsel"  if BR2_mipsel
+
+
+menu "Build options"
+
+config BR2_WGET
+	string "Wget command"
+	default "wget --passive-ftp -nd"
+
+config BR2_SVN
+        string
+        default "Subversion (svn) checkout command"
+
+config BR2_TAR_VERBOSITY
+	bool
+#	"Tar verbose"
+	default n
+
+config BR2_STAGING_DIR
+	string "Toolchain and header file location?"
+	default "$(BUILD_DIR)/staging_dir"
+	help
+	    This is the location where the toolchain will be installed.  The
+	    toolchain will not work if it is moved from this location.
+	    Therefore, if you wish to package up a uClibc toolchain, it is
+	    important that is is set to the final location where the toolchain
+	    will be used.
+
+	    Most people will leave this set to the default value of
+	    "$(BUILD_DIR)/staging_dir".
+
+config BR2_JLEVEL
+	int "Number of jobs to run simultaneously"
+	default "1"
+	help
+	    Number of jobs to run simultanesouly
+
+config BR2_DOWNLOAD_SITE
+	string "Download site"
+	default "ftp://armutils:sigmadesigns@gw.sigmadesigns.com/smp86xx"
+	help
+	    This is the common site to download all the packages from.
+	    The default value is the Sigma Designs download site. If you have
+	    a local mirror, replace this line with a pointer to it. The format
+	    of the string is a URL suitable to pass to 'wget'
+
+endmenu
+
+source "toolchain/Config.in"

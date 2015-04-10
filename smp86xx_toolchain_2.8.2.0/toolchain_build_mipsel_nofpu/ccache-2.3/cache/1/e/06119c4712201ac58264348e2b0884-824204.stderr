@@ -1,0 +1,27 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_siwauth':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1827: warning: unused variable 'param'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1826: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_giwauth':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1902: warning: unused variable 'ret'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1901: warning: unused variable 'param'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1900: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_siwencodeext':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1985: warning: unused variable 'bufLen'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1984: warning: unused variable 'pBuf'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1983: warning: unused variable 'keyIdx'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1981: warning: unused variable 'ext'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1980: warning: unused variable 'encoding'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1979: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_siwpmksa':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2187: warning: unused variable 'found'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2186: warning: unused variable 'CachedIdx'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2184: warning: unused variable 'pmksa'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2183: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_siwgenie':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2243: warning: unused variable 'len'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2242: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_giwgenie':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2280: warning: unused variable 'err'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2279: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_giwauth':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1970: warning: control reaches end of non-void function

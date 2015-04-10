@@ -1,0 +1,18 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c:40:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c: In function 'STA_Build_ARalink_Frame_Header':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c:1536: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c: In function 'STA_Build_AMSDU_Frame_Header':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c:1595: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c: In function 'STA_AMPDU_Frame_Tx':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c:1691: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c: In function 'STA_Legacy_Frame_Tx':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c:1931: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c: In function 'STA_Fragment_Frame_Tx':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/rtmp_data.c:2151: warning: pointer targets in assignment differ in signedness

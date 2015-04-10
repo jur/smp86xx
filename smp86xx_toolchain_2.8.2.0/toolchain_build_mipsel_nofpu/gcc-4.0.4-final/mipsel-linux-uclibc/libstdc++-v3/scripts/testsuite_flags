@@ -1,0 +1,64 @@
+#!/bin/sh
+
+#
+# This script computes the various flags needed to run GNU C++ testsuites
+# (compiler specific as well as library specific). 
+#
+# Written by Benjamin Kosnik <bkoz@redhat.com>
+#            Gabriel Dos Reis <gdr@codesourcery.com>
+#
+
+# Print a message saying how this script is intended to be invoked
+print_usage() {
+    cat <<EOF
+Usage: 
+    testsuite_flags --install-includes
+		    --build-includes
+		    --build-cxx
+		    --install-cxx
+		    --cxxflags
+		    --cxxpchflags
+EOF
+}
+
+# Establish configure-generated directory structure.
+BUILD_DIR=/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3
+SRC_DIR=/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4/libstdc++-v3
+PREFIX_DIR=/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir
+query=$1
+
+case ${query} in
+    --install-includes)
+      INCLUDES="-I${SRC_DIR}/testsuite"
+      echo ${INCLUDES}
+      ;;
+    --build-includes)
+      INCLUDES="-nostdinc++ -I/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/include/mipsel-linux-uclibc -I/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/include -I/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4/libstdc++-v3/libsupc++ 
+                -I${SRC_DIR}/include/backward -I${SRC_DIR}/testsuite"
+      echo ${INCLUDES}
+      ;;
+    --install-cxx)
+      CXX=${PREFIX_DIR}/bin/g++
+      echo ${CXX}
+      ;;
+    --build-cxx)
+      CXX_build=" /opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/xgcc -shared-libgcc -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/ -nostdinc++ -L/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/src -L/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/src/.libs -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/ -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/lib/ -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/include -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/sys-include"
+      CXX=`echo "$CXX_build" | sed 's,gcc/xgcc ,gcc/g++ ,'`
+      echo ${CXX}
+      ;;
+    --cxxflags)
+      CXXFLAGS_save="-g -O2 -D_GLIBCXX_ASSERT"
+      CXXFLAGS_config='-ffunction-sections -fdata-sections  -fmessage-length=0 
+ 		       -DLOCALEDIR="/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/po/share/locale" '
+      echo ${CXXFLAGS_save} ${CXXFLAGS_config}
+      ;;
+    --cxxpchflags)
+      PCHFLAGS="-include bits/stdc++.h"
+      echo ${PCHFLAGS}
+      ;;
+    *)
+      print_usagex
+      ;;
+esac
+
+exit 0

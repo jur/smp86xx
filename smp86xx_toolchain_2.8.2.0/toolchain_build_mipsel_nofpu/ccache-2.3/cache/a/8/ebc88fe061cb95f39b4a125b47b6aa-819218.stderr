@@ -1,0 +1,5 @@
+/home/davidhu/svn.32M/HW/SD8634/mrua_SMP8634_2.8.0.1_dev.mips/MRUA_src/rua/emhwlib_kernel/kernel_src/em8xxx_alsa.c: In function 'init_audio':
+/home/davidhu/svn.32M/HW/SD8634/mrua_SMP8634_2.8.0.1_dev.mips/MRUA_src/rua/emhwlib_kernel/kernel_src/em8xxx_alsa.c:587: warning: unused variable 'out'
+/home/davidhu/svn.32M/HW/SD8634/mrua_SMP8634_2.8.0.1_dev.mips/MRUA_src/rua/emhwlib_kernel/kernel_src/em8xxx_alsa.c:586: warning: unused variable 'audio_engine'
+/home/davidhu/svn.32M/HW/SD8634/mrua_SMP8634_2.8.0.1_dev.mips/MRUA_src/rua/emhwlib_kernel/kernel_src/em8xxx_alsa.c:585: warning: unused variable 'run'
+/home/davidhu/svn.32M/HW/SD8634/mrua_SMP8634_2.8.0.1_dev.mips/MRUA_src/rua/emhwlib_kernel/kernel_src/em8xxx_alsa.c:584: warning: unused variable 'in'

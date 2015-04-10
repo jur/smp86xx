@@ -1,0 +1,24 @@
+The linux-libc-headers (llh) package (available at
+http://ep09.pld-linux.org/~mmazur/linux-libc-headers/) contains headers
+that export linux abi to userspace. These headers are a heavily modified and
+cleaned up version of what comes with original linux tarball. See the FAQ
+for more details.
+
+Userland usefulness is achieved by removing kernel only parts (which often
+generate errors) and using code provided by libc where possible (this allows
+to avoid collisions when both linux and libc headers define the same structure
+or constant). Unfortunately libc dependency might result in functionality loss
+since libcs aren't always in sync with what kernel provides. If such a case
+occurs please send a bug report to the maintainer (see AUTHORS file) and, if
+possible, a workaround will be added. Do note that since llh is primarily for
+2.6 based kernels we assume glibc to be at least version 2.3.3 (as far as I
+know this version wasn't released officially but is being used by many current
+linux distributions). Glibc is not a requirement though - llh is known to work
+with other implementations of standard C library - but obviously is a
+priority, so be prepared to send a bugreport if using something else.
+In case you're wondering why take such an approach if it's obvious that it
+might generate problems. Well, according to my knowledge there is consensus
+among kernel hackers as to how userland headers should look like, but
+unfortunately proper implementation (and wider adoption) will take time and
+something that just plain works (in most cases anyway) is needed now.
+

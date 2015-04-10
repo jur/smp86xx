@@ -1,0 +1,2 @@
+redir.c: In function 'redirection_error':
+redir.c:99: warning: assignment discards qualifiers from pointer target type

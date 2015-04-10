@@ -1,0 +1,2 @@
+./fc.def: In function 'fc_builtin':
+./fc.def:317: warning: passing argument 2 of 'sh_erange' discards qualifiers from pointer target type

@@ -1,0 +1,4 @@
+drivers/mtd/chips/cfi_cmdset_0002.c: In function 'cfi_amdstd_init':
+drivers/mtd/chips/cfi_cmdset_0002.c:1858: warning: 'inter_module_register' is deprecated (declared at include/linux/module.h:571)
+drivers/mtd/chips/cfi_cmdset_0002.c: In function 'cfi_amdstd_exit':
+drivers/mtd/chips/cfi_cmdset_0002.c:1865: warning: 'inter_module_unregister' is deprecated (declared at include/linux/module.h:572)

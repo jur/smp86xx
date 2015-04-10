@@ -1,0 +1,18 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:39:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c: In function 'GetEapolMsgType':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:756: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:758: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:760: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:762: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:764: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:766: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:768: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c: In function 'CalculateMIC':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_wpa.c:1355: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness

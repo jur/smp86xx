@@ -1,0 +1,3 @@
+./shift.def: In function 'shift_builtin':
+./shift.def:66: warning: passing argument 2 of 'sh_erange' discards qualifiers from pointer target type
+./shift.def:72: warning: passing argument 2 of 'sh_erange' discards qualifiers from pointer target type

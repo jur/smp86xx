@@ -1,0 +1,2 @@
+./kill.def: In function 'kill_error':
+./kill.def:248: warning: assignment discards qualifiers from pointer target type

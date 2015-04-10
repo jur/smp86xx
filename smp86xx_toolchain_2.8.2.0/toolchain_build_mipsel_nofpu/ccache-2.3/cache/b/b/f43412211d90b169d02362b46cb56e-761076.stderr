@@ -1,0 +1,44 @@
+In file included from include/linux/if_ether.h:110,
+                 from include/linux/netdevice.h:30,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_linux.h:56,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:51,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:38:
+include/linux/skbuff.h: In function 'skb_add_data':
+include/linux/skbuff.h:1128: warning: pointer targets in passing argument 1 of 'csum_and_copy_from_user' differ in signedness
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:38:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c: In function 'MlmeAssocReqAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:332: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:340: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:358: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:371: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:404: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:413: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:423: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:444: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:495: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:526: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:545: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c: In function 'MlmeReassocReqAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:692: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:700: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:721: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:739: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:747: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:767: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:776: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:786: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:867: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c: In function 'MlmeDisassocReqAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:933: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c: In function 'Cls3errAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:1540: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c: In function 'SendAssocIEsToWpaSupplicant':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:1692: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/assoc.c:1697: warning: pointer targets in passing argument 4 of 'wireless_send_event' differ in signedness

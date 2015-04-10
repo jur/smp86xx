@@ -1,0 +1,4 @@
+#ifndef _ASM_M32R_MMU_CONTEXT_H
+#define _ASM_M32R_MMU_CONTEXT_H
+
+#endif /* _ASM_M32R_MMU_CONTEXT_H */

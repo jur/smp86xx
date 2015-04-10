@@ -1,0 +1,20 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:698: warning: return type defaults to 'int'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_giwscan':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:921: warning: assignment from incompatible pointer type
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:923: warning: assignment from incompatible pointer type
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:929: warning: assignment from incompatible pointer type
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:875: warning: unused variable 'i'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:867: warning: unused variable 'pTmp'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:866: warning: unused variable 'varie_cnt'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:865: warning: unused variable 'essid'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:702: warning: unused variable 'current_val'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_siwessid':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1279: warning: unused variable 'i'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_siwencode':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1741: warning: unused variable 'keyBuf'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_siwgenie':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2243: warning: unused variable 'len'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_giwgenie':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:2280: warning: unused variable 'err'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c: In function 'rt_ioctl_giwauth':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_info.c:1970: warning: control reaches end of non-void function

@@ -1,0 +1,445 @@
+-helpCommonDisplay this information
+-output-pch=C ObjC C++ ObjC++ Joined Separate
+-paramCommon Separate--param <param>=<value>	Set parameter <param> to value.  See below for a complete list of parameters
+-target-helpCommon
+-versionCommon
+AC ObjC C++ ObjC++ Joined Separate-A<question>=<answer>	Assert the <answer> to <question>.  Putting '-' before <question> disables the <answer> to <question>
+CC ObjC C++ ObjC++Do not discard comments
+CCC ObjC C++ ObjC++Do not discard comments in macro expansions
+DC ObjC C++ ObjC++ Joined Separate-D<macro>[=<val>]	Define a <macro> with <val> as its value.  If just <macro> is given, <val> is taken to be 1
+EC ObjC C++ ObjC++ Undocumented
+FC ObjC C++ ObjC++ Joined Separate-F <dir>	Add <dir> to the end of the main framework include path
+GCommon Joined Separate UInteger-G<number>	Put global and static data smaller than <number> bytes into a special section (on some targets)
+HC ObjC C++ ObjC++Print the name of header files as they are used
+IC ObjC C++ ObjC++ Joined Separate-I <dir>	Add <dir> to the end of the main include path
+LanguageC
+LanguageC++
+LanguageObjC
+LanguageObjC++
+MC ObjC C++ ObjC++Generate make dependencies
+MDC ObjC C++ ObjC++ SeparateGenerate make dependencies and compile
+MFC ObjC C++ ObjC++ Joined Separate-MF <file>	Write dependency output to the given file
+MGC ObjC C++ ObjC++Treat missing header files as generated files
+MMC ObjC C++ ObjC++Like -M but ignore system header files
+MMDC ObjC C++ ObjC++ SeparateLike -MD but ignore system header files
+MPC ObjC C++ ObjC++Generate phony targets for all headers
+MQC ObjC C++ ObjC++ Joined Separate-MQ <target>	Add a MAKE-quoted target
+MTC ObjC C++ ObjC++ Joined Separate-MT <target>	Add an unquoted target
+OCommon JoinedOrMissing-O<number>	Set optimization level to <number>
+OsCommonOptimize for space rather than speed
+PC ObjC C++ ObjC++Do not generate #line directives
+UC ObjC C++ ObjC++ Joined Separate-U<macro>	Undefine <macro>
+WCommon RejectNegativeThis switch is deprecated; use -Wextra instead
+WabiC++ ObjC++ Var(warn_abi)Warn about things that will change when compiling with an ABI-compliant compiler
+Waggregate-returnCommon Var(warn_aggregate_return)Warn about returning structures, unions or arrays
+WallC ObjC C++ ObjC++Enable most warning messages
+Wbad-function-castC ObjC Var(warn_bad_function_cast)Warn about casting functions to incompatible types
+Wcast-alignCommon Var(warn_cast_align)Warn about pointer casts which increase alignment
+Wcast-qualC ObjC C++ ObjC++ Var(warn_cast_qual)Warn about casts which discard qualifiers
+Wchar-subscriptsC ObjC C++ ObjC++ Var(warn_char_subscripts)Warn about subscripts whose type is \"char\"
+WcommentC ObjC C++ ObjC++Warn about possibly nested block comments, and C++ comments spanning more than one physical line
+WcommentsC ObjC C++ ObjC++Synonym for -Wcomment
+WconversionC ObjC C++ ObjC++ Var(warn_conversion)Warn about possibly confusing type conversions
+Wctor-dtor-privacyC++ ObjC++ Var(warn_ctor_dtor_privacy)Warn when all constructors and destructors are private
+Wdeclaration-after-statementC ObjC Var(warn_declaration_after_statement)Warn when a declaration is found after a statement
+WdeprecatedC++ ObjC++ Var(warn_deprecated) Init(1)Warn about deprecated compiler features
+Wdeprecated-declarationsCommon Var(warn_deprecated_decl) Init(1)Warn about uses of __attribute__((deprecated)) declarations
+Wdisabled-optimizationCommon Var(warn_disabled_optimization)Warn when an optimization pass is disabled
+Wdiv-by-zeroC ObjC Var(warn_div_by_zero) Init(1)Warn about compile-time integer division by zero
+Weffc++C++ ObjC++ Var(warn_ecpp)Warn about violations of Effective C++ style rules
+Wendif-labelsC ObjC C++ ObjC++Warn about stray tokens after #elif and #endif
+WerrorC ObjC C++ ObjC++
+WerrorCommon Var(warnings_are_errors)Treat all warnings as errors
+Werror-implicit-function-declarationC ObjC RejectNegativeMake implicit function declarations an error
+WextraCommonPrint extra (possibly unwanted) warnings
+Wfatal-errorsCommon Var(flag_fatal_errors)Exit on the first error occurred
+Wfloat-equalC ObjC C++ ObjC++ Var(warn_float_equal)Warn if testing floating point numbers for equality
+WformatC ObjC C++ ObjC++Warn about printf/scanf/strftime/strfmon format string anomalies
+Wformat-extra-argsC ObjC C++ ObjC++ Var(warn_format_extra_args)Warn if passing too many arguments to a function for its format string
+Wformat-nonliteralC ObjC C++ ObjC++ Var(warn_format_nonliteral)Warn about format strings that are not literals
+Wformat-securityC ObjC C++ ObjC++ Var(warn_format_security)Warn about possible security problems with format functions
+Wformat-y2kC ObjC C++ ObjC++ Var(warn_format_y2k)Warn about strftime formats yielding 2-digit years
+Wformat-zero-lengthC ObjC Var(warn_format_zero_length)Warn about zero-length formats
+Wformat=C ObjC C++ ObjC++ Joined
+WimplicitC ObjC C++ ObjC++
+Wimplicit-function-declarationC ObjC Var(mesg_implicit_function_declaration) Init(-1)Warn about implicit function declarations
+Wimplicit-intC ObjC Var(warn_implicit_int)Warn when a declaration does not specify a type
+WimportC ObjC C++ ObjC++Deprecated.  This switch has no effect.
+Winit-selfC ObjC C++ ObjC++ Var(warn_init_self)Warn about variables which are initialized to themselves.
+WinlineCommon Var(warn_inline)Warn when an inlined function cannot be inlined
+Winvalid-offsetofC++ ObjC++ Var(warn_invalid_offsetof) Init(1)Warn about invalid uses of the \"offsetof\" macro
+Winvalid-pchC ObjC C++ ObjC++Warn about PCH files that are found but not used
+Wlarger-than-Common RejectNegative Joined UInteger-Wlarger-than-<number>	Warn if an object is larger than <number> bytes
+Wlong-longC ObjC C++ ObjC++ Var(warn_long_long) Init(1)Do not warn about using \"long long\" when -pedantic
+WmainC ObjCWarn about suspicious declarations of \"main\"
+Wmissing-bracesC ObjC C++ ObjC++ Var(warn_missing_braces)Warn about possibly missing braces around initializers
+Wmissing-declarationsC ObjC Var(warn_missing_declarations)Warn about global functions without previous declarations
+Wmissing-field-initializersC ObjC C++ ObjC++ Var(warn_missing_field_initializers) Init(-1)Warn about missing fields in struct initializers
+Wmissing-format-attributeC ObjC C++ ObjC++ Var(warn_missing_format_attribute)Warn about functions which might be candidates for format attributes
+Wmissing-include-dirsC ObjC C++ ObjC++Warn about user-specified include directories that do not exist
+Wmissing-noreturnCommon Var(warn_missing_noreturn)Warn about functions which might be candidates for __attribute__((noreturn))
+Wmissing-prototypesC ObjC Var(warn_missing_prototypes)Warn about global functions without prototypes
+WmulticharC ObjC C++ ObjC++Warn about use of multi-character character constants
+Wnested-externsC ObjC Var(warn_nested_externs)Warn about \"extern\" declarations not at file scope
+Wnon-template-friendC++ ObjC++ Var(warn_nontemplate_friend) Init(1)Warn when non-templatized friend functions are declared within a template
+Wnon-virtual-dtorC++ ObjC++ Var(warn_nonvdtor)Warn about non-virtual destructors
+WnonnullC ObjC Var(warn_nonnull)Warn about NULL being passed to argument slots marked as requiring non-NULL
+Wold-style-castC++ ObjC++ Var(warn_old_style_cast)Warn if a C-style cast is used in a program
+Wold-style-definitionC ObjC Var(warn_old_style_definition)Warn if an old-style parameter definition is used
+Woverloaded-virtualC++ ObjC++ Var(warn_overloaded_virtual)Warn about overloaded virtual function names
+WpackedCommon Var(warn_packed)Warn when the packed attribute has no effect on struct layout
+WpaddedCommon Var(warn_padded)Warn when padding is required to align structure members
+WparenthesesC ObjC C++ ObjC++ Var(warn_parentheses)Warn about possibly missing parentheses
+Wpmf-conversionsC++ ObjC++ Var(warn_pmf2ptr) Init(1)Warn when converting the type of pointers to member functions
+Wpointer-arithC ObjC C++ ObjC++ Var(warn_pointer_arith)Warn about function pointer arithmetic
+Wpointer-signC ObjC Var(warn_pointer_sign) Init(1)Warn when a pointer differs in signedness in an assignment.
+WprotocolObjC ObjC++ Var(warn_protocol) Init(1)Warn if inherited methods are unimplemented
+Wredundant-declsC ObjC C++ ObjC++ Var(warn_redundant_decls)Warn about multiple declarations of the same object
+WreorderC++ ObjC++ Var(warn_reorder)Warn when the compiler reorders code
+Wreturn-typeC ObjC C++ ObjC++Warn whenever a function's return type defaults to \"int\" (C), or about inconsistent return types (C++)
+WselectorObjC ObjC++ Var(warn_selector)Warn if a selector has multiple methods
+Wsequence-pointC ObjC C++ ObjC++ Var(warn_sequence_point)Warn about possible violations of sequence point rules
+WshadowCommon Var(warn_shadow)Warn when one local variable shadows another
+Wsign-compareC ObjC C++ ObjC++ Var(warn_sign_compare) Init(-1)Warn about signed-unsigned comparisons
+Wsign-promoC++ ObjC++ Var(warn_sign_promo)Warn when overload promotes from unsigned to signed
+Wstrict-aliasingCommonWarn about code which might break strict aliasing rules
+Wstrict-aliasing=Common Joined UIntegerWarn about code which might break strict aliasing rules
+Wstrict-null-sentinelC++ ObjC++Warn about uncasted NULL used as sentinel
+Wstrict-prototypesC ObjC Var(warn_strict_prototypes)Warn about unprototyped function declarations
+WswitchCommon Var(warn_switch)Warn about enumerated switches, with no default, missing a case
+Wswitch-defaultCommon Var(warn_switch_default)Warn about enumerated switches missing a \"default:\" statement
+Wswitch-enumCommon Var(warn_switch_enum)Warn about all enumerated switches missing a specific case
+WsynthC++ ObjC++ Var(warn_synth)Warn when synthesis behavior differs from Cfront
+Wsystem-headersC ObjC C++ ObjC++Do not suppress warnings from system headers
+Wsystem-headersCommon Var(warn_system_headers)Do not suppress warnings from system headers
+WtraditionalC ObjC Var(warn_traditional)Warn about features not present in traditional C
+WtrigraphsC ObjC C++ ObjC++Warn if trigraphs are encountered that might affect the meaning of the program
+Wundeclared-selectorObjC ObjC++ Var(warn_undeclared_selector)Warn about @selector()s without previously declared methods
+WundefC ObjC C++ ObjC++Warn if an undefined macro is used in an #if directive
+WuninitializedCommon Var(warn_uninitialized)Warn about uninitialized automatic variables
+Wunknown-pragmasC ObjC C++ ObjC++Warn about unrecognized pragmas
+Wunreachable-codeCommon Var(warn_notreached)Warn about code that will never be executed
+WunusedCommonEnable all -Wunused- warnings
+Wunused-functionCommon Var(warn_unused_function)Warn when a function is unused
+Wunused-labelCommon Var(warn_unused_label)Warn when a label is unused
+Wunused-macrosC ObjC C++ ObjC++Warn about macros defined in the main file that are not used
+Wunused-parameterCommon Var(warn_unused_parameter)Warn when a function parameter is unused
+Wunused-valueCommon Var(warn_unused_value)Warn when an expression value is unused
+Wunused-variableCommon Var(warn_unused_variable)Warn when a variable is unused
+Wvariadic-macrosC ObjC C++ ObjC++Do not warn about using variadic macros when -pedantic
+Wwrite-stringsC ObjC C++ ObjC++Give strings the type \"array of char\"
+ansiC ObjC C++ ObjC++A synonym for -std=c89 (for C) or -std=c++98 (for C++).
+aux-infoCommon Separate-aux-info <file>	Emit declaration information into <file>
+aux-info=Common Joined
+auxbaseCommon Separate
+auxbase-stripCommon Separate
+dC ObjC C++ ObjC++ Joined
+dCommon Joined-d<letters>	Enable dumps from specific passes of the compiler
+dumpbaseCommon Separate-dumpbase <file>	Set the file basename to be used for dumps
+fPICCommon Report Var(flag_pic,2)Generate position-independent code if possible (large mode)
+fPIECommon Report Var(flag_pie,2)Generate position-independent code for executables if possible (large mode)
+fabi-version=Common Joined UInteger Var(flag_abi_version) Init(2)
+faccess-controlC++ ObjC++Enforce class member access control semantics
+falign-functionsCommon Report Var(align_functions,0)Align the start of functions
+falign-functions=Common RejectNegative Joined UInteger
+falign-jumpsCommon Report Var(align_jumps,0)Align labels which are only reached by jumping
+falign-jumps=Common RejectNegative Joined UInteger
+falign-labelsCommon Report Var(align_labels,0)Align all labels
+falign-labels=Common RejectNegative Joined UInteger
+falign-loopsCommon Report Var(align_loops)Align the start of loops
+falign-loops=Common RejectNegative Joined UInteger
+fall-virtualC++ ObjC++
+falt-external-templatesC++ ObjC++Change when template instances are emitted
+fargument-aliasCommon Report Var(flag_argument_noalias,0)Specify that arguments may alias each other and globals
+fargument-noaliasCommon Report Var(flag_argument_noalias,1) VarExistsAssume arguments may alias globals but not each other
+fargument-noalias-globalCommon Report Var(flag_argument_noalias,2) VarExistsAssume arguments alias neither each other nor globals
+fasmC ObjC C++ ObjC++Recognize the \"asm\" keyword
+fasynchronous-unwind-tablesCommon Report Var(flag_asynchronous_unwind_tables)Generate unwind tables that are exact at each instruction boundary
+fbounds-checkCommon Report Var(flag_bounds_check)Generate code to check bounds before indexing arrays
+fbranch-count-regCommon Report Var(flag_branch_on_count_reg) Init(1)Replace add, compare, branch with branch on count register
+fbranch-probabilitiesCommon Report Var(flag_branch_probabilities)Use profiling information for branch probabilities
+fbranch-target-load-optimizeCommon Report Var(flag_branch_target_load_optimize)Perform branch target load optimization before prologue / epilogue threading
+fbranch-target-load-optimize2Common Report Var(flag_branch_target_load_optimize2)Perform branch target load optimization after prologue / epilogue threading
+fbtr-bb-exclusiveCommon Report Var(flag_btr_bb_exclusive)Restrict target load migration not to re-use registers in any basic block
+fbuiltinC ObjC C++ ObjC++Recognize built-in functions
+fbuiltin-C ObjC C++ ObjC++ Joined
+fcall-saved-Common Joined RejectNegative-fcall-saved-<register>	Mark <register> as being preserved across functions
+fcall-used-Common Joined RejectNegative-fcall-used-<register>	Mark <register> as being corrupted by function calls
+fcaller-savesCommon Report Var(flag_caller_saves)Save registers around function calls
+fcheck-newC++ ObjC++Check the return value of new
+fcommonCommon Report Var(flag_no_common,0)Do not put uninitialized globals in the common section
+fcond-mismatchC ObjC C++ ObjC++Allow the arguments of the '?' operator to have different types
+fconserve-spaceC++ ObjC++Reduce the size of object files
+fconst-stringsC++ ObjC++Make string literals \"const char[]\" not \"char[]\"
+fconstant-string-class=ObjC ObjC++ Joined-fconst-string-class=<name>	Use class <name> for constant strings
+fcprop-registersCommon Report Var(flag_cprop_registers)Perform a register copy-propagation optimization pass
+fcrossjumpingCommon Report Var(flag_crossjumping)Perform cross-jumping optimization
+fcse-follow-jumpsCommon Report Var(flag_cse_follow_jumps)When running CSE, follow jumps to their targets
+fcse-skip-blocksCommon Report Var(flag_cse_skip_blocks)When running CSE, follow conditional jumps
+fcx-limited-rangeCommon Report Var(flag_cx_limited_range)Omit range reduction step when performing complex division
+fdata-sectionsCommon Report Var(flag_data_sections)Place data items into their own section
+fdefault-inlineC++ ObjC++Inline member functions by default
+fdefer-popCommon Report Var(flag_defer_pop)Defer popping functions args from stack until later
+fdelayed-branchCommon Report Var(flag_delayed_branch)Attempt to fill delay slots of branch instructions
+fdelete-null-pointer-checksCommon Report Var(flag_delete_null_pointer_checks)Delete useless null pointer checks
+fdiagnostics-show-location=Common Joined RejectNegative-fdiagnostics-show-location=[once|every-line]	How often to emit source location at the beginning of line-wrapped diagnostics
+fdollars-in-identifiersC ObjC C++ ObjC++Permit '$' as an identifier character
+fdump-Common Joined RejectNegative-fdump-<type>	Dump various compiler internals to a file
+fdump-unnumberedCommon Report Var(flag_dump_unnumbered) VarExistsSuppress output of instruction numbers and line number notes in debugging dumps
+felide-constructorsC++ ObjC++
+feliminate-dwarf2-dupsCommon Report Var(flag_eliminate_dwarf2_dups)Perform DWARF2 duplicate elimination
+feliminate-unused-debug-symbolsCommon Report Var(flag_debug_only_used_symbols)Perform unused type elimination in debug info
+feliminate-unused-debug-typesCommon Report Var(flag_eliminate_unused_debug_types) Init(1)Perform unused type elimination in debug info
+fenforce-eh-specsC++ ObjC++Generate code to check exception specifications
+fenum-int-equivC++ ObjC++
+fexceptionsCommon Report Var(flag_exceptions)Enable exception handling
+fexec-charset=C ObjC C++ ObjC++ Joined RejectNegative-fexec-charset=<cset>	Convert all strings and character constants to character set <cset>
+fexpensive-optimizationsCommon Report Var(flag_expensive_optimizations)Perform a number of minor, expensive optimizations
+fexternal-templatesC++ ObjC++
+ffast-mathCommon
+ffinite-math-onlyCommon Report Var(flag_finite_math_only)Assume no NaNs or infinities are generated
+ffixed-Common Joined RejectNegative-ffixed-<register>	Mark <register> as being unavailable to the compiler
+ffixed-formC ObjC
+ffixed-line-length-C ObjC Joined
+ffloat-storeCommon Report Var(flag_float_store)Don't allocate floats and doubles in extended-precision registers
+ffor-scopeC++ ObjC++Scope of for-init-statement variables is local to the loop
+fforce-addrCommon Report Var(flag_force_addr)Copy memory address constants into registers before use
+fforce-memCommon Report Var(flag_force_mem)Copy memory operands into registers before use
+ffreestandingC ObjCDo not assume that standard C libraries and \"main\" exist
+ffunction-cseCommon Report Var(flag_no_function_cse,0)Allow function addresses to be held in registers
+ffunction-sectionsCommon Report Var(flag_function_sections)Place each function into its own section
+fgcseCommon Report Var(flag_gcse)Perform global common subexpression elimination
+fgcse-after-reloadCommon Report Var(flag_gcse_after_reload)Perform global common subexpression elimination after register allocationhas finished.
+fgcse-lasCommon Report Var(flag_gcse_las) Init(0)Perform redundant load after store elimination in global common subexpressionelimination
+fgcse-lmCommon Report Var(flag_gcse_lm) Init(1)Perform enhanced load motion during global common subexpression elimination
+fgcse-smCommon Report Var(flag_gcse_sm) Init(0)Perform store motion after global common subexpression elimination
+fgnu-keywordsC++ ObjC++Recognize GNU-defined keywords
+fgnu-runtimeObjC ObjC++Generate code for GNU runtime environment
+fguess-branch-probabilityCommon Report Var(flag_guess_branch_prob)Enable guessing of branch probabilities
+fguiding-declsC++ ObjC++
+fhandle-exceptionsC++ ObjC++
+fhonor-stdC++ ObjC++
+fhostedC ObjCAssume normal C execution environment
+fhuge-objectsC++ ObjC++Enable support for huge objects
+fidentCommon Report Var(flag_no_ident,0)Process #ident directives
+fif-conversionCommon Report Var(flag_if_conversion)Perform conversion of conditional jumps to branchless equivalents
+fif-conversion2Common Report Var(flag_if_conversion2)Perform conversion of conditional jumps to conditional execution
+fimplement-inlinesC++ ObjC++Export functions even if they can be inlined
+fimplicit-inline-templatesC++ ObjC++Emit implicit instantiations of inline templates
+fimplicit-templatesC++ ObjC++Emit implicit instantiations of templates
+finhibit-size-directiveCommon Report Var(flag_inhibit_size_directive)Do not generate .size directives
+finlineCommon Report Var(flag_no_inline,0) Init(2)Pay attention to the \"inline\" keyword
+finline-functionsCommon Report Var(flag_inline_functions)Integrate simple functions into their callers
+finline-functions-called-onceCommon Report Var(flag_inline_functions_called_once) Init(1)Integrate functions called once into their callers
+finline-limit-Common RejectNegative Joined UInteger
+finline-limit=Common RejectNegative Joined UInteger-finline-limit=<number>	Limit the size of inlined functions to <number>
+finput-charset=C ObjC C++ ObjC++ Joined RejectNegative-finput-charset=<cset>	Specify the default character set for source files.
+finstrument-functionsCommon Report Var(flag_instrument_function_entry_exit)Instrument function entry and exit with profiling calls
+fivoptsCommon Report Var(flag_ivopts) Init(1)Optimize induction variables on trees
+fkeep-inline-functionsCommon Report Var(flag_keep_inline_functions)Generate code for functions even if they are fully inlined
+fkeep-static-constsCommon Report Var(flag_keep_static_consts) Init(1)Emit static const variables even if they are not used
+flabels-okC++ ObjC++
+fleading-underscoreCommon Report Var(flag_leading_underscore) Init(-1)Give external symbols a leading underscore
+floop-optimizeCommon Report Var(flag_loop_optimize)Perform loop optimizations
+floop-optimize2Common Report Var(flag_loop_optimize2)Perform loop optimizations using the new loop optimizer
+fmath-errnoCommon Report Var(flag_errno_math) Init(1)Set errno after built-in math functions
+fmem-reportCommon Report Var(mem_report)Report on permanent memory allocation
+fmerge-all-constantsCommon Report Var(flag_merge_constants,2) Init(1)Attempt to merge identical constants and constant variables
+fmerge-constantsCommon Report Var(flag_merge_constants,1) VarExistsAttempt to merge identical constants across compilation units
+fmessage-length=Common RejectNegative Joined UInteger-fmessage-length=<number>	Limit diagnostics to <number> characters per line.  0 suppresses line-wrapping
+fmodulo-schedCommon Report Var(flag_modulo_sched)Perform SMS based modulo scheduling before the first scheduling pass
+fmove-loop-invariantsCommon Report Var(flag_move_loop_invariants)Move loop invariant computations out of loops
+fms-extensionsC ObjC C++ ObjC++Don't warn about uses of Microsoft extensions
+fmudflapCommon RejectNegative Report Var(flag_mudflap)Add mudflap bounds-checking instrumentation for single-threaded program.
+fmudflapirCommon RejectNegative Report Var(flag_mudflap_ignore_reads)Ignore read operations when inserting mudflap instrumentation.
+fmudflapthCommon RejectNegative Report Var(flag_mudflap_threads)Add mudflap bounds-checking instrumentation for multi-threaded program.
+fname-mangling-version-C++ ObjC++ Joined
+fnew-abiC++ ObjC++
+fnext-runtimeObjC ObjC++Generate code for NeXT (Apple Mac OS X) runtime environment
+fnil-receiversObjC ObjC++Assume that receivers of Objective-C messages may be nil
+fnon-call-exceptionsCommon Report Var(flag_non_call_exceptions)Support synchronous non-call exceptions
+fnonansi-builtinsC++ ObjC++
+fnonnull-objectsC++ ObjC++
+fobjc-exceptionsObjC ObjC++Enable Objective-C exception and synchronization syntax
+fobjc-sjlj-exceptionsObjC ObjC++Enable Objective-C setjmp exception handling runtime
+fomit-frame-pointerCommon Report Var(flag_omit_frame_pointer)When possible do not generate stack frames
+foperator-namesC++ ObjC++Recognize C++ kewords like \"compl\" and \"xor\"
+foptimize-register-moveCommon Report Var(flag_regmove)Do the full register move optimization pass
+foptimize-sibling-callsCommon Report Var(flag_optimize_sibling_calls)Optimize sibling and tail recursive calls
+foptional-diagsC++ ObjC++Enable optional diagnostics
+fpack-structCommon Report Var(flag_pack_struct)Pack structure members together without holes
+fpack-struct=Common RejectNegative Joined UInteger-fpack-struct=<number>	Set initial maximum structure member alignment
+fpcc-struct-returnCommon Report Var(flag_pcc_struct_return,1) VarExistsReturn small aggregates in memory, not registers
+fpch-depsC ObjC C++ ObjC++
+fpch-preprocessC ObjC C++ ObjC++Look for and use PCH files even when preprocessing
+fpeel-loopsCommon Report Var(flag_peel_loops)Perform loop peeling
+fpeepholeCommon Report Var(flag_no_peephole,0)Enable machine specific peephole optimizations
+fpeephole2Common Report Var(flag_peephole2)Enable an RTL peephole pass before sched2
+fpermissiveC++ ObjC++Downgrade conformance errors to warnings
+fpicCommon Report Var(flag_pic,1) VarExistsGenerate position-independent code if possible (small mode)
+fpieCommon Report Var(flag_pie,1) VarExistsGenerate position-independent code for executables if possible (small mode)
+fprefetch-loop-arraysCommon Report Var(flag_prefetch_loop_arrays)Generate prefetch instructions, if available, for arrays in loops
+fpreprocessedC ObjC C++ ObjC++Treat the input file as already preprocessed
+fprofileCommon Report Var(profile_flag)Enable basic program profiling code
+fprofile-arcsCommon Report Var(profile_arc_flag)Insert arc-based program profiling code
+fprofile-generateCommonEnable common options for generating profile info for profile feedback directed optimizations
+fprofile-useCommonEnable common options for performing profile feedback directed optimizations
+fprofile-valuesCommon Report Var(flag_profile_values)Insert code to profile values of expressions
+frandom-seedCommon
+frandom-seed=Common Joined RejectNegative-frandom-seed=<string>	Make compile reproducible using <string>
+freg-struct-returnCommon Report Var(flag_pcc_struct_return,0) VarExistsReturn small aggregates in registers
+fregmoveCommon Report Var(flag_regmove)Enables a register move optimization
+frename-registersCommon Report Var(flag_rename_registers)Perform a register renaming optimization pass
+freorder-blocksCommon Report Var(flag_reorder_blocks)Reorder basic blocks to improve code placement
+freorder-blocks-and-partitionCommon Report Var(flag_reorder_blocks_and_partition)Reorder basic blocks and partition into hot and cold sections
+freorder-functionsCommon Report Var(flag_reorder_functions)Reorder functions to improve code placement
+freplace-objc-classesObjC ObjC++Used in Fix-and-Continue mode to indicate that object files may be swapped in at runtime
+frepoC++ ObjC++Enable automatic template instantiation
+frerun-cse-after-loopCommon Report Var(flag_rerun_cse_after_loop)Add a common subexpression elimination pass after loop optimizations
+frerun-loop-optCommon Report Var(flag_rerun_loop_opt)Run the loop optimizer twice
+freschedule-modulo-scheduled-loopsCommon Report Var(flag_resched_modulo_sched)Enable/Disable the traditional scheduling in loops that already passed modulo scheduling
+frounding-mathCommon Report Var(flag_rounding_math)Disable optimizations that assume default FP rounding behavior
+frttiC++ ObjC++Generate run time type descriptor information
+fsched-interblockCommon Report Var(flag_schedule_interblock) Init(1)Enable scheduling across basic blocks
+fsched-specCommon Report Var(flag_schedule_speculative) Init(1)Allow speculative motion of non-loads
+fsched-spec-loadCommon Report Var(flag_schedule_speculative_load)Allow speculative motion of some loads
+fsched-spec-load-dangerousCommon Report Var(flag_schedule_speculative_load_dangerous)Allow speculative motion of more loads
+fsched-stalled-insnsCommon Report Var(flag_sched_stalled_insns)Allow premature scheduling of queued insns
+fsched-stalled-insns-depCommon Report Var(flag_sched_stalled_insns_dep,1) Init(1)Set dependence distance checking in premature scheduling of queued insns
+fsched-stalled-insns-dep=Common RejectNegative Joined UInteger-fsched-stalled-insns-dep=<number>	Set dependence distance checking in premature scheduling of queued insns
+fsched-stalled-insns=Common RejectNegative Joined UInteger -fsched-stalled-insns=<number>	Set number of queued insns that can be prematurely scheduled
+fsched-verbose=Common RejectNegative Joined-fsched-verbose=<number>	Set the verbosity level of the scheduler
+fsched2-use-superblocksCommon Report Var(flag_sched2_use_superblocks)If scheduling post reload, do superblock scheduling
+fsched2-use-tracesCommon Report Var(flag_sched2_use_traces)If scheduling post reload, do trace scheduling
+fschedule-insnsCommon Report Var(flag_schedule_insns)Reschedule instructions before register allocation
+fschedule-insns2Common Report Var(flag_schedule_insns_after_reload)Reschedule instructions after register allocation
+fshared-dataCommon Report Var(flag_shared_data)Mark data as shared rather than private
+fshort-doubleC ObjC C++ ObjC++Use the same size for double as for float
+fshort-enumsC ObjC C++ ObjC++Use the narrowest integer type possible for enumeration types
+fshort-wcharC ObjC C++ ObjC++Force the underlying type for \"wchar_t\" to be \"unsigned short\"
+fshow-columnC ObjC C++ ObjC++
+fsignaling-nansCommon Report Var(flag_signaling_nans)Disable optimizations observable by IEEE signaling NaNs
+fsigned-bitfieldsC ObjC C++ ObjC++When \"signed\" or \"unsigned\" is not given make the bitfield signed
+fsigned-charC ObjC C++ ObjC++Make \"char\" signed by default
+fsingle-precision-constantCommon Report Var(flag_single_precision_constant)Convert floating point constants to single precision constants
+fspeculative-prefetchingCommon Report Var(flag_speculative_prefetching)Use value profiling for speculative prefetching
+fsplit-ivs-in-unrollerCommon Report Var(flag_split_ivs_in_unroller) Init(1)Split lifetimes of induction variables when loops are unrolled.
+fsquangleC++ ObjC++
+fstack-checkCommon Report Var(flag_stack_check)Insert stack checking code into the program
+fstack-limitCommon
+fstack-limit-register=Common RejectNegative Joined-fstack-limit-register=<register>	Trap if the stack goes past <register>
+fstack-limit-symbol=Common RejectNegative Joined-fstack-limit-symbol=<name>	Trap if the stack goes past symbol <name>
+fstatsC++ ObjC++Display statistics accumulated during compilation
+fstrength-reduceCommon Report Var(flag_strength_reduce)Perform strength reduction optimizations
+fstrict-aliasingCommon Report Var(flag_strict_aliasing)Assume strict aliasing rules apply
+fstrict-prototypeC++ ObjC++
+fsyntax-onlyCommon Report Var(flag_syntax_only)Check for syntax errors, then stop
+ftabstop=C ObjC C++ ObjC++ Joined RejectNegative UInteger-ftabstop=<number>	Distance between tab stops for column reporting
+ftemplate-depth-C++ ObjC++ Joined RejectNegative UInteger -ftemplate-depth-<number>	Specify maximum template instantiation depth
+ftest-coverageCommon Report Var(flag_test_coverage)Create data files needed by \"gcov\"
+fthis-is-variableC++ ObjC++
+fthread-jumpsCommon Report Var(flag_thread_jumps)Perform jump threading optimizations
+fthreadsafe-staticsC++ ObjC++-fno-threadsafe-statics	Do not generate thread-safe code for initializing local statics.
+ftime-reportCommon Report Var(time_report)Report the time taken by each compiler pass
+ftls-model=Common Joined RejectNegative-ftls-model=[global-dynamic|local-dynamic|initial-exec|local-exec]	Set the default thread-local storage code generation model
+ftracerCommon Report Var(flag_tracer)Perform superblock formation via tail duplication
+ftrapping-mathCommon Report Var(flag_trapping_math) Init(1)Assume floating-point operations can trap
+ftrapvCommon Report Var(flag_trapv)Trap for signed overflow in addition, subtraction and multiplication
+ftree-based-profilingCommon Report Var(flag_tree_based_profiling)Use tree-ssa based implementation of profiling
+ftree-ccpCommon Report Var(flag_tree_ccp)Enable SSA-CCP optimization on trees
+ftree-chCommon Report Var(flag_tree_ch)Enable loop header copying on trees
+ftree-combine-tempsCommon Report Var(flag_tree_combine_temps)Coalesce memory temporaries in the SSA->normal pass
+ftree-copyrenameCommon Report Var(flag_tree_copyrename)Replace SSA temporaries with better names in copies.
+ftree-dceCommon Report Var(flag_tree_dce)Enable SSA dead code elimination optimization on trees
+ftree-dominator-optsCommon Report Var(flag_tree_dom)Enable dominator optimizations
+ftree-dseCommon Report Var(flag_tree_dse)Enable dead store elimination
+ftree-freCommon Report Var(flag_tree_fre)Enable Full Redundancy Elimination (FRE) on trees
+ftree-loop-imCommon Report Var(flag_tree_loop_im) Init(1)Enable loop invariant motion on trees
+ftree-loop-ivcanonCommon Report Var(flag_tree_loop_ivcanon) Init(1)Create canonical induction variables in loops
+ftree-loop-linearCommon Report Var(flag_tree_loop_linear)Enable linear loop transforms on trees
+ftree-loop-optimizeCommon Report Var(flag_tree_loop_optimize) Init(1)Enable loop optimizations on tree level
+ftree-lrsCommon Report Var(flag_tree_live_range_split)Perform live range splitting during the SSA->normal pass.
+ftree-preCommon Report Var(flag_tree_pre)Enable SSA-PRE optimization on trees
+ftree-sraCommon Report Var(flag_tree_sra)Perform scalar replacement of aggregates
+ftree-terCommon Report Var(flag_tree_ter)Replace temporary expressions in the SSA->normal pass
+ftree-vectorizeCommon Report Var(flag_tree_vectorize)Enable loop vectorization on trees
+ftree-vectorizer-verbose=Common RejectNegative Joined-ftree-vectorizer-verbose=<number>	Set the verbosity level of the vectorizer
+funit-at-a-timeCommon Report Var(flag_unit_at_a_time)Compile whole compilation unit at a time
+funroll-all-loopsCommon Report Var(flag_unroll_all_loops)Perform loop unrolling for all loops
+funroll-loopsCommon Report Var(flag_unroll_loops)Perform loop unrolling when iteration count is known
+funsafe-math-optimizationsCommon Report Var(flag_unsafe_math_optimizations)Allow math optimizations that may violate IEEE or ISO standards
+funsigned-bitfieldsC ObjC C++ ObjC++When \"signed\" or \"unsigned\" is not given make the bitfield unsigned
+funsigned-charC ObjC C++ ObjC++Make \"char\" unsigned by default
+funswitch-loopsCommon Report Var(flag_unswitch_loops)Perform loop unswitching
+funwind-tablesCommon Report Var(flag_unwind_tables)Just generate unwind tables for exception handling
+fuse-cxa-atexitC++ ObjC++Use __cxa_atexit to register destructors
+fvar-trackingCommon Report Var(flag_var_tracking) VarExistsPerform variable tracking
+fvariable-expansion-in-unrollerCommon Report Var(flag_variable_expansion_in_unroller) Apply variable expansion when loops are unrolled.
+fverbose-asmCommon Report Var(flag_verbose_asm)Add extra commentary to assembler output
+fvisibility-inlines-hiddenC++ ObjC++Marks all inlined methods as having hidden visibility
+fvisibility=Common Joined RejectNegative-fvisibility=[default|internal|hidden|protected]	Set the default symbol visibility
+fvptCommon Report Var(flag_value_profile_transformations)Use expression value profiles in optimizations
+fvtable-gcC++ ObjC++Discard unused virtual functions
+fvtable-thunksC++ ObjC++Implement vtables using thunks
+fweakC++ ObjC++Emit common-like symbols as weak symbols
+fwebCommon Report Var(flag_web) Init(0)Construct webs and split unrelated uses of single variable
+fwide-exec-charset=C ObjC C++ ObjC++ Joined RejectNegative-fwide-exec-charset=<cset>	Convert all wide strings and character constants to character set <cset>
+fworking-directoryC ObjC C++ ObjC++Generate a #line directive pointing at the current working directory
+fwrapvCommon Report Var(flag_wrapv)Assume signed arithmetic overflow wraps around
+fxrefC++ ObjC++Emit cross referencing information
+fzero-initialized-in-bssCommon Report Var(flag_zero_initialized_in_bss) Init(1)Put zero initialized data in the bss section
+fzero-linkObjC ObjC++Generate lazy class lookup (via objc_getClass()) for use in Zero-Link mode
+gCommon JoinedOrMissingGenerate debug information in default format
+gcoffCommon JoinedOrMissingGenerate debug information in COFF format
+gdwarf-2Common JoinedOrMissingGenerate debug information in DWARF v2 format
+gen-declsObjC ObjC++Dump declarations to a .decl file
+ggdbCommon JoinedOrMissingGenerate debug information in default extended format
+gstabsCommon JoinedOrMissingGenerate debug information in STABS format
+gstabs+Common JoinedOrMissingGenerate debug information in extended STABS format
+gvmsCommon JoinedOrMissingGenerate debug information in VMS format
+gxcoffCommon JoinedOrMissingGenerate debug information in XCOFF format
+gxcoff+Common JoinedOrMissingGenerate debug information in extended XCOFF format
+idirafterC ObjC C++ ObjC++ Joined Separate-idirafter <dir>	Add <dir> to the end of the system include path
+imacrosC ObjC C++ ObjC++ Joined Separate-imacros <file>	Accept definition of macros in <file>
+includeC ObjC C++ ObjC++ Joined Separate-include <file>	Include the contents of <file> before other files
+iprefixC ObjC C++ ObjC++ Joined Separate-iprefix <path>	Specify <path> as a prefix for next two options
+iquoteC ObjC C++ ObjC++ Joined Separate-iquote <dir>	Add <dir> to the end of the quote include path
+isysrootC ObjC C++ ObjC++ Joined Separate-isysroot <dir>	Set <dir> to be the system root directory
+isystemC ObjC C++ ObjC++ Joined Separate-isystem <dir>	Add <dir> to the start of the system include path
+iwithprefixC ObjC C++ ObjC++ Joined Separate-iwithprefix <dir>	Add <dir> to the end of the system include path
+iwithprefixbeforeC ObjC C++ ObjC++ Joined Separate-iwithprefixbefore <dir>	Add <dir> to the end of the main include path
+lang-asmC Undocumented
+lang-fortranC Undocumented
+lang-objcC ObjC C++ ObjC++ Undocumented
+mCommon Joined
+nostdincC ObjC C++ ObjC++Do not search standard system include directories (those specified with -isystem will still be used)
+nostdinc++C++ ObjC++Do not search standard system include directories for C++
+oC ObjC C++ ObjC++ Joined Separate
+oCommon Joined Separate-o <file>	Place output into <file>
+pCommon Var(profile_flag)Enable function profiling
+pedanticC ObjC C++ ObjC++
+pedanticCommon Var(pedantic)Issue warnings needed for strict compliance to the standard
+pedantic-errorsC ObjC C++ ObjC++
+pedantic-errorsCommonLike -pedantic but issue them as errors
+print-objc-runtime-infoObjC ObjC++Generate C header of platform-specific features
+quietCommon Var(quiet_flag)Do not display functions compiled or elapsed time
+remapC ObjC C++ ObjC++Remap file names when including files
+std=c++98C++ ObjC++Conform to the ISO 1998 C++ standard
+std=c89C ObjCConform to the ISO 1990 C standard
+std=c99C ObjCConform to the ISO 1999 C standard
+std=c9xC ObjCDeprecated in favor of -std=c99
+std=gnu++98C++ ObjC++Conform to the ISO 1998 C++ standard with GNU extensions
+std=gnu89C ObjCConform to the ISO 1990 C standard with GNU extensions
+std=gnu99C ObjCConform to the ISO 1999 C standard with GNU extensions
+std=gnu9xC ObjCDeprecated in favor of -std=gnu99
+std=iso9899:1990C ObjCConform to the ISO 1990 C standard
+std=iso9899:199409C ObjCConform to the ISO 1990 C standard as amended in 1994
+std=iso9899:1999C ObjCConform to the ISO 1999 C standard
+std=iso9899:199xC ObjCDeprecated in favor of -std=iso9899:1999
+traditional-cppC ObjC C++ ObjC++Enable traditional preprocessing
+trigraphsC ObjC C++ ObjC++-trigraphs	Support ISO C trigraphs
+undefC ObjC C++ ObjC++Do not predefine system-specific and GCC-specific macros
+vC ObjC C++ ObjC++Enable verbose output
+versionCommon Var(version_flag)Display the compiler's version
+wC ObjC C++ ObjC++
+wCommon Var(inhibit_warnings)Suppress warnings

@@ -1,0 +1,1 @@
+kernel/resource.c:480: warning: '__check_region' is deprecated (declared at kernel/resource.c:468)

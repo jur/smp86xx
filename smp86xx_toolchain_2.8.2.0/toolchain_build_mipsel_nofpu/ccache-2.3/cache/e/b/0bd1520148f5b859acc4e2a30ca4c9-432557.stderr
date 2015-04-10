@@ -1,0 +1,4 @@
+ipc/shm.c: In function 'shm_destroy':
+ipc/shm.c:122: warning: statement with no effect
+ipc/shm.c: In function 'sys_shmctl':
+ipc/shm.c:560: warning: statement with no effect

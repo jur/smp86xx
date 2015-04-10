@@ -1,0 +1,1 @@
+drivers/video/fbmem.c:1560: warning: 'video_setup' defined but not used

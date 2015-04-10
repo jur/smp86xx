@@ -1,0 +1,43 @@
+In file included from include/linux/if_ether.h:110,
+                 from include/linux/netdevice.h:30,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_linux.h:56,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:51,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:40:
+include/linux/skbuff.h: In function 'skb_add_data':
+include/linux/skbuff.h:1128: warning: pointer targets in passing argument 1 of 'csum_and_copy_from_user' differ in signedness
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:40:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c: At top level:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:225: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:226: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:227: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:228: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:229: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:230: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:231: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:232: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:233: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:234: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:235: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:236: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:237: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:238: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:239: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:240: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:241: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:242: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c: In function 'STAMlmePeriodicExec':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:1158: warning: pointer targets in passing argument 3 of 'ScanParmFill' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c: In function 'BssEntrySet':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:3490: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:3492: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:3499: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:3502: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c: In function 'BssTableSetEntry':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/mlme.c:3570: warning: pointer targets in passing argument 3 of 'BssTableSearchWithSSID' differ in signedness

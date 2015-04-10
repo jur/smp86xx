@@ -1,0 +1,26 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:39:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c: In function 'WpaPairMsg1Action':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:574: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:595: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c: In function 'Wpa2PairMsg1Action':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:731: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:752: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c: In function 'WpaPairMsg3Action':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:918: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:979: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c: In function 'Wpa2PairMsg3Action':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:1179: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:1238: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c: In function 'WpaGroupMsg1Action':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:1501: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:1521: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c: In function 'WpaMicFailureReportFrame':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:2051: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/wpa.c:2070: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness

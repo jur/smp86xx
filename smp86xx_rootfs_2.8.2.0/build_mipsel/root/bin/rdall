@@ -1,0 +1,21 @@
+#!/bin/sh
+killall -9 watchdog 2> /dev/null
+killall -9 nmbd 2> /dev/null
+killall -9 smbd 2> /dev/null
+killall -9 rtorrent 2> /dev/null
+killall -9 dma 2> /dev/null
+killall -9 wpa_supplicant 2> /dev/null
+killall -9 wpa_supplicant.RT2860 2> /dev/null
+killall -9 wpa_supplicant.RT2870 2> /dev/null
+killall -9 utelnetd 2> /dev/null
+
+for i in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+do
+umount /mnt/hdd$i 2> /dev/null
+umount /mnt/iso$i 2> /dev/null
+umount /usb/usb$i 2> /dev/null
+done
+
+ifconfig ra0 down
+
+rmmod rt61 rt2860sta rt2870sta em8xxx llad irkernel

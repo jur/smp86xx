@@ -1,0 +1,2 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_wext.c: In function 'wext2Rtmp_Security_Wrapper':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_wext.c:131: warning: 'authMode' may be used uninitialized in this function

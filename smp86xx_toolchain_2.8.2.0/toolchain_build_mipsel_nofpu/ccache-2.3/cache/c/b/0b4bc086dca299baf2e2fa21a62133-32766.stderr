@@ -1,0 +1,2 @@
+conftest.c: In function 'main':
+conftest.c:53: warning: unused variable 'len'

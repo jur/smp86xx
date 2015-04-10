@@ -1,0 +1,2 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_init.c: In function 'RTMPReadParametersFromFile':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/rtmp_init.c:3942: warning: unused variable 'i'

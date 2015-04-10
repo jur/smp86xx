@@ -1,0 +1,20 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:38:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c: In function 'CntlOidScanProc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:282: warning: pointer targets in passing argument 3 of 'BssSsidTableSearch' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:307: warning: pointer targets in passing argument 3 of 'ScanParmFill' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c: In function 'CntlOidSsidProc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:346: warning: pointer targets in passing argument 3 of 'BssTableSsidSort' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:468: warning: pointer targets in passing argument 3 of 'ScanParmFill' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c: In function 'CntlWaitDisassocProc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:690: warning: pointer targets in passing argument 3 of 'StartParmFill' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c: In function 'IterateOnBssTab':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:2105: warning: pointer targets in passing argument 3 of 'StartParmFill' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c: In function 'MakeIbssBeacon':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/sta/connect.c:2289: warning: pointer targets in initialization differ in signedness

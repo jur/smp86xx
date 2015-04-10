@@ -1,0 +1,12 @@
+#ifndef _UM_PARAM_H
+#define _UM_PARAM_H
+
+#define EXEC_PAGESIZE   4096
+
+#ifndef NOGROUP
+#define NOGROUP         (-1)
+#endif
+
+#define MAXHOSTNAMELEN  64      /* max length of hostname */
+
+#endif

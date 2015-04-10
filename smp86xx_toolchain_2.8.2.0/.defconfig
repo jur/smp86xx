@@ -1,0 +1,75 @@
+#
+# Automatically generated make config: don't edit
+#
+BR2_HAVE_DOT_CONFIG=y
+BR2_mipsel=y
+BR2_ARCH="mipsel"
+
+#
+# Build options
+#
+BR2_WGET="wget --passive-ftp -nd"
+BR2_SVN="Subversion (svn) checkout command"
+# BR2_TAR_VERBOSITY is not set
+BR2_STAGING_DIR="$(BUILD_DIR)/staging_dir"
+BR2_JLEVEL=1
+BR2_DOWNLOAD_SITE="ftp://armutils:sigmadesigns@gw.sigmadesigns.com/smp86xx"
+
+#
+# Toolchain Options
+#
+
+#
+# Kernel Header Options
+#
+BR2_KERNEL_HEADERS_2_4_29=y
+# BR2_KERNEL_HEADERS_2_6_11_0 is not set
+BR2_DEFAULT_KERNEL_HEADERS="2.4.29"
+
+#
+# uClibc Options
+#
+BR2_UCLIBC_VERSION_0_9_27=y
+# BR2_UCLIBC_VERSION_0_9_28 is not set
+BR2_UCLIBC_VERSION="0.9.27"
+## BR2_ENABLE_LOCALE is not set
+
+#
+# Binutils Options
+#
+BR2_BINUTILS_VERSION_2_15_91_0_2=y
+# BR2_BINUTILS_VERSION_2_17 is not set
+BR2_BINUTILS_VERSION="2.15.91.0.2"
+
+#
+# Gcc Options
+#
+BR2_GCC_VERSION_3_4_2=y
+# BR2_GCC_VERSION_4_0_4 is not set
+BR2_GCC_VERSION="3.4.2"
+BR2_GCC_USE_SJLJ_EXCEPTIONS="--enable-sjlj-exceptions"
+BR2_EXTRA_GCC_CONFIG_OPTIONS=""
+BR2_INSTALL_LIBSTDCPP=y
+# BR2_INSTALL_LIBGCJ is not set
+# BR2_INSTALL_OBJC is not set
+
+#
+# Ccache Options
+#
+BR2_CCACHE=y
+
+#
+# Gdb Options
+#
+BR2_PACKAGE_GDB_CLIENT=y
+BR2_GDB_VERSION_6_3=y
+# BR2_GDB_VERSION_6_5 is not set
+BR2_GDB_VERSION="6.3"
+
+#
+# Common Toolchain Options
+#
+BR2_ENABLE_MULTILIB=y
+BR2_LARGEFILE=y
+BR2_SOFT_FLOAT=y
+BR2_TARGET_OPTIMIZATION="-Os -mips32r2 -Wa,-mips32r2 -pipe"

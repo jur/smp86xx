@@ -1,0 +1,107 @@
+This is the Sigma Designs customization of the root file system for the
+SMP86xx family of chips.
+
+This package is of course heavily depending on the toolchain and kernel
+packages.
+
+Quick HOW-TO
+============
+a) You need to have a working toolchain package. Once you have built your 
+   toolchain, be sure to source toolchain-path.env. This is required for you to
+   be able to build the rootfs package.
+b) Untar the rootfs package.
+c) First, configure your root file system: 'make menuconfig'. All the options 
+   in the configuration menus have detailed help. Once you are satisfied with
+   your choice of options, exit and save the configuration.
+d) If you are using the toolchain composed of gcc 3.4.2, binutils 2.15.91.0.2,
+   and uClibc 0.9.27 (defined in the toolchain package) then you must select
+   Busybox 1.00 from the 'Package Selection for the target --->' menu.
+   If on the other hand you are using the toolchain composed of gcc 4.0.4,
+   binutils 2.17, and uClibc 0.9.28.3 then you must select Busybox 1.5 from
+   the 'Package Selection for the target --->' menu.
+e) If you chose to customize your root file system (option 'customize' in
+   submenu 'Package Selection for the target'), be sure to prepare your custom
+   files now.
+f) Run 'make' to produce your root file system.
+
+IMPORTANT NOTE: as of this release, the only supported option in the 'Target 
+Options' menu is 'cramfs root filesystem for the target device' (with all its
+suboptions). Any other option is currently unsupported and some are known to
+not work.
+
+Once you are through with step e), your root file system is available in the
+main directory of the package as 'root_fs_mipsel.cramfs'.
+
+Note about the integration with the toolchain and the kernel source packages
+============================================================================
+The rootfs package is now integrated with the toolchain package and the 
+kernel source package and is able to interact with them in the following
+ways:
+
+ a) it can grab the necessary runtime libraries from the toolchain package.
+ b) it can receive the kernel modules and support files from the kernel source
+    package.
+ c) the kernel source package can use the produced rootfs image for its initial
+    RAM disk.
+
+For interaction a) to take place, the SMP86XX_TOOLCHAIN_PATH environment 
+variable must be defined and it must point to the main directory of the 
+produced toolchain. The easiest way to achieve that is by sourcing the
+'toolchain-path.env' environment file after it is produced at the end of the
+toolchain production.
+
+Note that defining SMP86XX_TOOLCHAIN_PATH is not optional. The build will not
+go through unless the environment variable is defined and points to a correct
+location. This is because, even if the build went through, the resulting root
+file system would be unusable as it would not provide *any* run time library.
+
+For interactions b) and c) to take place, the SMP86XX_ROOTFS_PATH environment
+variable must be defined and must point to the main directory of the rootfs
+package. The easiest way to achieve that is by sourcing the 'rootfs-path.env'
+environment file after it is produced, right after your run 'make' or 
+'make menuconfig' for the first time.
+
+When SMP86XX_ROOTFS_PATH is defined and points to a valid location, the kernel
+source package is able to:
+
+ b) install its modules to the correct location under the customization 
+    directory ('package/customize/source') in the rootfs package. In order to
+    then make sure the modules end up in the produced rootfs image, you must
+    select the 'customize' option under the 'Package Selection for the target'
+    menu in 'make menuconfig'.
+ c) grab the produced rootfs image (root_fs_mipsel.cramfs) and use it for its
+    initial RAM disk.
+
+Thus, in order to produce a rootfs holding the kernel modules and use it as the
+kernel initial RAM disk, you need to go through the following steps in order
+(note: this is convoluted):
+ 1) optionally build the toolchain (or use an existing one, more recent than
+    2.6.90.0)
+ 2) source toolchain-path.env in the toolchain package directory
+ 3) configure the rootfs package with the 'customize' option on in the
+    'Package Selection for the target' menu
+ 4) source 'rootfs-path.env' in the rootfs package directory
+ 5) configure the kernel, review what is configured as modules, 'make dep'
+ 6) 'make modules' in the kernel source directory
+ 7) the 'modules_install' target for the kernel needs that the system map be
+    already produced. In order to achieve that, build a first version of the
+    kernel: 'make vmlinux'
+ 8) 'make modules_install' in the kernel source directory. The modules are now
+    installed in the rootfs package customization directory.
+ 9) 'make' in the rootfs package directory. You have now produced a rootfs 
+    image holding the kernel modules.
+10) 'make' in the kernel source directory. You have now produced a linux ZBF
+    image with an initrd holding the kernel modules.
+    
+Coming features
+===============
+N/A
+
+Troubleshooting
+===============
+a) when building the cramfs utility tool, the compiler complains that it can't
+   find 'zlib.h' or '-lz'.
+
+   You need to have the development version of zlib installed on your system.
+   How to do that depends on your distribution.
+

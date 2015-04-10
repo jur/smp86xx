@@ -1,0 +1,1 @@
+misc/internals/__uClibc_main.o misc/internals/tempname.o misc/internals/errno.o misc/internals/__errno_location.o misc/internals/__h_errno_location.o

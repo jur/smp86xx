@@ -1,0 +1,161 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:41:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: At top level:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:250: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:251: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:252: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:253: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:254: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:255: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:256: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:257: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:258: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:259: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:260: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:261: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:262: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:263: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:264: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:265: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:266: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:267: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:268: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:269: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:270: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:271: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:272: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:273: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:276: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:280: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:282: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:283: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:284: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:285: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:286: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:287: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:288: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:289: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:290: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:291: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:292: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:293: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:333: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:336: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:337: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:338: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:340: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:341: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'rt_ioctl_giwscan':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1222: warning: pointer targets in passing argument 4 of 'iwe_stream_add_point' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'rt_ioctl_giwnickn':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1526: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1527: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'rt_ioctl_setparam':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1824: warning: pointer targets in passing argument 2 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1826: warning: pointer targets in passing argument 2 of 'PRTMP_PRIVATE_SET_PROC->set_proc' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'getBaInfo':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1931: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1933: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1939: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1942: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1944: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1950: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1953: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:1955: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'rt_private_show':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:2024: warning: pointer targets in passing argument 2 of 'getBaInfo' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:2080: warning: pointer targets in passing argument 3 of 'RTMPShowCfgValue' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'RTMPQueryInformation':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:4258: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'rt28xx_sta_ioctl':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5219: warning: pointer targets in passing argument 1 of 'rtstrchr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5219: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5229: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5237: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5237: warning: pointer targets in passing argument 2 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5239: warning: pointer targets in passing argument 2 of 'PRTMP_PRIVATE_SET_PROC->set_proc' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_SSID_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5299: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5303: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5305: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5306: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_WmmCapable_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5361: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_NetworkType_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5391: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5424: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5456: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_AuthMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5572: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5572: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5574: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5574: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5576: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5576: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5578: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5578: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5580: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5580: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5582: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5582: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5585: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5585: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5587: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5587: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_EncrypType_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5612: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5612: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5621: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5621: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5630: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5630: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5639: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5639: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_DefaultKeyID_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5672: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_Key1_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5702: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5719: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5736: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_Key2_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5783: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5800: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5817: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_Key3_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5862: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5879: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5896: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_Key4_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5941: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5958: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:5975: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_WPAPSK_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6025: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6025: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6031: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6033: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_PSMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6073: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6073: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6085: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6085: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6086: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6096: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6097: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6098: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_Wpa_Support':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6146: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6148: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6150: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_TGnWifiTest_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6518: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_LongRetryLimit_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6532: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c: In function 'Set_ShortRetryLimit_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/sta_ioctl.c:6546: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness

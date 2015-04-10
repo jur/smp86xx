@@ -1,0 +1,113 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs, see configure's option --config-cache.
+# It is not useful on other systems.  If it contains results you don't
+# want to keep, you may remove or edit it.
+#
+# config.status only pays attention to the cache file if you give it
+# the --recheck option to rerun configure.
+#
+# `ac_cv_env_foo' variables (set or unset) will be overridden when
+# loading this file, other *unset* `ac_cv_foo' will be assigned the
+# following values.
+
+ac_cv_build=${ac_cv_build=i386-pc-linux-gnu}
+ac_cv_build_alias=${ac_cv_build_alias=i386-pc-linux-gnu}
+ac_cv_c_bigendian=${ac_cv_c_bigendian=no}
+ac_cv_c_compiler_gnu=${ac_cv_c_compiler_gnu=yes}
+ac_cv_c_const=${ac_cv_c_const=yes}
+ac_cv_c_inline=${ac_cv_c_inline=inline}
+ac_cv_env_CC_set=set
+ac_cv_env_CC_value=gcc
+ac_cv_env_CFLAGS_set=set
+ac_cv_env_CFLAGS_value='-g -O2'
+ac_cv_env_CPPFLAGS_set=
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_LDFLAGS_set=set
+ac_cv_env_LDFLAGS_value=
+ac_cv_env_build_alias_set=set
+ac_cv_env_build_alias_value=i386-pc-linux-gnu
+ac_cv_env_host_alias_set=set
+ac_cv_env_host_alias_value=i386-pc-linux-gnu
+ac_cv_env_target_alias_set=set
+ac_cv_env_target_alias_value=mipsel-linux-uclibc
+ac_cv_exeext=${ac_cv_exeext=}
+ac_cv_func___argz_count=${ac_cv_func___argz_count=yes}
+ac_cv_func___argz_next=${ac_cv_func___argz_next=yes}
+ac_cv_func___argz_stringify=${ac_cv_func___argz_stringify=yes}
+ac_cv_func___setfpucw=${ac_cv_func___setfpucw=no}
+ac_cv_func_aint=${ac_cv_func_aint=no}
+ac_cv_func_alloca_works=${ac_cv_func_alloca_works=yes}
+ac_cv_func_anint=${ac_cv_func_anint=no}
+ac_cv_func_ftruncate=${ac_cv_func_ftruncate=yes}
+ac_cv_func_getcwd=${ac_cv_func_getcwd=yes}
+ac_cv_func_getpagesize=${ac_cv_func_getpagesize=yes}
+ac_cv_func_getrusage=${ac_cv_func_getrusage=yes}
+ac_cv_func_lstat=${ac_cv_func_lstat=yes}
+ac_cv_func_mmap=${ac_cv_func_mmap=yes}
+ac_cv_func_mmap_fixed_mapped=${ac_cv_func_mmap_fixed_mapped=yes}
+ac_cv_func_munmap=${ac_cv_func_munmap=yes}
+ac_cv_func_putenv=${ac_cv_func_putenv=yes}
+ac_cv_func_setenv=${ac_cv_func_setenv=yes}
+ac_cv_func_setlocale=${ac_cv_func_setlocale=yes}
+ac_cv_func_sigaction=${ac_cv_func_sigaction=yes}
+ac_cv_func_sqrt=${ac_cv_func_sqrt=yes}
+ac_cv_func_stpcpy=${ac_cv_func_stpcpy=yes}
+ac_cv_func_strcasecmp=${ac_cv_func_strcasecmp=yes}
+ac_cv_func_strchr=${ac_cv_func_strchr=yes}
+ac_cv_func_time=${ac_cv_func_time=yes}
+ac_cv_func_truncate=${ac_cv_func_truncate=yes}
+ac_cv_header_argz_h=${ac_cv_header_argz_h=yes}
+ac_cv_header_dirent_dirent_h=${ac_cv_header_dirent_dirent_h=yes}
+ac_cv_header_dlfcn_h=${ac_cv_header_dlfcn_h=yes}
+ac_cv_header_errno_h=${ac_cv_header_errno_h=yes}
+ac_cv_header_fcntl_h=${ac_cv_header_fcntl_h=yes}
+ac_cv_header_fpu_control_h=${ac_cv_header_fpu_control_h=yes}
+ac_cv_header_inttypes_h=${ac_cv_header_inttypes_h=yes}
+ac_cv_header_limits_h=${ac_cv_header_limits_h=yes}
+ac_cv_header_locale_h=${ac_cv_header_locale_h=yes}
+ac_cv_header_malloc_h=${ac_cv_header_malloc_h=yes}
+ac_cv_header_memory_h=${ac_cv_header_memory_h=yes}
+ac_cv_header_nl_types_h=${ac_cv_header_nl_types_h=yes}
+ac_cv_header_stdc=${ac_cv_header_stdc=yes}
+ac_cv_header_stdint_h=${ac_cv_header_stdint_h=yes}
+ac_cv_header_stdlib_h=${ac_cv_header_stdlib_h=yes}
+ac_cv_header_string_h=${ac_cv_header_string_h=yes}
+ac_cv_header_strings_h=${ac_cv_header_strings_h=yes}
+ac_cv_header_sys_mman_h=${ac_cv_header_sys_mman_h=yes}
+ac_cv_header_sys_param_h=${ac_cv_header_sys_param_h=yes}
+ac_cv_header_sys_resource_h=${ac_cv_header_sys_resource_h=yes}
+ac_cv_header_sys_stat_h=${ac_cv_header_sys_stat_h=yes}
+ac_cv_header_sys_time_h=${ac_cv_header_sys_time_h=yes}
+ac_cv_header_sys_times_h=${ac_cv_header_sys_times_h=yes}
+ac_cv_header_sys_types_h=${ac_cv_header_sys_types_h=yes}
+ac_cv_header_time_h=${ac_cv_header_time_h=yes}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
+ac_cv_header_values_h=${ac_cv_header_values_h=yes}
+ac_cv_host=${ac_cv_host=i386-pc-linux-gnu}
+ac_cv_host_alias=${ac_cv_host_alias=i386-pc-linux-gnu}
+ac_cv_lib_m_fabs=${ac_cv_lib_m_fabs=yes}
+ac_cv_lib_nsl_gethostbyname=${ac_cv_lib_nsl_gethostbyname=yes}
+ac_cv_lib_socket_bind=${ac_cv_lib_socket_bind=no}
+ac_cv_objext=${ac_cv_objext=o}
+ac_cv_prog_AR=${ac_cv_prog_AR=ar}
+ac_cv_prog_CC=${ac_cv_prog_CC=gcc}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -E'}
+ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB=ranlib}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
+ac_cv_prog_cc_stdc=${ac_cv_prog_cc_stdc=}
+ac_cv_prog_egrep=${ac_cv_prog_egrep='grep -E'}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set=yes}
+ac_cv_search_opendir=${ac_cv_search_opendir='none required'}
+ac_cv_search_strerror=${ac_cv_search_strerror='none required'}
+ac_cv_target=${ac_cv_target=mipsel-unknown-linux-uclibc}
+ac_cv_target_alias=${ac_cv_target_alias=mipsel-linux-uclibc}
+ac_cv_type_off_t=${ac_cv_type_off_t=yes}
+ac_cv_type_signal=${ac_cv_type_signal=void}
+ac_cv_type_size_t=${ac_cv_type_size_t=yes}
+ac_cv_working_alloca_h=${ac_cv_working_alloca_h=yes}
+am_cv_val_LC_MESSAGES=${am_cv_val_LC_MESSAGES=yes}
+nls_cv_header_intl=${nls_cv_header_intl=libintl.h}
+nls_cv_header_libgt=${nls_cv_header_libgt=libgettext.h}

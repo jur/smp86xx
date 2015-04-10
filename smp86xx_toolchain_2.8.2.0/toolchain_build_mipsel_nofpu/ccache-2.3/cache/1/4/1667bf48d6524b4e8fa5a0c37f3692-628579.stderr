@@ -1,0 +1,22 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_get_drvinfo':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:68: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_get_regs':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:94: warning: unused variable 'counter'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:93: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_ethtool_get_link':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:110: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_get_eeprom':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:136: warning: unused variable 'counter'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:135: warning: unused variable 'pAd'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: At top level:
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:159: warning: initialization from incompatible pointer type
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_get_regs_len':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:87: warning: control reaches end of non-void function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_ethtool_get_link':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:120: warning: control reaches end of non-void function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_get_eeprom_len':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:129: warning: control reaches end of non-void function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'rt61_get_eeprom':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:149: warning: control reaches end of non-void function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c: In function 'RT61_probe':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/rtmp_main.c:336: warning: 'device' is used uninitialized in this function

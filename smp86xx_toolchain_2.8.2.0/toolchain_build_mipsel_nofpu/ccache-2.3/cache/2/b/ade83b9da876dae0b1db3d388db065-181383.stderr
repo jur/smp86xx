@@ -1,0 +1,2 @@
+locale.c: In function 'localetrans':
+locale.c:333: warning: assignment discards qualifiers from pointer target type

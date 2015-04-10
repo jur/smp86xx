@@ -1,0 +1,3 @@
+glob.c: In function 'glob_pattern_p':
+glob.c:130: warning: pointer targets in passing argument 1 of 'internal_glob_pattern_p' differ in signedness
+glob.c:136: warning: pointer targets in passing argument 1 of 'internal_glob_pattern_p' differ in signedness

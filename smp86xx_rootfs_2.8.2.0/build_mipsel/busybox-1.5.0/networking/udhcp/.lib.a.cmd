@@ -1,0 +1,1 @@
+cmd_networking/udhcp/lib.a := rm -f networking/udhcp/lib.a; ar  rcs networking/udhcp/lib.a networking/udhcp/clientpacket.o networking/udhcp/clientsocket.o networking/udhcp/common.o networking/udhcp/dhcpc.o networking/udhcp/options.o networking/udhcp/packet.o networking/udhcp/pidfile.o networking/udhcp/script.o networking/udhcp/signalpipe.o networking/udhcp/socket.o

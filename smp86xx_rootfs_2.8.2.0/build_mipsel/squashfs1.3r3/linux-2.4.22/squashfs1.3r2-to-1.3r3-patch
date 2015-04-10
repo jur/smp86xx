@@ -1,0 +1,90 @@
+diff --new-file -ur linux-2.4.22-squashfs1.3r2/fs/squashfs/inode.c linux-2.4.22-squashfs1.3r3/fs/squashfs/inode.c
+--- linux-2.4.22-squashfs1.3r2/fs/squashfs/inode.c	2004-01-17 23:10:27.000000000 +0000
++++ linux-2.4.22-squashfs1.3r3/fs/squashfs/inode.c	2004-01-17 23:14:08.000000000 +0000
+@@ -625,6 +625,7 @@
+ 	int index = page->index << PAGE_CACHE_SHIFT, length, bytes;
+ 	int block = inode->u.squashfs_i.start_block;
+ 	int offset = inode->u.squashfs_i.offset;
++	void *pageaddr = kmap(page);
+ 
+ 	TRACE("Entered squashfs_symlink_readpage, page index %d, start block %x, offset %x\n",
+ 		page->index, inode->u.squashfs_i.start_block, inode->u.squashfs_i.offset);
+@@ -639,15 +640,17 @@
+ 
+ 	if(length != index) {
+ 		ERROR("(squashfs_symlink_readpage) length != index\n");
+-		return 0;
++		bytes = 0;
++		goto skip_read;
+ 	}
+ 
+ 	bytes = (inode->i_size - length) > PAGE_CACHE_SIZE ? PAGE_CACHE_SIZE : inode->i_size - length;
+-	if(!(bytes = squashfs_get_cached_block(inode->i_sb, page_address(page), block, offset, bytes, &block, &offset)))
++	if(!(bytes = squashfs_get_cached_block(inode->i_sb, pageaddr, block, offset, bytes, &block, &offset)))
+ 		ERROR("Unable to read symbolic link [%x:%x]\n", block, offset);
+ 
+ skip_read:
+-	memset(page_address(page) + bytes, 0, PAGE_CACHE_SIZE - bytes);
++	memset(pageaddr + bytes, 0, PAGE_CACHE_SIZE - bytes);
++	kunmap(page);
+ 	flush_dcache_page(page);
+ 	SetPageUptodate(page);
+ 	UnlockPage(page);
+@@ -672,6 +675,7 @@
+ 	int offset = inode->u.squashfs_i.offset;
+ 	int file_blocks = ((inode->i_size - 1) >> sBlk->block_log) + 1;
+ 	int readahead_blks = sBlk->block_log >= PAGE_CACHE_SHIFT ? 1 : 1 << (PAGE_CACHE_SHIFT - sBlk->block_log);
++	void *pageaddr = kmap(page);
+ 	
+ 	TRACE("Entered squashfs_readpage, page index %d, start block %x\n", page->index,
+ 		inode->u.squashfs_i.start_block);
+@@ -724,8 +728,9 @@
+ 			TRACE("bytes %d, i %d, byte_offset %d, available_bytes %d\n", bytes, i, byte_offset, available_bytes);
+ 
+ 			if(i == page->index)  {
+-				memcpy(page_address(page), msBlk->read_page + byte_offset, available_bytes);
+-				memset(page_address(page) + available_bytes, 0, PAGE_CACHE_SIZE - available_bytes);
++				memcpy(pageaddr, msBlk->read_page + byte_offset, available_bytes);
++				memset(pageaddr + available_bytes, 0, PAGE_CACHE_SIZE - available_bytes);
++				kunmap(page);
+ 				flush_dcache_page(page);
+ 				SetPageUptodate(page);
+ 				UnlockPage(page);
+@@ -733,8 +738,10 @@
+ 				struct page *push_page;
+ 
+ 				if((push_page = grab_cache_page_nowait(page->mapping, i))) {
+-					memcpy(page_address(push_page), msBlk->read_page + byte_offset, available_bytes);
+-					memset(page_address(push_page) + available_bytes, 0, PAGE_CACHE_SIZE - available_bytes);
++					void *pageaddr = kmap(push_page);
++					memcpy(pageaddr, msBlk->read_page + byte_offset, available_bytes);
++					memset(pageaddr + available_bytes, 0, PAGE_CACHE_SIZE - available_bytes);
++					kunmap(push_page);
+ 					flush_dcache_page(push_page);
+ 					SetPageUptodate(push_page);
+ 					UnlockPage(push_page);
+@@ -747,12 +754,12 @@
+ 		return 0;
+ 
+ 	} else if(sBlk->block_log == PAGE_CACHE_SHIFT) {
+-		if(!(bytes = read_data(inode->i_sb, page_address(page), block, *block_listp, NULL)))
++		if(!(bytes = read_data(inode->i_sb, pageaddr, block, *block_listp, NULL)))
+ 			ERROR("Unable to read page, block %x, size %x\n", block, (int) *block_listp);
+ 
+ 	} else {
+ 		int i_end = index + (1 << (PAGE_CACHE_SHIFT - sBlk->block_log));
+-		char *p = (char *) page_address(page);
++		char *p = (char *) pageaddr;
+ 		int byte;
+ 
+ 		if(i_end > file_blocks)
+@@ -772,7 +779,8 @@
+ 	}
+ 
+ skip_read:
+-	memset(page_address(page) + bytes, 0, PAGE_CACHE_SIZE - bytes);
++	memset(pageaddr + bytes, 0, PAGE_CACHE_SIZE - bytes);
++	kunmap(page);
+ 	flush_dcache_page(page);
+ 	SetPageUptodate(page);
+ 	UnlockPage(page);

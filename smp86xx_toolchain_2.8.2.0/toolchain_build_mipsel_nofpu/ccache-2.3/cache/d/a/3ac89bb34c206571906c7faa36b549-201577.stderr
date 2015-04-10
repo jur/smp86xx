@@ -1,0 +1,6 @@
+driver_ralink.c: In function 'wpa_driver_ralink_get_scan_results':
+driver_ralink.c:1049: warning: suggest parentheses around assignment used as truth value
+driver_ralink.c: In function 'wpa_driver_ralink_associate':
+driver_ralink.c:1318: warning: unused variable 'group'
+driver_ralink.c: In function 'wpa_driver_ralink_poll':
+driver_ralink.c:1482: warning: control may reach end of non-void function 'wpa_driver_ralink_poll_timeout' being inlined

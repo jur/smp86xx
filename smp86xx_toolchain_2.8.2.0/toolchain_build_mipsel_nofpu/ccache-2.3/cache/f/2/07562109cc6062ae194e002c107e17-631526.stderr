@@ -1,0 +1,3 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/assoc.c: In function 'link_status_handler':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/assoc.c:822: warning: embedded '\0' in format
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/assoc.c:846: warning: embedded '\0' in format

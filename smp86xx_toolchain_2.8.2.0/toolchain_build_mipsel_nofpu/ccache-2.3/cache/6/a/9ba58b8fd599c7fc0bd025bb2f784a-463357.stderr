@@ -1,0 +1,2 @@
+fs/bio.c: In function 'bio_alloc_bioset':
+fs/bio.c:167: warning: 'idx' may be used uninitialized in this function

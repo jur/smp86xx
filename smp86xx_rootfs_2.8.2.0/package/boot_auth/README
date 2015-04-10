@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+boot_auth README
+-------------------------------------------------------------------------------
+
+boot_auth is a utility for verifying the authenticity of a file.  To ensure 
+the trust of a file the following procedure is done:
+
+1) calculate SHA1 hash of the file
+2) sign the hash using a private RSA key
+3) the signed hash is then distributed with the file
+
+boot_auth uses a public key to decrypt the signed hash and view the raw signature.  Independantly at runtime boot_auth calculates the signature of a requested file, then compares the signed hash to the calculated hash.  If these match, the file is authentic if not the file is a forgery.
+
+Signatures are generated with openssl, using an rsa public/private keypair.  boot_auth ONLY SUPPORTS 2048 bit keys.
+
+Generating a 2048 bit rsa key pair can be done with the following command:
+
+	#  openssl genrsa 2048 > mykey.pem 
+
+Note that boot_auth uses 65537 as the public exponent.  Not specifying any arguments to openssl regarding the public exponent causes openssl to use 65537 by default.
+
+To sign a docmuent with that key, run openssl with the following arguments:
+
+	# openssl dgst -sha1 -binary -sign mykey.pem < myfile > myfile.sig
+
+The resulting file should be 256 bytes in length:
+
+	# wc -c myfile.sig
+	256 myfile.sig
+
+boot_auth requires the above signature at runtime, as well as the public key to authenticate it with.  The public key must be extracted from the PEM format file in little endian byte order, use the following bash script to convert hex values in big endian, to binary little endian:
+
+#!/bin/bash
+# NOTE: this converts to little endian binary from big endian hex
+X=$1
+# if odd pad left with one zero
+if [ $[${#X}%2] != 0 ]; then X=0$X; fi
+#
+S=${#X}
+while [ $S != 0 ]; do
+    Y=${X:$[S-2]:2}
+    printf "\x$Y"
+    S=$[S-2]
+done
+
+Then extract your key with the following command:
+
+	# openssl asn1parse <mykey.pem | head -n 3 | tail -n 1 | cut -d':' -f4 | xargs tobin.sh > mykey.pub
+
+The key is then passed to boot_auth:
+
+	# boot_auth -p mykey.pub -s myfile.sig /dev/mtd/block/2
+
+If the file is authentic, the return code will be 0.  If the file is not authentic or the program encounters any other error it will return a non-zero number.  
+
+For full usage arguments run boot_auth with the -h flag:
+
+	# boot_auth -h
+
+Use this in an init script or any other shell script to authenticate a file.
+

@@ -1,0 +1,25 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:29:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c: In function 'RTMP_QueryPacketInfo':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:446: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c: In function 'RTMP_QueryNextPacketInfo':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:468: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c: In function 'RTMPSendWirelessEvent':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:789: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:791: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:793: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:796: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:798: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:800: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:802: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:812: warning: pointer targets in passing argument 4 of 'wireless_send_event' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c: In function 'send_monitor_packets':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:909: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c: In function 'rtmp_os_thread_init':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_linux.c:995: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness

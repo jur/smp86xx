@@ -1,0 +1,2 @@
+driver_ralink.RT2860.c: In function 'wpa_driver_ralink_event_pmkid':
+driver_ralink.RT2860.c:279: warning: format '%ld' expects type 'long int', but argument 3 has type 'size_t'

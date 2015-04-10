@@ -1,0 +1,1 @@
+#undef CONFIG_TANGO2_ENET_OLD

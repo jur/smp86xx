@@ -1,0 +1,2 @@
+drivers/mtd/chips/gen_probe.c: In function 'cfi_cmdset_unknown':
+drivers/mtd/chips/gen_probe.c:210: warning: 'inter_module_put' is deprecated (declared at include/linux/module.h:575)

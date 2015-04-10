@@ -1,0 +1,9 @@
+#! /bin/sh
+
+/bin/mount -t proc proc /proc
+/bin/mount -o remount,rw /
+/bin/mount -a
+/bin/hostname -F /etc/hostname
+/sbin/ifconfig lo 127.0.0.1 up
+/sbin/route add -net 127.0.0.0 netmask 255.0.0.0 lo
+/sbin/ldconfig -C /tmp/ld.so.cache

@@ -1,0 +1,3 @@
+fusermount.c:173: warning: function declaration isn't a prototype
+fusermount.c: In function 'unmount_fuse':
+fusermount.c:187: warning: unused parameter 'quiet'

@@ -1,0 +1,1 @@
+#define CONFIG_TANGOX_IR_MODULE 1

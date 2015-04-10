@@ -1,0 +1,85 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:562: checking for a BSD compatible install
+configure:616: checking how to run the C preprocessor
+configure:637: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:677: checking whether make sets ${MAKE}
+configure:706: checking for gcc
+configure:783: checking whether the C compiler (gcc -g -O2 ) works
+configure:797: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:817: checking whether the C compiler (gcc -g -O2 ) is a cross-compiler
+configure:822: checking whether we are using GNU C
+configure:831: gcc -E conftest.c
+configure:846: checking whether gcc accepts -g
+configure:876: checking for ranlib
+configure:903: checking for POSIXized ISC
+configure:924: checking for ANSI C header files
+configure:937: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1004: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:999: warning: incompatible implicit declaration of built-in function 'exit'
+configure:1028: checking for working const
+configure:1082: gcc -c -g -O2  conftest.c 1>&5
+configure:1103: checking for inline
+configure:1117: gcc -c -g -O2  conftest.c 1>&5
+configure:1143: checking for off_t
+configure:1176: checking for size_t
+configure:1211: checking for working alloca.h
+configure:1223: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1244: checking for alloca
+configure:1272: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1441: checking for unistd.h
+configure:1451: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1480: checking for getpagesize
+configure:1508: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1533: checking for working mmap
+configure:1681: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1612: warning: conflicting types for built-in function 'malloc'
+configure: In function 'main':
+configure:1629: warning: incompatible implicit declaration of built-in function 'exit'
+configure:1709: checking for argz.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1709: checking for limits.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1709: checking for locale.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1709: checking for nl_types.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1709: checking for malloc.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1709: checking for string.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1709: checking for unistd.h
+configure:1709: checking for values.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1709: checking for sys/param.h
+configure:1719: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1749: checking for getcwd
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1749: checking for munmap
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1749: checking for putenv
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1749: checking for setenv
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1749: checking for setlocale
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1749: checking for strchr
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1761: warning: conflicting types for built-in function 'strchr'
+configure:1749: checking for strcasecmp
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1761: warning: conflicting types for built-in function 'strcasecmp'
+configure:1749: checking for __argz_count
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1749: checking for __argz_stringify
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1749: checking for __argz_next
+configure:1777: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1806: checking for stpcpy
+configure:1834: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1818: warning: conflicting types for built-in function 'stpcpy'
+configure:1868: checking for LC_MESSAGES
+configure:1880: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1901: checking whether NLS is requested

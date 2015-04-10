@@ -1,0 +1,1 @@
+#define CONFIG_TANGO2_SMP863X 1

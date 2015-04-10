@@ -1,0 +1,38 @@
+# gcc has a bunch of options that need to be shared with
+# both gcc-uclibc-2.95.mk and gcc-uclibc-3.x.mk, and are
+# use by other packages...  So include them in this file
+# and arrange to include it soon after invoking make from
+# the top level.
+
+GCC_VERSION:=$(strip $(subst ",, $(BR2_GCC_VERSION)))
+#"))
+GCC_USE_SJLJ_EXCEPTIONS:=$(strip $(subst ",, $(BR2_GCC_USE_SJLJ_EXCEPTIONS)))
+#"))
+TARGET_OPTIMIZATION:=$(strip $(subst ",, $(BR2_TARGET_OPTIMIZATION)))
+#"))
+EXTRA_GCC_CONFIG_OPTIONS:=$(strip $(subst ",, $(BR2_EXTRA_GCC_CONFIG_OPTIONS)))
+#"))
+
+
+ifeq ($(BR2_SOFT_FLOAT),y)
+# gcc 3.4.x soft float configuration is different than previous versions.
+ifeq ($(findstring 3.4.,$(GCC_VERSION)),3.4.)
+SOFT_FLOAT_CONFIG_OPTION:=--with-float=soft
+else
+ifeq ($(findstring x4.,x$(GCC_VERSION)),x4.)
+SOFT_FLOAT_CONFIG_OPTION:=--with-float=soft
+else
+SOFT_FLOAT_CONFIG_OPTION:=--without-float
+endif
+endif
+TARGET_SOFT_FLOAT:=-msoft-float
+ARCH_FPU_SUFFIX:=_nofpu
+else
+SOFT_FLOAT_CONFIG_OPTION:=
+TARGET_SOFT_FLOAT:=
+ARCH_FPU_SUFFIX:=
+endif
+
+ifeq ($(strip $(BR2_PACKAGE_GCC_TARGET)),y)
+TARGETS+=gcc_target
+endif

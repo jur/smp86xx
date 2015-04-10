@@ -1,0 +1,35 @@
+#!/bin/sh
+#
+# Load kernel modules....
+#
+
+start() {
+ 	echo "Loading kernel modules..."
+        /sbin/insmod -f irkernel
+}	
+stop() {
+ 	echo "Unloading kernel modules..."
+        /sbin/rmmod irkernel
+}
+restart() {
+	stop
+	start
+}	
+
+case "$1" in
+  start)
+  	start
+	;;
+  stop)
+  	stop
+	;;
+  restart|reload)
+  	restart
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|restart}"
+	exit 1
+esac
+
+exit $?
+

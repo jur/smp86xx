@@ -1,0 +1,27 @@
+comment "Gdb Options"
+
+config BR2_PACKAGE_GDB_CLIENT
+	bool
+	default y
+	help
+	    Build gdb to run on the host to debug programs running on the target.
+
+choice
+	prompt "GDB Version"
+	default BR2_GDB_VERSION_6_3
+	help
+          Select the version of gdb you wish to use.
+
+	config BR2_GDB_VERSION_6_3
+		bool "gdb 6.3"
+
+	config BR2_GDB_VERSION_6_5
+		bool "gdb 6.5"
+
+endchoice 
+
+config BR2_GDB_VERSION
+	string
+	default "6.3"      if BR2_GDB_VERSION_6_3
+	default "6.5"      if BR2_GDB_VERSION_6_5
+

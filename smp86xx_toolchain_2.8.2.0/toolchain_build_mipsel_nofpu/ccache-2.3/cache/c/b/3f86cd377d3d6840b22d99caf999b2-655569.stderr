@@ -1,0 +1,17 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:38:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c: In function 'PeerBeaconAndProbeRspSanity':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:346: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:441: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:469: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:551: warning: pointer targets in passing argument 1 of 'GetTimBit' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:551: warning: pointer targets in passing argument 3 of 'GetTimBit' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:619: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:635: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/cmm_sanity.c:734: warning: pointer targets in assignment differ in signedness

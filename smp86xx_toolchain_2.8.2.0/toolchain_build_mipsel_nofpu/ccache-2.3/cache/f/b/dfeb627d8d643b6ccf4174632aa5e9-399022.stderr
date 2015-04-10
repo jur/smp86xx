@@ -1,0 +1,1 @@
+drivers/char/irkernel.c:145: warning: 'ir_findkey' defined but not used

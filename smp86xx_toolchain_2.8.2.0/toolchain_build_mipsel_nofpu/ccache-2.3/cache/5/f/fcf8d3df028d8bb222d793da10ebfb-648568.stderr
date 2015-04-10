@@ -1,0 +1,14 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_main_dev.c:41:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_main_dev.c: In function 'rt28xx_init':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_main_dev.c:406: warning: pointer targets in passing argument 2 of 'NICReadEEPROMParameters' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_main_dev.c: In function 'rt_ieee80211_if_setup':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_main_dev.c:648: warning: assignment discards qualifiers from pointer target type
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_main_dev.c:671: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_main_dev.c:683: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness

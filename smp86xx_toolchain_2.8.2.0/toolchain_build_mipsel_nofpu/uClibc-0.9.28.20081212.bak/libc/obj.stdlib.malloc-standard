@@ -1,0 +1,1 @@
+stdlib/malloc-standard/malloc.o stdlib/malloc-standard/calloc.o stdlib/malloc-standard/realloc.o stdlib/malloc-standard/free.o stdlib/malloc-standard/memalign.o stdlib/malloc-standard/mallopt.o stdlib/malloc-standard/mallinfo.o

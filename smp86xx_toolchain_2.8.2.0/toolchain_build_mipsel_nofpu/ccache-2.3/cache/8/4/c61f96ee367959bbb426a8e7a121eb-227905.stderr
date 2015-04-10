@@ -1,0 +1,3 @@
+kernel/intermodule.c:178: warning: 'inter_module_register' is deprecated (declared at kernel/intermodule.c:38)
+kernel/intermodule.c:179: warning: 'inter_module_unregister' is deprecated (declared at kernel/intermodule.c:78)
+kernel/intermodule.c:181: warning: 'inter_module_put' is deprecated (declared at kernel/intermodule.c:159)

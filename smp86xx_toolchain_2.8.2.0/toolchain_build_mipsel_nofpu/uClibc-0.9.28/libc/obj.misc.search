@@ -1,0 +1,1 @@
+misc/search/hsearch.o misc/search/tsearch.o misc/search/tfind.o misc/search/tdelete.o misc/search/twalk.o misc/search/tdestroy.o misc/search/lfind.o misc/search/lsearch.o misc/search/insque.o misc/search/remque.o misc/search/hcreate_r.o misc/search/hdestroy_r.o misc/search/hsearch_r.o

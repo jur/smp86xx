@@ -1,0 +1,4 @@
+ipc/sem.c: In function 'sys_semctl':
+ipc/sem.c:805: warning: 'setbuf.uid' may be used uninitialized in this function
+ipc/sem.c:805: warning: 'setbuf.gid' may be used uninitialized in this function
+ipc/sem.c:805: warning: 'setbuf.mode' may be used uninitialized in this function

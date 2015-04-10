@@ -1,0 +1,1 @@
+#define CONFIG_TANGOX_EHCI_HCD 1

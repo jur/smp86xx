@@ -1,0 +1,4 @@
+bind.c: In function 'rl_function_of_keyseq':
+bind.c:672: warning: comparison is always true due to limited range of data type
+bind.c: In function 'rl_variable_bind':
+bind.c:1489: warning: passing argument 1 of 'bool_to_int' discards qualifiers from pointer target type

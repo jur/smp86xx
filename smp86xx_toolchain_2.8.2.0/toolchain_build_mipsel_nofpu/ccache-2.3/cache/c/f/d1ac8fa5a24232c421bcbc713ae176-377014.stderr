@@ -1,0 +1,2 @@
+arch/mips/kernel/unaligned.c: In function 'do_ade':
+arch/mips/kernel/unaligned.c:495: warning: 'newval' may be used uninitialized in this function

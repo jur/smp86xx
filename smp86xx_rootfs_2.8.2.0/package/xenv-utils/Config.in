@@ -1,0 +1,7 @@
+config BR2_PACKAGE_XENV_UTILS
+	bool "Xenv utilities"
+	default y
+	select BR2_PACKAGE_BASH
+	help
+	  A set of utilities to help modifying Xenv key-value pairs from the
+	  target. See the relevant documentation for more information.

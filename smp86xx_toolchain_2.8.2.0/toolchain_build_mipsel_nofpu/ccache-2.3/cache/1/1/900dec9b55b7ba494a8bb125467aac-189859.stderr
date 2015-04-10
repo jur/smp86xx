@@ -1,0 +1,28 @@
+expr.c:176: warning: conflicting types for built-in function 'exp2'
+expr.c: In function 'pushexp':
+expr.c:240: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'popexp':
+expr.c:264: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'subexpr':
+expr.c:375: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'expassign':
+expr.c:415: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:436: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:441: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:467: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'expcond':
+expr.c:497: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:509: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:512: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'exp2':
+expr.c:751: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'exppower':
+expr.c:776: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'exp0':
+expr.c:821: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:849: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:892: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c: In function 'strlong':
+expr.c:1178: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:1182: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type
+expr.c:1202: warning: passing argument 1 of 'evalerror' discards qualifiers from pointer target type

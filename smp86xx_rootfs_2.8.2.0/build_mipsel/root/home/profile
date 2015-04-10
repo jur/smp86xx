@@ -1,0 +1,29 @@
+# profile
+alias ll='ls -al'
+export PATH=/home/dma:$PATH
+export LD_LIBRARY_PATH=/home/upgrade/lib:/home/dma/lib
+
+#mount -t cramfs /dev/mtdblock5 /home/dma
+#mount -t cramfs /dev/mtdblock6 /home/upgrade
+mount -t squashfs /dev/mtdblock5 /home/dma
+mount -t squashfs /dev/mtdblock6 /home/upgrade
+mount -t sysfs none /sys
+
+# pre-run some tasks before starting dma (for example, controll LCM module)
+if [ -r /home/dma/start ];
+then
+cd /home/dma
+./start
+elif [ -r /home/upgrade/start ];
+then
+cd /home/upgrade
+./start
+fi
+
+cd /home/dma
+if [ -r startdma ];
+then
+./startdma
+else
+./dma &
+fi

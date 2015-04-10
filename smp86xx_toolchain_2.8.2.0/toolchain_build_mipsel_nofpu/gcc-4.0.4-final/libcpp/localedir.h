@@ -1,0 +1,1 @@
+#define LOCALEDIR "/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/share/locale"

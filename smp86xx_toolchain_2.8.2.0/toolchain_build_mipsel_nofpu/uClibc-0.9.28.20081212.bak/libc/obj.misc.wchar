@@ -1,0 +1,1 @@
+misc/wchar/btowc.o misc/wchar/wctob.o misc/wchar/mbsinit.o misc/wchar/mbrlen.o misc/wchar/mbrtowc.o misc/wchar/wcrtomb.o misc/wchar/mbsrtowcs.o misc/wchar/wcsrtombs.o misc/wchar/_wchar_utf8sntowcs.o misc/wchar/_wchar_wcsntoutf8s.o misc/wchar/__mbsnrtowcs.o misc/wchar/__wcsnrtombs.o misc/wchar/wcwidth.o misc/wchar/wcswidth.o

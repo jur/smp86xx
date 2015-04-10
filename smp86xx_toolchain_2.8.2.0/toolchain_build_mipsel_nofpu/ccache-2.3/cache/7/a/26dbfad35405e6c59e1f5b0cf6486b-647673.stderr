@@ -1,0 +1,2 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/connect.c: In function 'LinkDown':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/connect.c:1085: warning: unused variable 'CurTxRxCsr4'

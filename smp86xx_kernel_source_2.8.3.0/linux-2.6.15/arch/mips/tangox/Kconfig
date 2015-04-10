@@ -1,0 +1,346 @@
+
+#
+# environnent selection
+#
+
+config TANGO2_SMP863X
+	bool
+
+config TANGO3_SMP865X
+	bool
+
+#
+# chip revision selection
+#
+choice
+	prompt "SMP863x chip revision"
+	depends on TANGO2_SMP863X
+	default TANGO2_ES6
+
+config TANGO2_ES1
+	bool "ES1"
+
+config TANGO2_ES2
+	bool "ES2"
+
+config TANGO2_ES3
+	bool "ES3"
+
+config TANGO2_ES4
+	bool "ES4"
+
+config TANGO2_ES5
+	bool "ES5"
+
+config TANGO2_ES6
+	bool "ES6+"
+
+config TANGO2_SD
+	bool "SD revision (SMP8632/SMP8710)"
+
+endchoice
+
+choice
+	prompt "SMP865x chip revision"
+	depends on TANGO3_SMP865X
+	default TANGO3_ES1
+
+config TANGO3_ES1
+	bool "ES1"
+
+config TANGO3_ES2
+	bool "ES2"
+
+config TANGO3_ES3
+	bool "ES3"
+
+endchoice
+
+comment ""
+
+config TANGO3_DISABLE_HWFPU
+	bool "Disable HW FPU"
+	depends on TANGO3_SMP865X && TANGO3
+	default n
+	help
+	 Disable HW FPU, and use SW FPU emulation.
+
+config TANGOX_HZ_VALUE
+	int "customized HZ value"
+	depends on TANGOX
+	default 100 if TANGO2_SD || TANGO3
+	default 1000 if !(TANGO2_SD || TANGO3)
+	help
+	 For TangoX, the HZ value can be customized, normally it's between 100-1000.
+
+config TANGOX_SYSTEMRAM_ACTUALSIZE
+	int "System RAM size (in MB)"
+	depends on TANGO2_SMP863X || TANGO3_SMP865X
+	default 64
+	help
+	 This is the default amount of RAM available to the Linux kernel. It can be
+	 override with "mem=" command line option.
+
+
+config TANGOX_IGNORE_CMDLINE
+	bool "Ignore YAMON, XENV & memcfg command line"
+	depends on TANGO2_SMP863X || TANGO3_SMP865X
+	default n
+	help
+	 If you say  yes, boot command line from  YAMON, XENV & memcfg
+	 will be ignored. You can then use CONFIG_CMDLINE to force the
+	 kernel command line.
+
+
+config TANGOX_PROM_CONSOLE
+	bool "Register an early console"
+	depends on TANGO2_SMP863X || TANGO3_SMP865X
+	default n
+	help
+	 If you say yes, an light console will be available very early
+	 in the  boot process,  this is useful  if the  kernel crashes
+	 before reaching  the main console  code. The console  will be
+	 automatically replaced by the normal one after.
+	 ### NOTE: This console can only do output ###
+
+config TANGOX_FIXED_FREQUENCIES
+	bool "Specified fixed frequencies"
+	depends on TANGO2_SMP863X || TANGO3_SMP865X
+	default n if TANGO2_SMP863X
+	default y if TANGO3_SMP865X
+	help
+	 To specify, statically, the frequencies for CPU, System, and Base.
+	 Normally this is only used in experimental purpose where PLL may be
+	 set differently (typical for simulation or FPGA).
+
+config TANGOX_BASE_FREQUENCY
+	int "Base Frequency"
+	depends on TANGOX_FIXED_FREQUENCIES
+	default 27000000
+	help
+	 Base frequency (corresponding to XTAL in).
+
+config TANGOX_CPU_FREQUENCY
+	int "CPU Frequency"
+	depends on TANGOX_FIXED_FREQUENCIES
+	default 300000000
+	help
+	 CPU frequency.
+
+config TANGOX_SYS_FREQUENCY
+	int "System Frequency"
+	depends on TANGOX_FIXED_FREQUENCIES
+	default 200000000
+	help
+	 System frequency.
+
+config TANGOX_FREQUENCY_CONTROL
+	tristate "Allow dynamic frequency control"
+	depends on (TANGO2_SMP863X || TANGO3_SMP865X) && !TANGOX_FIXED_FREQUENCIES
+	default y if TANGO2_SMP863X
+	default n if TANGO3_SMP865X
+	help
+	 To enable frequency control (under /proc/tangoxfreq) as well as
+	 standby mode support.
+
+config TANGOX_STANDBY_SUPPORT
+	bool "Standby mode support for SMP86xx (Experimental)"
+	depends on TANGOX_FREQUENCY_CONTROL
+	default n
+	help
+	 To enable standby mode support (suspend on RAM). At least one of the input 
+	 mechanism (IR, FIP, built-in ethernet) needs to enable to wake up the 
+	 system. To trigger standby mode, "echo standby > /proc/tangoxfreq/standby".
+
+config TANGOX_STANDBY_WAKEUP_IR
+	bool "Wake up from standby mode via IR"
+	depends on TANGOX_STANDBY_SUPPORT
+	default y
+	help
+	 Support system wake up by IR.
+
+config TANGOX_STANDBY_WAKEUP_FIP
+	bool "Wake up from standby mode via FIP"
+	depends on TANGOX_STANDBY_SUPPORT
+	default y
+	help
+	 Support system wake up by FIP.
+
+config TANGOX_STANDBY_WAKEUP_ETH
+	bool "Wake up from standby mode via built-in ethernet"
+	depends on TANGOX_STANDBY_SUPPORT
+	default y
+	help
+	 Support system wake up by WOL (Wakeup-On-LAN) with magic packet.
+
+config TANGOX_STANDBY_INPUT_TABLE_SIZE
+	int "The size of the filter table, needs to be multiple of 4's"
+	depends on TANGOX_STANDBY_WAKEUP_IR || TANGOX_STANDBY_WAKEUP_FIP
+	default 128
+	help
+	 The filter table to be used to filter the input so only the ones are 
+	 allowed as wake up event.
+
+config TANGOX_USE_CPU_CLOCK
+	bool "Use internal cpu clock for system timer"
+	depends on TANGO2_SMP863X || TANGO3_SMP865X
+	default y
+	help
+	 If you say  yes here, the mips timer  interrupt (IP7) will be
+	 used as the  Linux timer interrupt. Timer0 can  be used as an
+	 alternative.
+
+config TANGOX_UART_USE_SYSCLK
+	bool "Use system clock for UART"
+	depends on TANGO2_SMP863X || TANGO3_SMP865X
+	default y
+	help
+	 If you  say yes here, the UART  clock will be  derivated from the
+	 board  system clock. If  you say  no, the  CPU clock  is used
+	 instead.
+
+config TANGOX_USE_TLB_REMAP_DRAM1
+	bool "Use TLB to access DRAM1"
+	depends on TANGO2_SMP863X 
+	default n
+	help
+	 If  you say yes  here, kernel  access to  DRAM1 will  be done
+	 using TLB implementation. gbus() funcs will use an ioremapped
+	 address to access this area of memory. If you say no, special
+	 CPU remap registers are used instead.
+
+#
+# XENV stuffs
+#
+comment ""
+
+config TANGOX_XENV_READ
+	bool "Read config from XENV"
+	depends on TANGO2_SMP863X || TANGO3_SMP865X
+	help
+	 If you  say yes  here, board configuration  (enabled devices,
+	 pci irq routing,  ...) will be read from  xenv space.
+
+config TANGOX_XENV_DUMP
+	bool "Dump XENV content at boot"
+	depends on TANGOX_XENV_READ
+	default n
+
+config TANGOX_XENV_READ_SAFE
+	bool "Don't boot if XENV invalid"
+	depends on TANGOX_XENV_READ
+	help
+	 If you say yes here and XENV content is invalid, linux wont boot.
+
+menu "XENV failsafe/override values"
+	depends on (TANGO2_SMP863X || TANGO3_SMP865X) && (!TANGOX_XENV_READ_SAFE)
+
+config TANGOX_XENV_DEF_CS0_SIZE
+	hex "CS0 size (flash0)"
+	default 0x0
+
+config TANGOX_XENV_DEF_CS1_SIZE
+	hex "CS1 size (flash1)"
+	default 0x0
+
+config TANGOX_XENV_DEF_CS2_SIZE
+	hex "CS2 size (flash2)"
+	default 0x400000
+
+config TANGOX_XENV_DEF_CS3_SIZE
+	hex "CS3 size (flash3)"
+	default 0x0
+
+config TANGOX_XENV_DEF_UART0
+	bool "UART0 enabled"
+	default y
+
+config TANGOX_XENV_DEF_UART1
+	bool "UART1 enabled"
+	default y
+
+config TANGOX_XENV_DEF_BAUDRATE
+	int "Default baudrate"
+	default 115200
+
+config TANGOX_XENV_DEF_CONSOLE_UART_PORT
+	int "Console UART port"
+	default 0
+
+config TANGOX_XENV_DEF_ENET
+	bool "Ethernet enabled"
+	default n
+
+config TANGOX_XENV_DEF_FIP
+	bool "FIP enabled"
+	default n
+
+config TANGOX_XENV_DEF_I2CM
+	bool "I2CM enabled"
+	default n
+
+config TANGOX_XENV_DEF_I2CS
+	bool "I2CS enabled"
+	default n
+
+config TANGOX_XENV_DEF_BMIDE
+	bool "BM IDE controller enabled"
+	default n
+
+config TANGOX_XENV_DEF_ISAIDE
+	bool "ISA IDE controller enabled"
+	default n
+
+config TANGOX_XENV_DEF_IR
+	bool "IR enabled"
+	default n
+
+config TANGOX_XENV_DEF_PCIHOST
+	bool "PCI Host enabled"
+	default n
+
+config TANGOX_XENV_DEF_PCI_ID1
+	bool "PCI device 1 enabled"
+	depends on TANGOX_XENV_DEF_PCIHOST
+	default n
+
+config TANGOX_XENV_DEF_PCI_ID1_IRQ
+	hex "PCI device 1 IRQ route"
+	depends on TANGOX_XENV_DEF_PCIHOST && TANGOX_XENV_DEF_PCI_ID1
+	default 0x0
+
+config TANGOX_XENV_DEF_PCI_ID2
+	bool "PCI device 2 enabled"
+	depends on TANGOX_XENV_DEF_PCIHOST
+	default n
+
+config TANGOX_XENV_DEF_PCI_ID2_IRQ
+	hex "PCI device 2 IRQ route"
+	depends on TANGOX_XENV_DEF_PCIHOST && TANGOX_XENV_DEF_PCI_ID2
+	default 0x0
+
+config TANGOX_XENV_DEF_PCI_ID3
+	bool "PCI device 3 enabled"
+	depends on TANGOX_XENV_DEF_PCIHOST
+	default n
+
+config TANGOX_XENV_DEF_PCI_ID3_IRQ
+	hex "PCI device 3 IRQ route"
+	depends on TANGOX_XENV_DEF_PCIHOST && TANGOX_XENV_DEF_PCI_ID3
+	default 0x0
+
+config TANGOX_XENV_DEF_PCI_ID4
+	bool "PCI device 4 enabled"
+	depends on TANGOX_XENV_DEF_PCIHOST
+	default n
+
+config TANGOX_XENV_DEF_PCI_ID4_IRQ
+	hex "PCI device 4 IRQ route"
+	depends on TANGOX_XENV_DEF_PCIHOST && TANGOX_XENV_DEF_PCI_ID4
+	default 0x0
+
+config TANGOX_XENV_DEF_USB
+	bool "USB enabled"
+	default n
+
+endmenu

@@ -1,0 +1,1 @@
+#define CONFIG_SD_CDROM_WAIT_TIME 5

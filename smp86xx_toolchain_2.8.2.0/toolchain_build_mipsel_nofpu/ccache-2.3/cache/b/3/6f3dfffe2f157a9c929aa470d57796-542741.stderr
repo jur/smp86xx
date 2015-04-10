@@ -1,0 +1,2 @@
+fs/nfs/nfs4proc.c: In function 'nfs4_open_revalidate':
+fs/nfs/nfs4proc.c:678: warning: 'res' may be used uninitialized in this function

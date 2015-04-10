@@ -1,0 +1,36 @@
+In file included from include/linux/if_ether.h:110,
+                 from include/linux/netdevice.h:30,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_linux.h:56,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:51,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:39:
+include/linux/skbuff.h: In function 'skb_add_data':
+include/linux/skbuff.h:1128: warning: pointer targets in passing argument 1 of 'csum_and_copy_from_user' differ in signedness
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:39:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c: In function 'MlmeScanReqAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:187: warning: pointer targets in passing argument 5 of 'MlmeScanReqSanity' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c: In function 'MlmeJoinReqAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:377: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:386: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c: In function 'MlmeStartReqAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:433: warning: pointer targets in passing argument 4 of 'MlmeStartReqSanity' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c: In function 'PeerBeaconAtScanAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:599: warning: pointer targets in passing argument 7 of 'PeerBeaconAndProbeRspSanity' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:617: warning: pointer targets in passing argument 4 of 'BssTableSetEntry' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:632: warning: pointer targets in passing argument 4 of 'BssTableSetEntry' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c: In function 'PeerBeaconAtJoinAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:725: warning: pointer targets in passing argument 7 of 'PeerBeaconAndProbeRspSanity' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c: In function 'PeerProbeReqAction':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:1512: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:1522: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:1534: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:1551: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:1565: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c: In function 'EnqueueProbeRequest':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../sta/sync.c:1720: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness

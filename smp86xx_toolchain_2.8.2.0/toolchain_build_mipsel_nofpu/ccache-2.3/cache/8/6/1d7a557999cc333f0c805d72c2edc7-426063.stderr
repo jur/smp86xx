@@ -1,0 +1,2 @@
+fs/udf/balloc.c: In function 'udf_table_new_block':
+fs/udf/balloc.c:757: warning: 'goal_eloc.logicalBlockNum' may be used uninitialized in this function

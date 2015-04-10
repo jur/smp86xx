@@ -1,0 +1,1 @@
+misc/dirent/alphasort.o misc/dirent/closedir.o misc/dirent/dirfd.o misc/dirent/opendir.o misc/dirent/readdir.o misc/dirent/rewinddir.o misc/dirent/scandir.o misc/dirent/seekdir.o misc/dirent/telldir.o misc/dirent/readdir64.o misc/dirent/alphasort64.o misc/dirent/scandir64.o misc/dirent/readdir_r.o misc/dirent/readdir64_r.o

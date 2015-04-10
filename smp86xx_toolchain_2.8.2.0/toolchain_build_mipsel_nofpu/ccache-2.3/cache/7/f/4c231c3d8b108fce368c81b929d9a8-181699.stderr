@@ -1,0 +1,3 @@
+mailcheck.c: In function 'check_mail':
+mailcheck.c:382: warning: assignment discards qualifiers from pointer target type
+mailcheck.c:407: warning: assignment discards qualifiers from pointer target type

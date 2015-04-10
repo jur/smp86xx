@@ -1,0 +1,2 @@
+./malloc.c: In function 'process_environ':
+./malloc.c:290: warning: pointer targets in passing argument 3 of '_dmalloc_environ_process' differ in signedness

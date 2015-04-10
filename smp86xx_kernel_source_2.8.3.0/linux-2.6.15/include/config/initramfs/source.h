@@ -1,0 +1,1 @@
+#define CONFIG_INITRAMFS_SOURCE "$(SMP86XX_ROOTFS_PATH)/build_mipsel/root"

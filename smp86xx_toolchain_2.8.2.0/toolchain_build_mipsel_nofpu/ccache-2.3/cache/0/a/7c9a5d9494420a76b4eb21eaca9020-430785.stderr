@@ -1,0 +1,3 @@
+fs/jffs2/readinode.c: In function 'jffs2_do_read_inode_internal':
+fs/jffs2/readinode.c:638: warning: 'latest_mctime' may be used uninitialized in this function
+fs/jffs2/readinode.c:635: warning: 'fd_list' may be used uninitialized in this function

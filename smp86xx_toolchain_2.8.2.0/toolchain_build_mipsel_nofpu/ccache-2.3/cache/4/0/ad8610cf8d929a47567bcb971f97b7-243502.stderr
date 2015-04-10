@@ -1,0 +1,5 @@
+loginutils/getty.c: In function 'getty_main':
+loginutils/getty.c:841: warning: assignment discards qualifiers from pointer target type
+loginutils/getty.c: At top level:
+loginutils/getty.c:441: warning: 'next_speed' defined but not used
+loginutils/getty.c:476: warning: 'get_logname' defined but not used

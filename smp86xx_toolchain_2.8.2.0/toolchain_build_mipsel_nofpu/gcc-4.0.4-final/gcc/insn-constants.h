@@ -1,0 +1,43 @@
+/* Generated automatically by the program `genconstants'
+   from the machine description file `md'.  */
+
+#ifndef GCC_INSN_CONSTANTS_H
+#define GCC_INSN_CONSTANTS_H
+
+#define UNSPEC_C 201
+#define UNSPEC_ALIGN 14
+#define UNSPEC_RSQRT2 209
+#define UNSPEC_CPRESTORE 5
+#define UNSPEC_LOAD_DF_HIGH 1
+#define UNSPEC_EH_RETURN 7
+#define UNSPEC_LOADGP 22
+#define UNSPEC_BLOCKAGE 4
+#define UNSPEC_CABS 203
+#define UNSPEC_CVT_PS_PW 206
+#define UNSPEC_GP 25
+#define UNSPEC_CVT_PW_PS 205
+#define UNSPEC_CONSTTABLE_FLOAT 9
+#define FAKE_CALL_REGNO 79
+#define UNSPEC_MFHILO 26
+#define UNSPEC_GET_FNADDR 3
+#define UNSPEC_MOVE_TF_PS 200
+#define UNSPEC_EH_RECEIVER 6
+#define UNSPEC_MULR_PS 207
+#define UNSPEC_RECIP1 210
+#define UNSPEC_STORE_DF_HIGH 2
+#define UNSPEC_ADDRESS_FIRST 100
+#define UNSPEC_LOAD_LEFT 18
+#define UNSPEC_LOAD_RIGHT 19
+#define UNSPEC_LOAD_GOT 24
+#define UNSPEC_STORE_RIGHT 21
+#define UNSPEC_LOAD_DF_LOW 0
+#define UNSPEC_CONSTTABLE_INT 8
+#define UNSPEC_RECIP2 211
+#define UNSPEC_LOAD_CALL 23
+#define UNSPEC_STORE_LEFT 20
+#define UNSPEC_ADDR_PS 204
+#define UNSPEC_HIGH 17
+#define UNSPEC_ALNV_PS 202
+#define UNSPEC_RSQRT1 208
+
+#endif /* GCC_INSN_CONSTANTS_H */

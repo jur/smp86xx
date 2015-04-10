@@ -1,0 +1,1 @@
+/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gdb-6.5/sim/mips/tconfig.in

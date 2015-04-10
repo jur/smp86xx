@@ -1,0 +1,284 @@
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:29:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'rtstrmactohex':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:53: warning: pointer targets in passing argument 2 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'RTMPFindSection':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:238: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:240: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:240: warning: pointer targets in passing argument 2 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:240: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'RTMPGetKeyParameter':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:295: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:302: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:303: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:303: warning: pointer targets in passing argument 2 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:304: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:307: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:307: warning: pointer targets in passing argument 2 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:307: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:315: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:315: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:316: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:327: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:328: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:328: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:329: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:329: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:336: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:336: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:337: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:347: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:349: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:349: warning: pointer targets in passing argument 2 of 'strncpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'RTMPGetCriticalParameter':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:406: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:413: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:414: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:414: warning: pointer targets in passing argument 2 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:415: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:418: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:418: warning: pointer targets in passing argument 2 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:418: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:426: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:426: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:427: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:438: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:439: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:439: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:440: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:440: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:447: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:447: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:448: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:461: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:463: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:463: warning: pointer targets in passing argument 2 of 'strncpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'RTMPGetKeyParameterWithOffset':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:524: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:534: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:535: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:535: warning: pointer targets in passing argument 2 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:536: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:539: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:539: warning: pointer targets in passing argument 2 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:539: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:547: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:547: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:548: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:561: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:562: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:562: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:563: warning: pointer targets in passing argument 1 of 'rtstrstr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:563: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:570: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:570: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:571: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:581: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:583: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:583: warning: pointer targets in passing argument 2 of 'strncpy' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'rtmp_parse_key_buffer_from_file':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:598: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:599: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:627: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'rtmp_read_key_parms_from_file':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:655: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:655: warning: pointer targets in passing argument 2 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:655: warning: pointer targets in passing argument 4 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:677: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:677: warning: pointer targets in passing argument 2 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:677: warning: pointer targets in passing argument 4 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:679: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:679: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:681: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:688: warning: pointer targets in passing argument 1 of 'RTMPGetCriticalParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:688: warning: pointer targets in passing argument 2 of 'RTMPGetCriticalParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:688: warning: pointer targets in passing argument 4 of 'RTMPGetCriticalParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'rtmp_read_sta_wmm_parms_from_file':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:707: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:707: warning: pointer targets in passing argument 2 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:707: warning: pointer targets in passing argument 4 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:722: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:722: warning: pointer targets in passing argument 2 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:722: warning: pointer targets in passing argument 4 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:724: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:724: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:726: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:735: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:735: warning: pointer targets in passing argument 2 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:735: warning: pointer targets in passing argument 4 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:746: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:746: warning: pointer targets in passing argument 2 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:746: warning: pointer targets in passing argument 4 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:750: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:750: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:752: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'RTMPReadParametersHook':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:800: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:816: warning: pointer targets in passing argument 1 of 'filp_open' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:827: warning: pointer targets in passing argument 2 of 'srcf->f_op->read' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:836: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:838: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:842: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:844: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:848: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:851: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:858: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:860: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:880: warning: pointer targets in passing argument 1 of 'RTMPGetCriticalParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:882: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:884: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:903: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:906: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:917: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:919: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:923: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:927: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:965: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:967: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:971: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:973: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:977: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:979: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:987: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:989: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1005: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1007: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1022: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1024: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1037: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1039: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1048: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1050: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1064: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1069: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1079: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1081: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1099: warning: pointer targets in passing argument 2 of 'rtmp_read_sta_wmm_parms_from_file' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1099: warning: pointer targets in passing argument 3 of 'rtmp_read_sta_wmm_parms_from_file' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1103: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1105: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1113: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1115: warning: pointer targets in passing argument 1 of 'rstrtok' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1115: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1115: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1117: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1126: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1128: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1129: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1137: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1139: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1139: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1144: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1144: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1149: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1149: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1154: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1154: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1159: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1159: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1179: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1182: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1183: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1191: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1193: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1194: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1201: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1206: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1206: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1208: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1208: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1210: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1210: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1212: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1212: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1214: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1214: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1226: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1232: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1232: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1234: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1234: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1236: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1236: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1255: warning: pointer targets in passing argument 1 of 'RTMPGetCriticalParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1257: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1265: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1265: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1267: warning: pointer targets in passing argument 2 of 'PasswordHash' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1271: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1273: warning: pointer targets in passing argument 1 of 'AtoH' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1301: warning: pointer targets in passing argument 2 of 'rtmp_read_key_parms_from_file' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1301: warning: pointer targets in passing argument 3 of 'rtmp_read_key_parms_from_file' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1307: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1311: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1311: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1321: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1321: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1322: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1332: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1332: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1333: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1356: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1358: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1366: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1368: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1377: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1379: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1380: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c: In function 'HTParametersHook':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1422: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1424: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1436: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1438: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1451: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1453: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1466: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1468: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1481: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1483: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1495: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1497: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1511: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1513: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1526: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1528: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1542: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1544: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1561: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1563: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1576: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1578: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1592: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1594: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1613: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1615: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1630: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1632: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1648: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1657: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1657: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1661: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1661: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1665: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1665: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1671: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1690: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1692: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1706: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1708: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1724: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1730: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1747: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1749: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1762: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1764: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1776: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1778: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1791: warning: pointer targets in passing argument 1 of 'RTMPGetKeyParameter' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/rt_profile.c:1793: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness

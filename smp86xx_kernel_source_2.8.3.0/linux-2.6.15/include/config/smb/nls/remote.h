@@ -1,0 +1,1 @@
+#define CONFIG_SMB_NLS_REMOTE "cp437"

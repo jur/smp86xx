@@ -1,0 +1,1 @@
+#define CONFIG_OWN_DMA 1

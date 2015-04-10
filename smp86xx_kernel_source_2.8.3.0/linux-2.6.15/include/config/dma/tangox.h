@@ -1,0 +1,1 @@
+#define CONFIG_DMA_TANGOX 1

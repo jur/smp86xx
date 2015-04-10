@@ -1,0 +1,25 @@
+/COPYING/1.1/Tue Mar 26 23:58:31 2002//
+D/web////
+/install-sh/1.1/Sun Mar 31 09:02:21 2002//
+/unify.c/1.7/Mon Apr  1 04:00:31 2002//
+/hash.c/1.9/Mon Apr 29 09:14:12 2002//
+/mdfour.c/1.4/Mon Apr 29 09:14:12 2002//
+/mdfour.h/1.2/Mon Apr 29 09:14:12 2002//
+D/packaging////
+/README/1.17/Tue Jan  7 05:40:23 2003//
+/snprintf.c/1.3/Tue Jan  7 05:40:23 2003//
+/args.c/1.7/Mon Feb 17 01:11:58 2003//
+/stats.c/1.13/Mon Feb 17 01:11:58 2003//
+/.cvsignore/1.4/Sun Sep 28 04:48:17 2003//
+/Makefile.in/1.17/Sun Sep 28 04:48:17 2003//
+/ccache.1/1.24/Sun Sep 28 04:48:17 2003//
+/ccache.c/1.91/Sun Sep 28 04:48:17 2003//
+/ccache.h/1.50/Sun Sep 28 04:48:17 2003//
+/ccache.yo/1.25/Sun Sep 28 04:48:17 2003//
+/cleanup.c/1.6/Sun Sep 28 04:48:17 2003//
+/config.h.in/1.5/Sun Sep 28 04:48:17 2003//
+/execute.c/1.8/Sun Sep 28 04:48:17 2003//
+/test.sh/1.11/Sun Sep 28 04:48:17 2003//
+/util.c/1.32/Sun Sep 28 04:48:17 2003//
+/configure.in/1.7/Sun Sep 28 04:52:09 2003//
+/configure/1.7/Sun Sep 28 04:53:21 2003//

@@ -1,0 +1,12 @@
+diff -urN linux.orig/include/linux/cdrom.h linux/include/linux/cdrom.h
+--- linux.orig/include/linux/cdrom.h	2005-01-08 06:03:51.000000000 -0800
++++ linux/include/linux/cdrom.h	2007-01-22 19:34:11.000000000 -0800
+@@ -293,6 +293,8 @@
+ 	unsigned char		data_direction;
+ 	int			quiet;
+ 	int			timeout;
++	int                     do_dma;         /* Try to use DMA */
++	int                     dma_error;      /* A DMA_specific error occurred */
+ 	void			*reserved[1];	/* unused, actually */
+ };
+ 

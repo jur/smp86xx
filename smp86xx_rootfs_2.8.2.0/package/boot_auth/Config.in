@@ -1,0 +1,6 @@
+config SD_PACKAGE_BOOT_AUTH
+	bool "Sigma Designs boot authentication tool"
+	default y
+	help
+	  This is a utility for verifying the authenticity of a file.
+	  It is built into /usr/sbin on the root file system.

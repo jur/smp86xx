@@ -1,0 +1,1 @@
+#undef CONFIG_SD_DIRECT_DMA

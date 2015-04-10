@@ -1,0 +1,2 @@
+arch/mips/tangox/xenv.c: In function 'xenv_isvalid':
+arch/mips/tangox/xenv.c:48: warning: passing argument 1 of 'xenv_digest_full' from incompatible pointer type

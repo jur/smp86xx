@@ -1,0 +1,55 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:595: checking host system type
+configure:616: checking target system type
+configure:634: checking build system type
+configure:689: checking for a BSD compatible install
+configure:742: checking whether ln works
+configure:766: checking whether ln -s works
+configure:1808: checking for gcc
+configure:1921: checking whether the C compiler (gcc  ) works
+configure:1937: gcc -o conftest    conftest.c  1>&5
+configure:1963: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1968: checking whether we are using GNU C
+configure:1996: checking whether gcc accepts -g
+configure:2063: checking for gnatbind
+configure:2128: checking whether compiler driver understands Ada
+configure:2160: checking how to compare bootstrapped objects
+configure:2264: checking for correct version of gmp.h
+configure:2277: gcc -c -g -O2   conftest.c 1>&5
+configure:2290: checking for MPFR
+configure:2303: gcc -o conftest -g -O2    conftest.c  -lmpfr -lgmp 1>&5
+configure:2799: checking for bison
+configure:2834: checking for bison
+configure:2869: checking for gm4
+configure:2904: checking for flex
+configure:2939: checking for flex
+configure:2974: checking for makeinfo
+configure:3621: checking for i386-pc-linux-gnu-ar
+configure:3654: checking for ar
+configure:3693: checking for i386-pc-linux-gnu-as
+configure:3726: checking for as
+configure:3765: checking for i386-pc-linux-gnu-dlltool
+configure:3798: checking for dlltool
+configure:3837: checking for i386-pc-linux-gnu-ld
+configure:3870: checking for ld
+configure:3909: checking for i386-pc-linux-gnu-nm
+configure:3942: checking for nm
+configure:3981: checking for i386-pc-linux-gnu-ranlib
+configure:4014: checking for ranlib
+configure:4053: checking for i386-pc-linux-gnu-windres
+configure:4086: checking for windres
+configure:4125: checking for i386-pc-linux-gnu-objcopy
+configure:4158: checking for objcopy
+configure:4197: checking for i386-pc-linux-gnu-objdump
+configure:4230: checking for objdump
+configure:4276: checking for mipsel-linux-uclibc-ar
+configure:4348: checking for mipsel-linux-uclibc-as
+configure:4420: checking for mipsel-linux-uclibc-dlltool
+configure:4492: checking for mipsel-linux-uclibc-ld
+configure:4564: checking for mipsel-linux-uclibc-nm
+configure:4636: checking for mipsel-linux-uclibc-ranlib
+configure:4708: checking for mipsel-linux-uclibc-windres
+configure:4826: checking whether to enable maintainer-specific portions of Makefiles
+configure:4873: checking if symbolic links between directories work

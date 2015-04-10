@@ -1,0 +1,2 @@
+kernel/pid.c: In function 'pidhash_init':
+kernel/pid.c:260: warning: comparison of distinct pointer types lacks a cast

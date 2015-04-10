@@ -1,0 +1,2 @@
+error.c: In function 'command_errstr':
+error.c:430: warning: return discards qualifiers from pointer target type

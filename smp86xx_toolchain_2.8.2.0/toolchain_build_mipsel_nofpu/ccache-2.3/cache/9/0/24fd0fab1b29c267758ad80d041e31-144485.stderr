@@ -1,0 +1,7 @@
+smatch.c: In function 'xstrmatch':
+smatch.c:369: warning: pointer targets in passing argument 1 of 'internal_strmatch' differ in signedness
+smatch.c:369: warning: pointer targets in passing argument 2 of 'internal_strmatch' differ in signedness
+sm_loop.c: In function 'parse_collsym':
+sm_loop.c:274: warning: pointer targets in passing argument 1 of 'collsym' differ in signedness
+sm_loop.c: In function 'gmatch':
+sm_loop.c:361: warning: pointer targets in passing argument 2 of 'is_cclass' differ in signedness

@@ -1,0 +1,1 @@
+misc/sysvipc/semget.o misc/sysvipc/semctl.o misc/sysvipc/semop.o misc/sysvipc/shmat.o misc/sysvipc/shmctl.o misc/sysvipc/shmdt.o misc/sysvipc/shmget.o misc/sysvipc/msgctl.o misc/sysvipc/msgget.o misc/sysvipc/msgrcv.o misc/sysvipc/msgsnd.o misc/sysvipc/ftok.o

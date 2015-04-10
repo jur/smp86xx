@@ -1,0 +1,2 @@
+findutils/find.c: In function 'parse_params':
+findutils/find.c:348: warning: no previous prototype for 'alloc_action'

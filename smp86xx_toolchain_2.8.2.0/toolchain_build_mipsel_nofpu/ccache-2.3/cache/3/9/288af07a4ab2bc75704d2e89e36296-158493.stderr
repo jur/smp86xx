@@ -1,0 +1,3 @@
+utelnetd.c: In function 'main':
+utelnetd.c:471: warning: pointer targets in passing argument 3 of 'accept' differ in signedness
+utelnetd.c:503: warning: pointer targets in passing argument 1 of 'remove_iacs' differ in signedness

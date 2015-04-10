@@ -1,0 +1,4 @@
+Linux-libc-headers are derived from linux kernel headers. For license of a
+particular header, check it's content, and if copyright notice isn't present,
+standard linux kernel license applies.
+

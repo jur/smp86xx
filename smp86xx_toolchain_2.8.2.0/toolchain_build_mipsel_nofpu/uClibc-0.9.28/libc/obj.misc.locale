@@ -1,0 +1,1 @@
+misc/locale/setlocale.o misc/locale/localeconv.o misc/locale/_locale_init.o misc/locale/nl_langinfo.o

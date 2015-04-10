@@ -1,0 +1,4 @@
+arch/mips/lib-32/dump_tlb.c: In function 'dump_tlb':
+arch/mips/lib-32/dump_tlb.c:78: warning: control may reach end of non-void function 'msk2str' being inlined
+arch/mips/lib-32/dump_tlb.c: In function 'dump_list_process':
+arch/mips/lib-32/dump_tlb.c:149: warning: 'pte' may be used uninitialized in this function

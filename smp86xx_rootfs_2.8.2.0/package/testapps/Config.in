@@ -1,0 +1,9 @@
+config SD_PACKAGE_TESTAPPS
+	bool "Sigma Designs test applications"
+	default n
+	help
+	  Sigma Designs test applications for IR device driver,
+	  front panel device driver and SmartCard device driver.
+
+	  These applications are built into /usr/bin on the root
+	  file system.

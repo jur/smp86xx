@@ -1,0 +1,32 @@
+# Choose binutils version.
+
+comment "Binutils Options"
+
+choice
+	prompt "Binutils Version"
+	default BR2_BINUTILS_VERSION_2_16_1
+	help
+          Select the version of binutils you wish to use.
+
+	config BR2_BINUTILS_VERSION_2_15_91_0_2
+		bool "binutils 2.15.91.0.2"
+
+#	config BR2_BINUTILS_VERSION_2_16_1
+#		bool "binutils 2.16.1"
+
+	config BR2_BINUTILS_VERSION_2_17
+		bool "binutils 2.17"
+endchoice 
+
+config BR2_BINUTILS_VERSION
+	string
+	default "2.15.91.0.2"     if BR2_BINUTILS_VERSION_2_15_91_0_2
+#	default "2.16.1"          if BR2_BINUTILS_VERSION_2_16_1
+	default "2.17"            if BR2_BINUTILS_VERSION_2_17
+
+config BR2_BINUTILS_VERSION
+	string
+	default "2.15.91.0.2"     if BR2_BINUTILS_VERSION_2_15_91_0_2
+#	default "2.16.1"          if BR2_BINUTILS_VERSION_2_16_1
+	default "2.17"            if BR2_BINUTILS_VERSION_2_17
+

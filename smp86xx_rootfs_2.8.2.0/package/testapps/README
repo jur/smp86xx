@@ -1,0 +1,16 @@
+
+Sample test application
+=======================
+
+iruser: test application for IR device driver.
+
+fipuser: test application for Front Panel device driver.
+
+scuser: test application for Smartcard device driver.
+
+Build steps:
+
+$ export UCLINUX_KERNEL=<path to Tango2 kernel>
+$ rmcflags tango2
+$ make
+

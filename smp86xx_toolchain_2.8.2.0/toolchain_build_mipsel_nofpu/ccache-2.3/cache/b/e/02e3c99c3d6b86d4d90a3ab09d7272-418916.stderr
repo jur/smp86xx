@@ -1,0 +1,2 @@
+fs/jffs2/erase.c: In function 'jffs2_erase_pending_blocks':
+fs/jffs2/erase.c:357: warning: 'bad_offset' may be used uninitialized in this function

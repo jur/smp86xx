@@ -1,0 +1,14 @@
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c: In function 'STAMlmePeriodicExec':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c:730: warning: unused variable 'RxSignal'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c: In function 'MsgTypeSubst':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c:3429: warning: unused variable 'Return'
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c: In function 'AsicAdjustTxPower':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c:4362: warning: 'BbpR1' may be used uninitialized in this function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c: In function 'AsicSendCommandToMcu':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c:5399: warning: 'i' may be used uninitialized in this function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c: In function 'AsicSetRxAnt':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c:5493: warning: 'R77' may be used uninitialized in this function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c: In function 'AsicSwitchChannel':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c:3682: warning: 'BbpReg' may be used uninitialized in this function
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c: In function 'RadarDetectionStop':
+/home/davidhu/svn.32M/HW/ralink/RT61/v1.1.2.0/2007_1210_RT61_Linux_STA_v1.1.2.0/Module/mlme.c:5931: warning: 'R66' may be used uninitialized in this function

@@ -1,0 +1,1 @@
+#define CONFIG_SD_CDROM_KEEP_DMA 1

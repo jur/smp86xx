@@ -1,0 +1,2 @@
+arch/mips/math-emu/dp_flong.c: In function 'ieee754dp_flong':
+arch/mips/math-emu/dp_flong.c:32: warning: unused variable 'xc'

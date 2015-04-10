@@ -1,0 +1,3 @@
+fs/isofs/namei.c: In function 'isofs_lookup':
+fs/isofs/namei.c:162: warning: 'offset' may be used uninitialized in this function
+fs/isofs/namei.c:162: warning: 'block' may be used uninitialized in this function

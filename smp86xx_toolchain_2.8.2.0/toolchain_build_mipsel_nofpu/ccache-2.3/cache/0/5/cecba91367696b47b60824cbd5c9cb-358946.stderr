@@ -1,0 +1,8 @@
+drivers/mtd/chips/cfi_cmdset_0001.c: In function 'cfi_intelext_init':
+drivers/mtd/chips/cfi_cmdset_0001.c:2453: warning: 'inter_module_register' is deprecated (declared at include/linux/module.h:571)
+drivers/mtd/chips/cfi_cmdset_0001.c:2454: warning: 'inter_module_register' is deprecated (declared at include/linux/module.h:571)
+drivers/mtd/chips/cfi_cmdset_0001.c:2455: warning: 'inter_module_register' is deprecated (declared at include/linux/module.h:571)
+drivers/mtd/chips/cfi_cmdset_0001.c: In function 'cfi_intelext_exit':
+drivers/mtd/chips/cfi_cmdset_0001.c:2461: warning: 'inter_module_unregister' is deprecated (declared at include/linux/module.h:572)
+drivers/mtd/chips/cfi_cmdset_0001.c:2462: warning: 'inter_module_unregister' is deprecated (declared at include/linux/module.h:572)
+drivers/mtd/chips/cfi_cmdset_0001.c:2463: warning: 'inter_module_unregister' is deprecated (declared at include/linux/module.h:572)

@@ -1,0 +1,101 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:611: checking host system type
+configure:632: checking target system type
+configure:650: checking build system type
+configure:705: checking for a BSD compatible install
+configure:758: checking whether ln works
+configure:782: checking whether ln -s works
+configure:1864: checking for gcc
+configure:1977: checking whether the C compiler (gcc  ) works
+configure:1993: gcc -o conftest    conftest.c  1>&5
+configure:2019: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:2024: checking whether we are using GNU C
+configure:2033: gcc -E conftest.c
+configure:2052: checking whether gcc accepts -g
+configure:2119: checking for gnatbind
+configure:2184: checking whether compiler driver understands Ada
+configure:2216: checking how to compare bootstrapped objects
+configure:2314: checking for correct version of gmp.h
+configure:2327: gcc -c -g -O2   conftest.c 1>&5
+configure:2340: checking for MPFR
+configure:2353: gcc -o conftest -g -O2    conftest.c  -lmpfr -lgmp 1>&5
+configure:3418: checking for bison
+configure:3458: checking for bison
+configure:3497: checking for gm4
+configure:3497: checking for gnum4
+configure:3497: checking for m4
+configure:3536: checking for flex
+configure:3576: checking for flex
+configure:3615: checking for makeinfo
+configure:3668: checking for expect
+configure:3709: checking for runtest
+configure:3757: checking for i386-pc-linux-gnu-ar
+configure:3788: checking for ar
+configure:3832: checking for i386-pc-linux-gnu-as
+configure:3863: checking for as
+configure:3907: checking for i386-pc-linux-gnu-dlltool
+configure:3938: checking for dlltool
+configure:3982: checking for i386-pc-linux-gnu-ld
+configure:4013: checking for ld
+configure:4057: checking for i386-pc-linux-gnu-lipo
+configure:4088: checking for lipo
+configure:4132: checking for i386-pc-linux-gnu-nm
+configure:4163: checking for nm
+configure:4207: checking for i386-pc-linux-gnu-ranlib
+configure:4238: checking for ranlib
+configure:4277: checking for i386-pc-linux-gnu-strip
+configure:4308: checking for strip
+configure:4347: checking for i386-pc-linux-gnu-windres
+configure:4378: checking for windres
+configure:4422: checking for i386-pc-linux-gnu-objcopy
+configure:4453: checking for objcopy
+configure:4497: checking for i386-pc-linux-gnu-objdump
+configure:4528: checking for objdump
+configure:4609: checking for mipsel-linux-uclibc-cc
+configure:4609: checking for mipsel-linux-uclibc-gcc
+configure:4700: checking for mipsel-linux-uclibc-c++
+configure:4700: checking for mipsel-linux-uclibc-g++
+configure:4700: checking for mipsel-linux-uclibc-cxx
+configure:4700: checking for mipsel-linux-uclibc-gxx
+configure:4791: checking for mipsel-linux-uclibc-gcc
+configure:4877: checking for mipsel-linux-uclibc-gcj
+configure:4968: checking for mipsel-linux-uclibc-gfortran
+configure:5124: checking for ar
+configure:5178: checking for mipsel-linux-uclibc-ar
+configure:5277: checking for as
+configure:5331: checking for mipsel-linux-uclibc-as
+configure:5430: checking for dlltool
+configure:5484: checking for mipsel-linux-uclibc-dlltool
+configure:5583: checking for ld
+configure:5637: checking for mipsel-linux-uclibc-ld
+configure:5736: checking for lipo
+configure:5790: checking for mipsel-linux-uclibc-lipo
+configure:5889: checking for nm
+configure:5943: checking for mipsel-linux-uclibc-nm
+configure:6042: checking for objdump
+configure:6096: checking for mipsel-linux-uclibc-objdump
+configure:6195: checking for ranlib
+configure:6249: checking for mipsel-linux-uclibc-ranlib
+configure:6348: checking for strip
+configure:6402: checking for mipsel-linux-uclibc-strip
+configure:6501: checking for windres
+configure:6555: checking for mipsel-linux-uclibc-windres
+configure:6634: checking where to find the target ar
+configure:6667: checking where to find the target as
+configure:6700: checking where to find the target cc
+configure:6733: checking where to find the target c++
+configure:6769: checking where to find the target c++ for libstdc++
+configure:6805: checking where to find the target dlltool
+configure:6838: checking where to find the target gcc
+configure:6871: checking where to find the target gcj
+configure:6907: checking where to find the target gfortran
+configure:6943: checking where to find the target ld
+configure:6976: checking where to find the target lipo
+configure:6999: checking where to find the target nm
+configure:7032: checking where to find the target objdump
+configure:7065: checking where to find the target ranlib
+configure:7098: checking where to find the target strip
+configure:7131: checking where to find the target windres
+configure:7192: checking whether to enable maintainer-specific portions of Makefiles

@@ -1,0 +1,2 @@
+lib/zlib_inflate/inftrees.c: In function 'huft_build':
+lib/zlib_inflate/inftrees.c:121: warning: 'r.base' may be used uninitialized in this function

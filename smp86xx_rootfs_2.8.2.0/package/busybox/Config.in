@@ -1,0 +1,37 @@
+
+config BR2_PACKAGE_BUSYBOX
+	bool "busybox"
+	default y
+	help
+	  The Swiss Army Knife of embedded Linux.  It slices, it dices, it
+	  makes Julian Fries.
+
+	  http://busybox.net/
+
+	  Most people will answer Y.
+
+comment "Busybox Options"
+
+choice
+	prompt "busybox version"
+	default BR2_BUSYBOX_VERSION_1_0_0
+	help
+	  Select the version of busybox.
+
+	config BR2_BUSYBOX_VERSION_1_0_0
+		bool "busybox 1.00"
+
+#	config BR2_BUSYBOX_VERSION_1_2_2_1
+#		bool "busybox 1.2.2.1"
+
+	config BR2_BUSYBOX_VERSION_1_5_0
+		bool "busybox 1.5.0"
+
+endchoice
+
+config BR2_BUSYBOX_VERSION
+	string
+	default "1.00"     if BR2_BUSYBOX_VERSION_1_0_0
+	default "1.2.2.1"  if BR2_BUSYBOX_VERSION_1_2_2_1
+	default "1.5.0"    if BR2_BUSYBOX_VERSION_1_5_0
+

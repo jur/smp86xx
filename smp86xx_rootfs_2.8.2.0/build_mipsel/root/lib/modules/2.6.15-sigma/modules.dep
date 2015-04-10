@@ -1,0 +1,9 @@
+/lib/modules/2.6.15-sigma/kernel/drivers/net/tango2_enet.ko:
+/lib/modules/2.6.15-sigma/kernel/drivers/char/fipkernel.ko:
+/lib/modules/2.6.15-sigma/kernel/drivers/char/irkernel.ko:
+/lib/modules/2.6.15-sigma/kernel/drivers/char/sckernel.ko:
+/lib/modules/2.6.15-sigma/kernel/drivers/video/cfbcopyarea.ko:
+/lib/modules/2.6.15-sigma/kernel/drivers/video/fb.ko:
+/lib/modules/2.6.15-sigma/kernel/drivers/video/cfbfillrect.ko:
+/lib/modules/2.6.15-sigma/kernel/drivers/video/cfbimgblt.ko:
+/lib/modules/2.6.15-sigma/kernel/arch/mips/tangox/fctrl/fctrl.ko:

@@ -1,0 +1,42 @@
+# Choose uClibc options
+#
+
+comment "uClibc Options"
+
+choice
+	prompt "uClibc Version"
+	default BR2_UCLIBC_VERSION_0_9_27
+	help
+          Select the version of uClibc you wish to use.
+
+	config BR2_UCLIBC_VERSION_0_9_27
+		bool "uClibc 0.9.27"
+
+	config BR2_UCLIBC_VERSION_0_9_28
+		bool "uClibc 0.9.28.3"
+
+endchoice 
+
+config BR2_UCLIBC_VERSION
+	string
+	default "0.9.27"     if BR2_UCLIBC_VERSION_0_9_27
+	default "0.9.28"     if BR2_UCLIBC_VERSION_0_9_28
+
+#config BR2_UCLIBC_VERSION_SNAPSHOT
+#	bool
+#	default n
+#	help
+#	    Would you like to use the latest daily snapshot?
+
+#config BR2_USE_UCLIBC_SNAPSHOT
+#	string
+#	default "snapshot"
+#	depends on BR2_UCLIBC_VERSION_SNAPSHOT
+
+#config BR2_ENABLE_LOCALE
+#	bool "Enable locale/gettext/i18n support?"
+#	default n
+#	help
+#	    Enable locale/gettext/i18n support?
+
+

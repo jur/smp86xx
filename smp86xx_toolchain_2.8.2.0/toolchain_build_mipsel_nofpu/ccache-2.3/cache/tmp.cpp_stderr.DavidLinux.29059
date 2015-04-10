@@ -1,0 +1,19 @@
+In file included from /home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/asm/system.h:18,
+                 from /home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/spinlock.h:7,
+                 from /home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/module.h:12,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_linux.h:43,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:50,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/rtmp_wep.c:38:
+/home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/kernel.h:117:5: warning: "DEBUG" is not defined
+In file included from /home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/mm.h:4,
+                 from /home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/slab.h:14,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_linux.h:52,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:50,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/rtmp_wep.c:38:
+/home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/sched.h:161:5: warning: "CONFIG_SMP" is not defined
+In file included from /home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/mm.h:26,
+                 from /home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/linux/slab.h:14,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_linux.h:52,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:50,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/common/rtmp_wep.c:38:
+/home/davidhu/work/HD301/smp86xx_kernel_source_2.8.0.1/linuxmips-2.4.30/include/asm/pgtable.h:82:5: warning: "CONFIG_HIGHMEM" is not defined

@@ -1,0 +1,168 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs, see configure's option --config-cache.
+# It is not useful on other systems.  If it contains results you don't
+# want to keep, you may remove or edit it.
+#
+# config.status only pays attention to the cache file if you give it
+# the --recheck option to rerun configure.
+#
+# `ac_cv_env_foo' variables (set or unset) will be overridden when
+# loading this file, other *unset* `ac_cv_foo' will be assigned the
+# following values.
+
+ac_cv_archive_cmds_needs_lc=${ac_cv_archive_cmds_needs_lc=no}
+ac_cv_build=${ac_cv_build=i386-pc-linux-gnu}
+ac_cv_build_alias=${ac_cv_build_alias=i386-pc-linux-gnu}
+ac_cv_c_compiler_gnu=${ac_cv_c_compiler_gnu=yes}
+ac_cv_cxx_compiler_gnu=${ac_cv_cxx_compiler_gnu=yes}
+ac_cv_env_CPPFLAGS_set=set
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_CXXCPP_set=
+ac_cv_env_CXXCPP_value=
+ac_cv_env_build_alias_set=set
+ac_cv_env_build_alias_value=i386-pc-linux-gnu
+ac_cv_env_host_alias_set=set
+ac_cv_env_host_alias_value=mipsel-linux-uclibc
+ac_cv_env_target_alias_set=
+ac_cv_env_target_alias_value=
+ac_cv_exeext=${ac_cv_exeext=}
+ac_cv_func___signbit=${ac_cv_func___signbit=yes}
+ac_cv_func___signbitf=${ac_cv_func___signbitf=yes}
+ac_cv_func_btowc=${ac_cv_func_btowc=yes}
+ac_cv_func_copysignf=${ac_cv_func_copysignf=yes}
+ac_cv_func_fgetwc=${ac_cv_func_fgetwc=yes}
+ac_cv_func_fgetws=${ac_cv_func_fgetws=yes}
+ac_cv_func_fputwc=${ac_cv_func_fputwc=yes}
+ac_cv_func_fputws=${ac_cv_func_fputws=yes}
+ac_cv_func_fwide=${ac_cv_func_fwide=yes}
+ac_cv_func_fwprintf=${ac_cv_func_fwprintf=yes}
+ac_cv_func_fwscanf=${ac_cv_func_fwscanf=yes}
+ac_cv_func_getwc=${ac_cv_func_getwc=yes}
+ac_cv_func_getwchar=${ac_cv_func_getwchar=yes}
+ac_cv_func_iconv=${ac_cv_func_iconv=no}
+ac_cv_func_iconv_close=${ac_cv_func_iconv_close=no}
+ac_cv_func_iconv_open=${ac_cv_func_iconv_open=no}
+ac_cv_func_iswblank=${ac_cv_func_iswblank=yes}
+ac_cv_func_mbrlen=${ac_cv_func_mbrlen=yes}
+ac_cv_func_mbrtowc=${ac_cv_func_mbrtowc=yes}
+ac_cv_func_mbsinit=${ac_cv_func_mbsinit=yes}
+ac_cv_func_mbsrtowcs=${ac_cv_func_mbsrtowcs=yes}
+ac_cv_func_nl_langinfo=${ac_cv_func_nl_langinfo=yes}
+ac_cv_func_putwc=${ac_cv_func_putwc=yes}
+ac_cv_func_putwchar=${ac_cv_func_putwchar=yes}
+ac_cv_func_swprintf=${ac_cv_func_swprintf=yes}
+ac_cv_func_swscanf=${ac_cv_func_swscanf=yes}
+ac_cv_func_ungetwc=${ac_cv_func_ungetwc=yes}
+ac_cv_func_vfwprintf=${ac_cv_func_vfwprintf=yes}
+ac_cv_func_vfwscanf=${ac_cv_func_vfwscanf=yes}
+ac_cv_func_vswprintf=${ac_cv_func_vswprintf=yes}
+ac_cv_func_vswscanf=${ac_cv_func_vswscanf=yes}
+ac_cv_func_vwprintf=${ac_cv_func_vwprintf=yes}
+ac_cv_func_vwscanf=${ac_cv_func_vwscanf=yes}
+ac_cv_func_wcrtomb=${ac_cv_func_wcrtomb=yes}
+ac_cv_func_wcscat=${ac_cv_func_wcscat=yes}
+ac_cv_func_wcschr=${ac_cv_func_wcschr=yes}
+ac_cv_func_wcscmp=${ac_cv_func_wcscmp=yes}
+ac_cv_func_wcscoll=${ac_cv_func_wcscoll=yes}
+ac_cv_func_wcscpy=${ac_cv_func_wcscpy=yes}
+ac_cv_func_wcscspn=${ac_cv_func_wcscspn=yes}
+ac_cv_func_wcsftime=${ac_cv_func_wcsftime=yes}
+ac_cv_func_wcslen=${ac_cv_func_wcslen=yes}
+ac_cv_func_wcsncat=${ac_cv_func_wcsncat=yes}
+ac_cv_func_wcsncmp=${ac_cv_func_wcsncmp=yes}
+ac_cv_func_wcsncpy=${ac_cv_func_wcsncpy=yes}
+ac_cv_func_wcspbrk=${ac_cv_func_wcspbrk=yes}
+ac_cv_func_wcsrchr=${ac_cv_func_wcsrchr=yes}
+ac_cv_func_wcsrtombs=${ac_cv_func_wcsrtombs=yes}
+ac_cv_func_wcsspn=${ac_cv_func_wcsspn=yes}
+ac_cv_func_wcsstr=${ac_cv_func_wcsstr=yes}
+ac_cv_func_wcstod=${ac_cv_func_wcstod=yes}
+ac_cv_func_wcstof=${ac_cv_func_wcstof=yes}
+ac_cv_func_wcstok=${ac_cv_func_wcstok=yes}
+ac_cv_func_wcstol=${ac_cv_func_wcstol=yes}
+ac_cv_func_wcstoul=${ac_cv_func_wcstoul=yes}
+ac_cv_func_wcsxfrm=${ac_cv_func_wcsxfrm=yes}
+ac_cv_func_wctob=${ac_cv_func_wctob=yes}
+ac_cv_func_wmemchr=${ac_cv_func_wmemchr=yes}
+ac_cv_func_wmemcmp=${ac_cv_func_wmemcmp=yes}
+ac_cv_func_wmemcpy=${ac_cv_func_wmemcpy=yes}
+ac_cv_func_wmemmove=${ac_cv_func_wmemmove=yes}
+ac_cv_func_wmemset=${ac_cv_func_wmemset=yes}
+ac_cv_func_wprintf=${ac_cv_func_wprintf=yes}
+ac_cv_func_wscanf=${ac_cv_func_wscanf=yes}
+ac_cv_header_complex_h=${ac_cv_header_complex_h=yes}
+ac_cv_header_endian_h=${ac_cv_header_endian_h=yes}
+ac_cv_header_float_h=${ac_cv_header_float_h=yes}
+ac_cv_header_fp_h=${ac_cv_header_fp_h=no}
+ac_cv_header_iconv_h=${ac_cv_header_iconv_h=no}
+ac_cv_header_ieeefp_h=${ac_cv_header_ieeefp_h=no}
+ac_cv_header_inttypes_h=${ac_cv_header_inttypes_h=yes}
+ac_cv_header_langinfo_h=${ac_cv_header_langinfo_h=yes}
+ac_cv_header_locale_h=${ac_cv_header_locale_h=yes}
+ac_cv_header_machine_endian_h=${ac_cv_header_machine_endian_h=no}
+ac_cv_header_machine_param_h=${ac_cv_header_machine_param_h=no}
+ac_cv_header_memory_h=${ac_cv_header_memory_h=yes}
+ac_cv_header_nan_h=${ac_cv_header_nan_h=no}
+ac_cv_header_stdc=${ac_cv_header_stdc=yes}
+ac_cv_header_stdint_h=${ac_cv_header_stdint_h=yes}
+ac_cv_header_stdlib_h=${ac_cv_header_stdlib_h=yes}
+ac_cv_header_string_h=${ac_cv_header_string_h=yes}
+ac_cv_header_strings_h=${ac_cv_header_strings_h=yes}
+ac_cv_header_sys_filio_h=${ac_cv_header_sys_filio_h=no}
+ac_cv_header_sys_ioctl_h=${ac_cv_header_sys_ioctl_h=yes}
+ac_cv_header_sys_isa_defs_h=${ac_cv_header_sys_isa_defs_h=no}
+ac_cv_header_sys_machine_h=${ac_cv_header_sys_machine_h=no}
+ac_cv_header_sys_stat_h=${ac_cv_header_sys_stat_h=yes}
+ac_cv_header_sys_types_h=${ac_cv_header_sys_types_h=yes}
+ac_cv_header_sys_uio_h=${ac_cv_header_sys_uio_h=yes}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
+ac_cv_header_wchar_h=${ac_cv_header_wchar_h=yes}
+ac_cv_header_wctype_h=${ac_cv_header_wctype_h=yes}
+ac_cv_host=${ac_cv_host=mipsel-unknown-linux-uclibc}
+ac_cv_host_alias=${ac_cv_host_alias=mipsel-linux-uclibc}
+ac_cv_lib_iconv_iconv=${ac_cv_lib_iconv_iconv=no}
+ac_cv_lib_m_main=${ac_cv_lib_m_main=yes}
+ac_cv_objext=${ac_cv_objext=o}
+ac_cv_path_install=${ac_cv_path_install='/usr/bin/install -c'}
+ac_cv_prog_AR=${ac_cv_prog_AR=mipsel-linux-uclibc-ar}
+ac_cv_prog_AS=${ac_cv_prog_AS=/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/as}
+ac_cv_prog_AWK=${ac_cv_prog_AWK=gawk}
+ac_cv_prog_CC=${ac_cv_prog_CC=' /opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/xgcc -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/ -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/ -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/lib/ -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/include -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/sys-include'}
+ac_cv_prog_CPP=${ac_cv_prog_CPP=' /opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/xgcc -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/ -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/ -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/lib/ -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/include -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/sys-include -E'}
+ac_cv_prog_CXXCPP=${ac_cv_prog_CXXCPP=' /opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/xgcc -shared-libgcc -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/ -nostdinc++ -L/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/src -L/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/src/.libs -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/ -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/lib/ -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/include -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/sys-include -E'}
+ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB=mipsel-linux-uclibc-ranlib}
+ac_cv_prog_STRIP=${ac_cv_prog_STRIP=mipsel-linux-uclibc-strip}
+ac_cv_prog_cc_can_build_shared=${ac_cv_prog_cc_can_build_shared=yes}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
+ac_cv_prog_cc_no_builtin=${ac_cv_prog_cc_no_builtin=}
+ac_cv_prog_cc_pic=${ac_cv_prog_cc_pic=' -fPIC -DPIC'}
+ac_cv_prog_cc_pic_works=${ac_cv_prog_cc_pic_works=yes}
+ac_cv_prog_cc_shlib=${ac_cv_prog_cc_shlib=}
+ac_cv_prog_cc_static=${ac_cv_prog_cc_static=-static}
+ac_cv_prog_cc_static_works=${ac_cv_prog_cc_static_works=yes}
+ac_cv_prog_cc_stdc=${ac_cv_prog_cc_stdc=}
+ac_cv_prog_cc_wl=${ac_cv_prog_cc_wl=-Wl,}
+ac_cv_prog_check_msgfmt=${ac_cv_prog_check_msgfmt=yes}
+ac_cv_prog_cxx_g=${ac_cv_prog_cxx_g=yes}
+ac_cv_prog_egrep=${ac_cv_prog_egrep='grep -E'}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set=yes}
+ac_cv_target=${ac_cv_target=mipsel-unknown-linux-uclibc}
+ac_cv_target_alias=${ac_cv_target_alias=mipsel-linux-uclibc}
+glibcxx_cv_POLL=${glibcxx_cv_POLL=yes}
+glibcxx_cv_S_IFREG=${glibcxx_cv_S_IFREG=yes}
+glibcxx_cv_S_ISREG=${glibcxx_cv_S_ISREG=yes}
+glibcxx_cv_WRITEV=${glibcxx_cv_WRITEV=yes}
+glibcxx_cv_prog_CXX=${glibcxx_cv_prog_CXX=' /opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/xgcc -shared-libgcc -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/gcc/ -nostdinc++ -L/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/src -L/opt/smp86xx/smp86xx_toolchain_2.8.2.0/toolchain_build_mipsel_nofpu/gcc-4.0.4-final/mipsel-linux-uclibc/libstdc++-v3/src/.libs -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/ -B/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/lib/ -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/include -isystem /opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/sys-include'}
+glibcxx_cv_prog_CXX_pch=${glibcxx_cv_prog_CXX_pch=yes}
+lt_cv_compiler_c_o=${lt_cv_compiler_c_o=yes}
+lt_cv_deplibs_check_method=${lt_cv_deplibs_check_method=pass_all}
+lt_cv_file_magic_cmd=${lt_cv_file_magic_cmd='$MAGIC_CMD'}
+lt_cv_file_magic_test_file=${lt_cv_file_magic_test_file='/lib/libuClibc-*.so'}
+lt_cv_ld_reload_flag=${lt_cv_ld_reload_flag=-r}
+lt_cv_path_LD=${lt_cv_path_LD=/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/ld}
+lt_cv_path_NM=${lt_cv_path_NM=/opt/smp86xx/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir/mipsel-linux-uclibc/bin/nm}
+lt_cv_prog_gnu_ld=${lt_cv_prog_gnu_ld=yes}
+lt_cv_sys_max_cmd_len=${lt_cv_sys_max_cmd_len=49153}

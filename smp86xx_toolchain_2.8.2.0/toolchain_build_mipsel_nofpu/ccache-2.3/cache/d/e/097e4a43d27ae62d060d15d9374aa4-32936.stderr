@@ -1,0 +1,2 @@
+configure: In function 'main':
+configure:12251: warning: passing argument 2 of 'strtold' from incompatible pointer type

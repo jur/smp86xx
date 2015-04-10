@@ -1,0 +1,2 @@
+shell.c: In function 'get_current_user_info':
+shell.c:1591: warning: assignment discards qualifiers from pointer target type

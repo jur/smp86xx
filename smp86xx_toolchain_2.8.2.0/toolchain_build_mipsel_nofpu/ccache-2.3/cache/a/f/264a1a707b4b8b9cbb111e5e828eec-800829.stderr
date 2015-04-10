@@ -1,0 +1,315 @@
+In file included from include/linux/if_ether.h:110,
+                 from include/linux/netdevice.h:30,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_linux.h:56,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:51,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:29:
+include/linux/skbuff.h: In function 'skb_add_data':
+include/linux/skbuff.h:1128: warning: pointer targets in passing argument 1 of 'csum_and_copy_from_user' differ in signedness
+In file included from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/rt_config.h:69,
+                 from /home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:29:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'GetChRegion':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:948: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:950: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h: In function 'BuildBeaconChList':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/include/chlist.h:1117: warning: pointer targets in passing argument 1 of 'MakeOutgoingFrame' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: At top level:
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:176: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:177: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:178: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:179: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:180: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:181: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:182: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:183: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:184: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:185: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:186: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:187: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:188: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:189: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:190: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:191: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:192: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:193: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:194: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:195: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:196: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:197: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:199: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:203: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:205: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:207: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:209: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:210: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:211: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:212: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:213: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:214: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:215: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:216: warning: pointer targets in initialization differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_CountryRegion_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:256: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_CountryRegionABand_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:302: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_WirelessMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:348: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_Channel_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:419: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_ShortSlot_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:491: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_TxPower_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:520: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_BGProtection_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:553: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_TxPreamble_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:588: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_RTSThreshold_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:635: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_FragThreshold_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:665: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_TxBurst_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:705: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_PktAggregate_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:733: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_IEEE80211H_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:764: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_DescInfo_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:888: warning: pointer targets in passing argument 2 of 'hex_dump' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:896: warning: pointer targets in passing argument 2 of 'hex_dump' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:904: warning: pointer targets in passing argument 2 of 'hex_dump' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'GetEncryptType':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1852: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1854: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1856: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1858: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1860: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1862: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'GetAuthMode':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1868: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1870: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1872: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1874: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1876: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1878: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1880: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1882: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1884: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1886: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1888: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'RTMPIoctlGetSiteSurvey':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1944: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1945: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1946: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1959: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1963: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1963: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1967: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1967: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1969: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1975: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1977: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1977: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1979: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1979: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1990: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1990: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1995: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1995: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1997: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1997: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1999: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:1999: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2001: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2001: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2003: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2003: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2005: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2005: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2008: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2008: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2010: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2010: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2012: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2012: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2024: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'RTMPIoctlGetMacTable':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2066: warning: pointer targets in assignment differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_BASetup_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2118: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2121: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2129: warning: pointer targets in passing argument 1 of 'rstrtok' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_BADecline_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2161: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_BAOriTearDown_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2196: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2199: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2207: warning: pointer targets in passing argument 1 of 'rstrtok' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_BARecTearDown_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2248: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2251: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2259: warning: pointer targets in passing argument 1 of 'rstrtok' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtBw_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2291: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtMcs_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2315: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtGi_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2369: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtTxBASize_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2392: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtOpMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2412: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtStbc_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2436: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtHtc_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2459: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtExtcha_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2479: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtMpduDensity_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2501: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtBaWinSize_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2521: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtRdg_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2549: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtLinkAdapt_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2574: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtAmsdu_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2596: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtAutoBa_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2617: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtProtect_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2640: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_SendPSMPAction_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2668: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2671: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2679: warning: pointer targets in passing argument 1 of 'rstrtok' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtMIMOPSmode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2712: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_ForceShortGI_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2733: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_ForceGF_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2756: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_HtMimoPs_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2777: warning: pointer targets in passing argument 1 of 'simple_strtol' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Set_FixedTxMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2817: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2821: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'RTMPGetRalinkAuthModeStr':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2843: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2846: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2848: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2850: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2852: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2854: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2856: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2858: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'RTMPGetRalinkEncryModeStr':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2869: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2871: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2873: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2875: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2877: warning: pointer targets in return differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'RTMPShowCfgValue':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2890: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2890: warning: pointer targets in passing argument 2 of 'strcmp' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2900: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2902: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_SSID_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2915: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_WirelessMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2927: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2930: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2933: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2936: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2939: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2942: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2945: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2948: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2951: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2954: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2957: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2960: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2963: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_TxBurst_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2974: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_TxPreamble_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2985: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2988: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2991: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:2994: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_TxPower_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3005: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_Channel_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3013: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_BGProtection_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3024: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3027: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3030: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3033: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_RTSThreshold_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3043: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_FragThreshold_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3051: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtBw_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3061: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3065: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtMcs_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3077: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtGi_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3089: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3092: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3095: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtOpMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3108: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3111: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3114: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtExtcha_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3127: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3130: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3133: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtMpduDensity_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3143: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtBaWinSize_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3151: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtRdg_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3159: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtAmsdu_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3167: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_HtAutoBa_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3175: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_CountryRegion_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3183: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_CountryRegionABand_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3191: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_CountryCode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_PktAggregate_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3208: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_WmmCapable_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3221: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_IEEE80211H_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3232: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_NetworkType_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3244: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3247: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3250: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3253: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3256: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_AuthMode_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3276: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3278: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_EncrypType_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3296: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_DefaultKeyID_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3314: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_WepKey_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3331: warning: pointer targets in passing argument 1 of 'RTMPCheckStrPrintAble' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3332: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3336: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3338: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3338: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c: In function 'Show_WPAPSK_Proc':
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3388: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3390: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+/home/davidhu/svn.32M/HW/ralink/RT2860/v1.6.1.0/os/linux/../../common/cmm_info.c:3390: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness

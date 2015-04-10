@@ -1,0 +1,1 @@
+#define CONFIG_TANGOX_FIP_REF1 1

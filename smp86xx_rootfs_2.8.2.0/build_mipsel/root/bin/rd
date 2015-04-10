@@ -1,0 +1,36 @@
+#!/bin/sh
+killall -9 watchdog 2> /dev/null
+killall -9 nmbd 2> /dev/null
+killall -9 smbd 2> /dev/null
+killall -9 rtorrent 2> /dev/null
+killall -9 dma 2> /dev/null
+
+for i in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+do
+umount /mnt/hdd$i 2> /dev/null
+umount /mnt/iso$i 2> /dev/null
+umount /usb/usb$i 2> /dev/null
+done
+
+rmmod em8xxx
+rmmod llad
+
+if [ -r /home/upgrade/llad.ko ]
+then
+	insmod -f /home/upgrade/llad.ko max_dmapool_memory_size=8388608 
+elif [ -r /home/dma/drivers/video/llad.ko ]
+then
+	insmod -f /home/dma/drivers/video/llad.ko max_dmapool_memory_size=8388608
+else
+	insmod -f llad.ko max_dmapool_memory_size=8388608 
+fi
+
+if [ -r /home/upgrade/em8xxx.ko ]
+then
+	insmod -f /home/upgrade/em8xxx.ko
+elif [ -r /home/dma/drivers/video/em8xxx.ko ]
+then
+	insmod -f /home/dma/drivers/video/em8xxx.ko
+else
+	insmod -f em8xxx.ko
+fi

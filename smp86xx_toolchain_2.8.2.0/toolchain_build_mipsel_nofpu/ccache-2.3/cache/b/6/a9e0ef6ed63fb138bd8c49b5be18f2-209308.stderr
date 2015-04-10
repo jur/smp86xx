@@ -1,0 +1,2 @@
+complete.c: In function 'compute_lcd_of_matches':
+complete.c:1154: warning: passing argument 1 of 'rl_filename_dequoting_function' discards qualifiers from pointer target type
