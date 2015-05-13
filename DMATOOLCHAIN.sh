@@ -1,8 +1,14 @@
+export HOSTTOOLCHAIN="mipsel-linux-uclibc"
+export HOSTARCH="mipsel"
 export SMP86XXBASE="$(pwd)"
-export PREFIX="$SMP86XXBASE/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir"
-export PATH="$PREFIX/bin:$PATH"
-export INCLUDEDIR="$PREFIX/mipsel-linux-uclibc/sys-include"
+export DESTDIR="${SMP86XXBASE}/smp86xx_toolchain_2.8.2.0/build_mipsel_nofpu/staging_dir"
+export PREFIX="/"
+export PATH="${DESTDIR}${PREFIX}bin:$PATH"
+export INCLUDEDIR="${DESTDIR}$PREFIX/mipsel-linux-uclibc/sys-include"
 export CROSS_COMPILE="mipsel-linux-"
+
+export BINDIR="${PREFIX}/${PREFIX}${CROSS_COMPILE}bin"
+export SBINDIR="${PREFIX}/${PREFIX}${CROSS_COMPILE}sbin"
 
 export CC="${CROSS_COMPILE}gcc"
 export LD="${CROSS_COMPILE}ld"
@@ -14,5 +20,7 @@ export OBJCOPY="${CROSS_COMPILE}objcopy"
 export STRIP="${CROSS_COMPILE}strip"
 
 export PKG_CONFIG_DIR=
-export PKG_CONFIG_LIBDIR=/lib/pkgconfig:/share/pkgconfig
-export PKG_CONFIG_SYSROOT_DIR=${PREFIX}
+export PKG_CONFIG_LIBDIR="${DESTDIR}${PREFIX}/lib/pkgconfig:${DESTDIR}${PREFIX}/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR="${DESTDIR}${PREFIX}"
+
+export OPENSSLDIR="${PREFIX}/etc/ssl"
