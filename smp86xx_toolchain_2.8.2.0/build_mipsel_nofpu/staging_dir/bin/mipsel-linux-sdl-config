@@ -1,0 +1,2 @@
+#!/bin/bash
+${DESTDIR}${PREFIX}${CROSS_COMPILE}bin/sdl-config --prefix="${DESTDIR}${PREFIX}" "$@"

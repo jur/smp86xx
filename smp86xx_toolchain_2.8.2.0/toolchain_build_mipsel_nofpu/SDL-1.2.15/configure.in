@@ -3,6 +3,7 @@ AC_INIT(README)
 AC_CONFIG_HEADER(include/SDL_config.h)
 AC_GNU_SOURCE
 AC_CONFIG_AUX_DIRS($srcdir/build-scripts)
+AC_CONFIG_MACRO_DIR([m4])
 
 dnl Set various version strings - taken gratefully from the GTk sources
 #
@@ -2094,6 +2095,34 @@ AC_HELP_STRING([--enable-directx], [use DirectX for Win32 audio/video [[default=
     fi
 }
 
+dnl See if we're running on SMP8634
+CheckSMP8634()
+{
+    AC_ARG_ENABLE(video-smp8634,
+AC_HELP_STRING([--enable-video-smp8634], [use SMP8634 video driver [[default=yes]]]),
+                  , enable_video_smp8634=yes)
+    if test x$enable_video = xyes -a x$enable_video_smp8634 = xyes; then
+        AC_MSG_CHECKING(for SMP8634 support)
+        video_smp8634=no
+        AC_TRY_COMPILE([
+         #define ALLOW_OS_CODE 1
+         #include <rua.h>
+         #include <dcc.h>
+        ],[
+        ],[
+        video_smp8634=yes
+        ])
+        AC_MSG_RESULT($video_smp8634)
+        if test x$video_smp8634 = xyes; then
+            AC_DEFINE(SDL_VIDEO_DRIVER_PS2GS)
+            SOURCES="$SOURCES $srcdir/src/video/smp8634/*.c"
+            SDL_LIBS="$SDL_LIBS \${pc_sysrootdir}/\${exec_prefix}/lib/oslayer.o -ldcc -lrua -lllad"
+            have_video=yes
+        fi
+    fi
+}
+
+
 dnl Check for the dlfcn.h interface for dynamically loading objects
 CheckDLOPEN()
 {
@@ -2375,6 +2404,7 @@ case "$host" in
         CheckQtopia
         CheckPicoGUI
         CheckOpenGLX11
+	CheckSMP8634
         CheckInputEvents
         CheckTslib
         CheckUSBHID
