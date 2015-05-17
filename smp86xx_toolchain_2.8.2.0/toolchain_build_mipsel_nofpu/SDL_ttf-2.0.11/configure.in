@@ -120,8 +120,8 @@ if test "$FREETYPE_CONFIG" = "no" ; then
 *** Unable to find FreeType2 library (http://www.freetype.org/)
 ])
 else
-    CFLAGS="$CFLAGS `$FREETYPE_CONFIG $freetypeconf_args --cflags`"
-    LIBS="$LIBS `$FREETYPE_CONFIG $freetypeconf_args --libs`"
+    CFLAGS="$CFLAGS `$FREETYPE_CONFIG $freetype_args --cflags`"
+    LIBS="$LIBS `$FREETYPE_CONFIG $freetype_args --libs`"
 fi
 
 dnl Check for SDL
