@@ -253,7 +253,7 @@ install-nokeys: $(CONFIGFILES) $(MANPAGES) $(TARGETS) install-files install-sysc
 install-nosysconf: $(CONFIGFILES) $(MANPAGES) $(TARGETS) install-files
 
 check-config:
-	-$(DESTDIR)$(sbindir)/sshd -t -f $(DESTDIR)$(sysconfdir)/sshd_config
+	sshd -t -f $(DESTDIR)$(sysconfdir)/sshd_config
 
 install-files:
 	$(srcdir)/mkinstalldirs $(DESTDIR)$(bindir)
