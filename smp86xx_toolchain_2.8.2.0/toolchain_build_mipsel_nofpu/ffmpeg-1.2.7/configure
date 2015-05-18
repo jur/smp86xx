@@ -801,8 +801,8 @@ check_ld(){
     log check_ld "$@"
     type=$1
     shift 1
-    flags=$(filter_out '-l*|*.so' $@)
-    libs=$(filter '-l*|*.so' $@)
+    flags=$(filter_out '-l*|*.so|*.o|-Wl*' $@)
+    libs=$(filter '-l*|*.so|*.o|-Wl*' $@)
     check_$type $($cflags_filter $flags) || return
     flags=$($ldflags_filter $flags)
     libs=$($ldflags_filter $libs)
@@ -3749,7 +3749,7 @@ m x
 EOF
 fi
 
-check_ldflags -Wl,--as-needed
+#check_ldflags -Wl,--as-needed
 
 if check_func dlopen; then
     ldl=
@@ -3992,7 +3992,9 @@ if enabled libdc1394; then
     die "ERROR: No version of libdc1394 found "
 fi
 
-SDL_CONFIG="${cross_prefix}sdl-config"
+if test "x$SDL_CONFIG" = "x"; then
+	SDL_CONFIG="${cross_prefix}sdl-config"
+fi
 if check_pkg_config sdl SDL_events.h SDL_PollEvent; then
     check_cpp_condition SDL.h "(SDL_MAJOR_VERSION<<16 | SDL_MINOR_VERSION<<8 | SDL_PATCHLEVEL) >= 0x010201" $sdl_cflags &&
     enable sdl &&
@@ -4465,7 +4467,7 @@ HOSTCC_O=$HOSTCC_O
 HOSTLD_O=$HOSTLD_O
 TARGET_EXEC=$target_exec
 TARGET_PATH=$target_path
-LIBS-ffplay=$sdl_libs
+LIBS-ffplay=$(filter_out '*.o' $sdl_libs | tr '\n' ' ')
 CFLAGS-ffplay=$sdl_cflags
 ZLIB=$($ldflags_filter -lz)
 LIB_INSTALL_EXTRA_CMD=$LIB_INSTALL_EXTRA_CMD

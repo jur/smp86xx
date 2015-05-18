@@ -145,45 +145,51 @@ static inline double rint(double x)
 #endif /* HAVE_RINT */
 
 #if !HAVE_LRINT
-static av_always_inline av_const long int lrint(double x)
+static av_always_inline av_const long int av_lrint(double x)
 {
     return rint(x);
 }
+#define lrint av_lrint
 #endif /* HAVE_LRINT */
 
 #if !HAVE_LRINTF
-static av_always_inline av_const long int lrintf(float x)
+static av_always_inline av_const long int av_lrintf(float x)
 {
     return (int)(rint(x));
 }
+#define lrintf av_lrintf
 #endif /* HAVE_LRINTF */
 
 #if !HAVE_ROUND
-static av_always_inline av_const double round(double x)
+static av_always_inline av_const double av_round(double x)
 {
     return (x > 0) ? floor(x + 0.5) : ceil(x - 0.5);
 }
+#define round av_round
 #endif /* HAVE_ROUND */
 
 #if !HAVE_ROUNDF
-static av_always_inline av_const float roundf(float x)
+static av_always_inline av_const float av_roundf(float x)
 {
     return (x > 0) ? floor(x + 0.5) : ceil(x - 0.5);
 }
+#define roundf av_roundf
 #endif /* HAVE_ROUNDF */
 
 #if !HAVE_TRUNC
-static av_always_inline av_const double trunc(double x)
+static av_always_inline av_const double av_trunc(double x)
 {
     return (x > 0) ? floor(x) : ceil(x);
 }
+#define trunc av_trunc
 #endif /* HAVE_TRUNC */
 
 #if !HAVE_TRUNCF
-static av_always_inline av_const float truncf(float x)
+static av_always_inline av_const float av_truncf(float x)
 {
     return (x > 0) ? floor(x) : ceil(x);
 }
+#define truncf av_truncf
 #endif /* HAVE_TRUNCF */
 
 #endif /* AVUTIL_LIBM_H */

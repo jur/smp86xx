@@ -51,6 +51,7 @@
 #include "libavutil/parseutils.h"
 #include "libavutil/opt.h"
 #include "libavutil/time.h"
+#include "libavutil/libm.h"
 
 #include <stdarg.h>
 #include <unistd.h>
