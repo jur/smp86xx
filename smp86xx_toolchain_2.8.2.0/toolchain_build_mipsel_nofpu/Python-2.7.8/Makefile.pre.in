@@ -932,7 +932,7 @@ LIBSUBDIRS=	site-packages \
 		encodings compiler hotshot \
 		email email/mime \
 		json \
-		logging bsddb csv importlib wsgiref \
+		logging csv importlib wsgiref \
 		ctypes ctypes/macholib \
 		idlelib idlelib/Icons \
 		distutils distutils/command \
@@ -948,7 +948,6 @@ TESTSUBDIRS = test test/audiodata test/data \
 	test/tracedmodules \
 	email/test email/test/data \
 	json/tests \
-	bsddb/test \
 	ctypes/test \
 	idlelib/idle_test \
 	distutils/tests \
@@ -987,6 +986,11 @@ endif
 
 ifeq (@EXPAT@,yes)
 LIBSUBDIRS += $(XMLLIBSUBDIRS)
+endif
+
+ifeq (@BSDDB@,yes)
+LIBSUBDIRS += bsddb
+TESTSUBDIRS += bsddb/test
 endif
 
 libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c

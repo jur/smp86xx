@@ -2653,6 +2653,28 @@ AC_ARG_ENABLE(nis,
     	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} nis"
   	  fi])
 
+AC_ARG_ENABLE(dbm,
+	AS_HELP_STRING([--disable-dbm], [disable DBM]),
+	[ if test "$enableval" = "no"; then
+    	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} dbm"
+  	  fi])
+
+AC_ARG_ENABLE(gdbm,
+	AS_HELP_STRING([--disable-gdbm], [disable GDBM]),
+	[ if test "$enableval" = "no"; then
+    	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} gdbm"
+  	  fi])
+
+AC_SUBST(BSDDB)
+AC_ARG_ENABLE(bsddb,
+	AS_HELP_STRING([--disable-bsddb], [disable BerkeyleyDB]),
+	[ if test "$enableval" = "no"; then
+    	     BSDDB=no
+    	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _bsddb"
+  	  else
+	     BSDDB=yes
+  	  fi], [ BSDDB=yes ])
+
 AC_ARG_ENABLE(unicodedata,
 	AS_HELP_STRING([--disable-unicodedata], [disable unicodedata]),
 	[ if test "$enableval" = "no"; then
