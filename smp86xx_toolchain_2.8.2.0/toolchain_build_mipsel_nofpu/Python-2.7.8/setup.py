@@ -1472,7 +1472,7 @@ class PyBuildExt(build_ext):
         #
         # More information on Expat can be found at www.libexpat.org.
         #
-        if '--with-system-expat' in sysconfig.get_config_var("CONFIG_ARGS"):
+        if '--with-expat=system' in sysconfig.get_config_var("CONFIG_ARGS"):
             expat_inc = []
             define_macros = []
             expat_lib = ['expat']

@@ -2289,13 +2289,21 @@ AC_PATH_TOOL([PKG_CONFIG], [pkg-config])
 AC_SUBST(DISABLED_EXTENSIONS)
 
 # Check for use of the system expat library
-AC_MSG_CHECKING(for --with-system-expat)
-AC_ARG_WITH(system_expat,
-            AS_HELP_STRING([--with-system-expat], [build pyexpat module using an installed expat library]),
+AC_MSG_CHECKING(for --with-expat)
+AC_ARG_WITH(expat,
+            AS_HELP_STRING([--with-expat], [select which expat version to use: system, builtin, none]),
             [],
-            [with_system_expat="no"])
+            [with_expat="builtin"])
 
-AC_MSG_RESULT($with_system_expat)
+AC_MSG_RESULT($with_expat)
+
+if test "$with_expat" != "none"; then
+   EXPAT=yes
+else
+   DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} pyexpat"
+   EXPAT=no
+fi
+AC_SUBST(EXPAT)
 
 # Check for use of the system libffi library
 AC_MSG_CHECKING(for --with-system-ffi)
