@@ -2633,6 +2633,15 @@ if test "$SQLITE3" = "no" ; then
    DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _sqlite3"
 fi
 
+AC_SUBST(TK)
+AC_ARG_ENABLE(tk,
+	AS_HELP_STRING([--disable-tk], [disable tk]),
+	[ TK="${enableval}" ], [ TK=yes ])
+
+if test "$TK" = "no"; then
+   DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _tkinter"
+fi
+
 AC_SUBST(PYDOC)
 
 AC_ARG_ENABLE(pydoc,

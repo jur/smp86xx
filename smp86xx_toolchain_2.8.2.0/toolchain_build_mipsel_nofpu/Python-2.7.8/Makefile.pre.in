@@ -928,7 +928,7 @@ PLATMACDIRS= plat-mac plat-mac/Carbon plat-mac/lib-scriptpackages \
 	plat-mac/lib-scriptpackages/SystemEvents \
 	plat-mac/lib-scriptpackages/Terminal
 PLATMACPATH=:plat-mac:plat-mac/lib-scriptpackages
-LIBSUBDIRS=	lib-tk site-packages \
+LIBSUBDIRS=	site-packages \
 		encodings compiler hotshot \
 		email email/mime \
 		json \
@@ -941,8 +941,7 @@ LIBSUBDIRS=	lib-tk site-packages \
 		lib-old \
 		curses $(MACHDEPS)
 
-TESTSUBDIRS = lib-tk/test lib-tk/test/test_tkinter \
-	lib-tk/test/test_ttk test test/audiodata test/data \
+TESTSUBDIRS = test test/audiodata test/data \
 	test/cjkencodings test/decimaltestdata test/xmltestdata \
 	test/imghdrdata \
 	test/subprocessdata \
@@ -974,6 +973,12 @@ endif
 ifeq (@SQLITE3@,yes)
 LIBSUBDIRS += sqlite3
 TESTSUBDIRS += sqlite3/test
+endif
+
+ifeq (@TK@,yes)
+LIBSUBDIRS += lib-tk
+TESTSUBDIRS += lib-tk/test lib-tk/test/test_tkinter	\
+	      lib-tk/test/test_ttk
 endif
 
 libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c
