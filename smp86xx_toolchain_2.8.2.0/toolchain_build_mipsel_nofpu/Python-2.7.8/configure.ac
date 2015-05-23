@@ -2653,6 +2653,12 @@ AC_ARG_ENABLE(nis,
     	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} nis"
   	  fi])
 
+AC_ARG_ENABLE(unicodedata,
+	AS_HELP_STRING([--disable-unicodedata], [disable unicodedata]),
+	[ if test "$enableval" = "no"; then
+    	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} unicodedata"
+  	  fi])
+
 AC_SUBST(TK)
 AC_ARG_ENABLE(tk,
 	AS_HELP_STRING([--disable-tk], [disable tk]),
