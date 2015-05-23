@@ -79,7 +79,7 @@ def get_python_inc(plat_specific=0, prefix=None):
 
     if os.name == "posix":
         if python_build:
-            buildir = os.path.dirname(sys.executable)
+            buildir = project_base
             if plat_specific:
                 # python.h is located in the buildir
                 inc_dir = buildir
