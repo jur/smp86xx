@@ -3343,7 +3343,7 @@ fi
 
 AC_MSG_RESULT($ac_cv_buggy_getaddrinfo)
 
-if test $have_getaddrinfo = no -o "$ac_cv_buggy_getaddrinfo" = yes
+if test $have_getaddrinfo = no || test "$cross_compiling" != "yes" -a "$ac_cv_buggy_getaddrinfo" = yes
 then
 	if test $ipv6 = yes
 	then
