@@ -939,7 +939,7 @@ LIBSUBDIRS=	site-packages \
 		multiprocessing multiprocessing/dummy \
 		unittest \
 		lib-old \
-		curses $(MACHDEPS)
+		$(MACHDEPS)
 
 TESTSUBDIRS = test test/audiodata test/data \
 	test/cjkencodings test/decimaltestdata test/xmltestdata \
@@ -979,6 +979,10 @@ ifeq (@TK@,yes)
 LIBSUBDIRS += lib-tk
 TESTSUBDIRS += lib-tk/test lib-tk/test/test_tkinter	\
 	      lib-tk/test/test_ttk
+endif
+
+ifeq (@CURSES@,yes)
+LIBSUBDIRS += curses
 endif
 
 libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c

@@ -2642,6 +2642,15 @@ if test "$TK" = "no"; then
    DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _tkinter"
 fi
 
+AC_SUBST(CURSES)
+AC_ARG_ENABLE(curses,
+	AS_HELP_STRING([--disable-curses], [disable curses]),
+	[ CURSES="${enableval}" ], [ CURSES=yes ])
+
+if test "$CURSES" = "no"; then
+   DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _curses _curses_panel"
+fi
+
 AC_SUBST(PYDOC)
 
 AC_ARG_ENABLE(pydoc,
