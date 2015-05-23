@@ -934,7 +934,6 @@ LIBSUBDIRS=	site-packages \
 		json \
 		logging csv importlib wsgiref \
 		ctypes ctypes/macholib \
-		idlelib idlelib/Icons \
 		distutils distutils/command \
 		multiprocessing multiprocessing/dummy \
 		unittest \
@@ -949,7 +948,6 @@ TESTSUBDIRS = test test/audiodata test/data \
 	email/test email/test/data \
 	json/tests \
 	ctypes/test \
-	idlelib/idle_test \
 	distutils/tests \
 	unittest/test
 

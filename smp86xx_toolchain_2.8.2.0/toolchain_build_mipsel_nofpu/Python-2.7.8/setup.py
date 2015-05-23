@@ -2221,7 +2221,7 @@ def main():
     import warnings
     warnings.filterwarnings("ignore",category=DeprecationWarning)
 
-    scripts = ['Tools/scripts/idle', 'Lib/smtpd.py']
+    scripts = ['Lib/smtpd.py']
     if not '--disable-pydoc' in sysconfig.get_config_var("CONFIG_ARGS"):
         scripts += [ 'Tools/scripts/pydoc' ]
     if not '--disable-lib2to3' in sysconfig.get_config_var("CONFIG_ARGS"):
