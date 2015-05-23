@@ -2625,6 +2625,12 @@ if test "$posix_threads" = "yes"; then
 fi
 
 
+AC_SUBST(TEST_MODULES)
+
+AC_ARG_ENABLE(test-modules,
+	AS_HELP_STRING([--disable-test-modules], [disable test modules]),
+	[ TEST_MODULES="${enableval}" ], [ TEST_MODULES=yes ])
+
 # Check for enable-ipv6
 AH_TEMPLATE(ENABLE_IPV6, [Define if --enable-ipv6 is specified])
 AC_MSG_CHECKING([if --enable-ipv6 is specified])
