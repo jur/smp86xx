@@ -281,6 +281,7 @@ class PyBuildExt(build_ext):
             print "Failed to build these modules:"
             print_three_column(failed)
             print
+            sys.exit(1)
 
     def build_extension(self, ext):
 
