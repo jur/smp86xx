@@ -2220,6 +2220,12 @@ def main():
     # turn off warnings when deprecated modules are imported
     import warnings
     warnings.filterwarnings("ignore",category=DeprecationWarning)
+
+    scripts = ['Tools/scripts/idle', 'Tools/scripts/2to3',
+               'Lib/smtpd.py']
+    if not '--disable-pydoc' in sysconfig.get_config_var("CONFIG_ARGS"):
+        scripts += [ 'Tools/scripts/pydoc' ]
+
     setup(# PyPI Metadata (PEP 301)
           name = "Python",
           version = sys.version.split()[0],
@@ -2240,9 +2246,7 @@ def main():
           ext_modules=[Extension('_struct', ['_struct.c'])],
 
           # Scripts to install
-          scripts = ['Tools/scripts/pydoc', 'Tools/scripts/idle',
-                     'Tools/scripts/2to3',
-                     'Lib/smtpd.py']
+          scripts = scripts,
         )
 
 # --install-platlib

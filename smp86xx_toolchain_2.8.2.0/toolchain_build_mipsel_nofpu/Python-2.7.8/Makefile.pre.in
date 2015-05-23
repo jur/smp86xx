@@ -941,7 +941,7 @@ LIBSUBDIRS=	lib-tk site-packages \
 		multiprocessing multiprocessing/dummy \
 		unittest \
 		lib-old \
-		curses pydoc_data $(MACHDEPS)
+		curses $(MACHDEPS)
 
 TESTSUBDIRS = lib-tk/test lib-tk/test/test_tkinter \
 	lib-tk/test/test_ttk test test/audiodata test/data \
@@ -962,6 +962,10 @@ TESTSUBDIRS = lib-tk/test lib-tk/test/test_tkinter \
 
 ifeq (@TEST_MODULES@,yes)
 LIBSUBDIRS += $(TESTSUBDIRS)
+endif
+
+ifeq (@PYDOC@,yes)
+LIBSUBDIRS += pydoc_data
 endif
 
 libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c

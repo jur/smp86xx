@@ -2624,6 +2624,11 @@ if test "$posix_threads" = "yes"; then
       AC_CHECK_FUNCS(pthread_atfork)
 fi
 
+AC_SUBST(PYDOC)
+
+AC_ARG_ENABLE(pydoc,
+	AS_HELP_STRING([--disable-pydoc], [disable pydoc]),
+	[ PYDOC="${enableval}" ], [ PYDOC=yes ])
 
 AC_SUBST(TEST_MODULES)
 
