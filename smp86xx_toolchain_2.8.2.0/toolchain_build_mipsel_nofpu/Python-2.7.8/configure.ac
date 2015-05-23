@@ -2653,6 +2653,12 @@ AC_ARG_ENABLE(nis,
     	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} nis"
   	  fi])
 
+AC_ARG_ENABLE(ssl,
+	AS_HELP_STRING([--disable-ssl], [disable SSL]),
+	[ if test "$enableval" = "no"; then
+    	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} ssl"
+  	  fi])
+
 AC_ARG_ENABLE(dbm,
 	AS_HELP_STRING([--disable-dbm], [disable DBM]),
 	[ if test "$enableval" = "no"; then
