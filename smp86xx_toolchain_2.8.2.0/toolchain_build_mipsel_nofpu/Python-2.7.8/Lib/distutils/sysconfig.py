@@ -19,8 +19,13 @@ import sys
 from distutils.errors import DistutilsPlatformError
 
 # These are needed in a couple of spots, so just compute them once.
-PREFIX = os.path.normpath(sys.prefix)
-EXEC_PREFIX = os.path.normpath(sys.exec_prefix)
+if "_python_sysroot" in os.environ:
+    _sysroot=os.environ.get('_python_sysroot')
+    PREFIX = os.path.normpath(_sysroot + os.environ.get('_python_prefix'))
+    EXEC_PREFIX = os.path.normpath(_sysroot + os.environ.get('_python_exec_prefix'))
+else:
+    PREFIX = os.path.normpath(sys.prefix)
+    EXEC_PREFIX = os.path.normpath(sys.exec_prefix)
 
 # Path to the base directory of the project. On Windows the binary may
 # live in project/PCBuild9.  If we're dealing with an x64 Windows build,
