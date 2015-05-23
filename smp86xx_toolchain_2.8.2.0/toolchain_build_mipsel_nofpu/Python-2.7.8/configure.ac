@@ -2624,6 +2624,15 @@ if test "$posix_threads" = "yes"; then
       AC_CHECK_FUNCS(pthread_atfork)
 fi
 
+AC_SUBST(SQLITE3)
+AC_ARG_ENABLE(sqlite3,
+	AS_HELP_STRING([--disable-sqlite3], [disable sqlite3]),
+	[ SQLITE3="${enableval}" ], [ SQLITE3=yes ])
+
+if test "$SQLITE3" = "no" ; then
+   DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _sqlite3"
+fi
+
 AC_SUBST(PYDOC)
 
 AC_ARG_ENABLE(pydoc,

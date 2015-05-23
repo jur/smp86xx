@@ -932,7 +932,6 @@ LIBSUBDIRS=	lib-tk site-packages \
 		encodings compiler hotshot \
 		email email/mime \
 		json \
-		sqlite3 \
 		logging bsddb csv importlib wsgiref \
 		ctypes ctypes/macholib \
 		idlelib idlelib/Icons \
@@ -950,7 +949,6 @@ TESTSUBDIRS = lib-tk/test lib-tk/test/test_tkinter \
 	test/tracedmodules \
 	email/test email/test/data \
 	json/tests \
-	sqlite3/test \
 	bsddb/test \
 	ctypes/test \
 	idlelib/idle_test \
@@ -971,6 +969,11 @@ TESTSUBDIRS += 	lib2to3/tests				\
 		lib2to3/tests/data			\
 		lib2to3/tests/data/fixers		\
 		lib2to3/tests/data/fixers/myfixes
+endif
+
+ifeq (@SQLITE3@,yes)
+LIBSUBDIRS += sqlite3
+TESTSUBDIRS += sqlite3/test
 endif
 
 libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c
