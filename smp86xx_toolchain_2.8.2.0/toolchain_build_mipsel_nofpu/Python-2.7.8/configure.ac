@@ -879,6 +879,7 @@ fi
 
 # Other platforms follow
 if test $enable_shared = "yes"; then
+  PY_ENABLE_SHARED=1
   AC_DEFINE(Py_ENABLE_SHARED, 1, [Defined if Python is built as a shared library.])
   case $ac_sys_system in
     BeOS*)
@@ -939,6 +940,7 @@ if test $enable_shared = "yes"; then
 
   esac
 else # shared is disabled
+  PY_ENABLE_SHARED=0
   case $ac_sys_system in
     CYGWIN*)
           BLDLIBRARY='$(LIBRARY)'
@@ -1915,6 +1917,9 @@ AC_SUBST(LDCXXSHARED)
 AC_SUBST(BLDSHARED)
 AC_SUBST(CCSHARED)
 AC_SUBST(LINKFORSHARED)
+AC_SUBST(PY_ENABLE_SHARED)
+LIBPL="${prefix}/lib/python${VERSION}/config"
+AC_SUBST(LIBPL)
 # SO is the extension of shared libraries `(including the dot!)
 # -- usually .so, .sl on HP-UX, .dll on Cygwin
 AC_MSG_CHECKING(SO)
@@ -4563,7 +4568,7 @@ done
 AC_MSG_RESULT(done)
 
 # generate output files
-AC_CONFIG_FILES(Makefile.pre Modules/Setup.config Misc/python.pc)
+AC_CONFIG_FILES(Makefile.pre Modules/Setup.config Misc/python.pc Misc/python-config.sh)
 AC_CONFIG_FILES([Modules/ld_so_aix], [chmod +x Modules/ld_so_aix])
 AC_OUTPUT
 

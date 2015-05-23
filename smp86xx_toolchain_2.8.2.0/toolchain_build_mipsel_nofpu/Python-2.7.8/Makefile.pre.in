@@ -163,7 +163,7 @@ SRCDIRS= 	@SRCDIRS@
 SUBDIRSTOO=	Include Lib Misc Demo
 
 # Files and directories to be distributed
-CONFIGFILES=	configure configure.ac acconfig.h pyconfig.h.in Makefile.pre.in
+CONFIGFILES=	configure configure.ac acconfig.h pyconfig.h.in Makefile.pre.in Misc/python-config.sh
 DISTFILES=	README ChangeLog $(CONFIGFILES)
 DISTDIRS=	$(SUBDIRS) $(SUBDIRSTOO) Ext-dummy
 DIST=		$(DISTFILES) $(DISTDIRS)
@@ -407,7 +407,7 @@ LIBRARY_OBJS=	\
 
 # Default target
 all:		build_all
-build_all:	$(BUILDPYTHON) oldsharedmods sharedmods gdbhooks
+build_all:	$(BUILDPYTHON) oldsharedmods sharedmods gdbhooks python-config
 
 # Compile a binary with gcc profile guided optimization.
 profile-opt:
@@ -1068,10 +1068,12 @@ $(srcdir)/Lib/$(PLATDIR):
 	fi; \
 	cd $(srcdir)/Lib/$(PLATDIR); $(RUNSHARED) ./regen
 
-python-config: $(srcdir)/Misc/python-config.in
+python-config: $(srcdir)/Misc/python-config.in Misc/python-config.sh
 	# Substitution happens here, as the completely-expanded BINDIR
 	# is not available in configure
-	sed -e "s,@EXENAME@,$(BINDIR)/python$(VERSION)$(EXE)," < $(srcdir)/Misc/python-config.in >python-config
+	sed -e "s,@EXENAME@,$(BINDIR)/python$(VERSION)$(EXE)," < $(srcdir)/Misc/python-config.in >python-config.py
+	# Replace makefile compat. variable references with shell script compat. ones; $(VAR) -> ${VAR}
+	sed -e 's,\$$(\([A-Za-z0-9_]*\)),\$$\{\1\},g' Misc/python-config.sh >python-config
 
 # Install the include files
 INCLDIRSTOMAKE=$(INCLUDEDIR) $(CONFINCLUDEDIR) $(INCLUDEPY) $(CONFINCLUDEPY)
@@ -1130,7 +1132,7 @@ libainstall:	all python-config
 	$(INSTALL_SCRIPT) $(srcdir)/Modules/makesetup $(DESTDIR)$(LIBPL)/makesetup
 	$(INSTALL_SCRIPT) $(srcdir)/install-sh $(DESTDIR)$(LIBPL)/install-sh
 	$(INSTALL_SCRIPT) python-config $(DESTDIR)$(BINDIR)/python$(VERSION)-config
-	rm python-config
+	$(INSTALL_SCRIPT) python-config.py $(DESTDIR)$(LIBPL)/python-config.py
 	@if [ -s Modules/python.exp -a \
 		"`echo $(MACHDEP) | sed 's/^\(...\).*/\1/'`" = "aix" ]; then \
 		echo; echo "Installing support files for building shared extension modules on AIX:"; \
@@ -1312,6 +1314,7 @@ clobber: clean profile-removal
 		config.cache config.log pyconfig.h Modules/config.c
 	-rm -rf build platform
 	-rm -rf $(PYTHONFRAMEWORKDIR)
+	-rm -f python-config.py python-config
 
 # Make things extra clean, before making a distribution:
 # remove all generated files, even Makefile[.pre]
