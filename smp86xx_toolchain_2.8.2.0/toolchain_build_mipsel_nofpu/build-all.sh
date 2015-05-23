@@ -20,3 +20,4 @@ cd "$SCRIPTDIR" || exit 1
 ./configure-sdl_ttf.sh || exit 1
 ./configure-ffmpeg.sh || exit 1
 ./configure-smp86xxsdk-samples.sh || exit 1
+./configure-netcat.sh || exit 1
