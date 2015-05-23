@@ -416,6 +416,7 @@ class PyBuildExt(build_ext):
         in_incdirs = False
         inc_dirs = []
         lib_dirs = []
+        compiler_has_library_path = False
         try:
             if ret >> 8 == 0:
                 with open(tmpfile) as fp:
@@ -427,6 +428,7 @@ class PyBuildExt(build_ext):
                         elif line.startswith("End of search list"):
                             in_incdirs = False
                         elif is_gcc and line.startswith("LIBRARY_PATH"):
+                            compiler_has_library_path = True
                             for d in line.strip().split("=")[1].split(":"):
                                 d = os.path.normpath(d)
                                 if '/gcc/' not in d:
@@ -437,6 +439,15 @@ class PyBuildExt(build_ext):
                                             line.strip())
         finally:
             os.unlink(tmpfile)
+
+        if not compiler_has_library_path:
+            ret = os.system("%s -print-file-name=libc.a | sed -r -e 's:(usr/)?lib(32|64)?/([^/]*/)?libc\.a::' >%s" % (gcc, tmpfile))
+            with open(tmpfile) as fp:
+                line = fp.readline().strip()
+                add_dir_to_list(self.compiler.library_dirs,
+                                os.path.join(line, "usr", "lib"))
+                add_dir_to_list(self.compiler.library_dirs,
+                                os.path.join(line, "lib"))
 
     def detect_modules(self):
         # Ensure that /usr/local is always used
