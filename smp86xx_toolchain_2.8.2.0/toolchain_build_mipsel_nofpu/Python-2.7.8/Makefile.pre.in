@@ -449,6 +449,9 @@ platform: $(BUILDPYTHON) pybuilddir.txt
 # sys.path fixup -- see Modules/getpath.c.
 pybuilddir.txt: $(BUILDPYTHON)
 		$(RUNSHARED) $(PYTHON_FOR_BUILD) -S -m sysconfig --generate-posix-vars
+		echo `cat pybuilddir.txt`/sysconfigdata > pysysconfigdatadir.txt
+		mkdir -p `cat pysysconfigdatadir.txt`
+		cp `cat pybuilddir.txt`/_sysconfigdata.py `cat pysysconfigdatadir.txt`
 
 # Build the shared modules
 # Under GNU make, MAKEFLAGS are sorted and normalized; the 's' for
@@ -969,7 +972,7 @@ libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c
 		else	true; \
 		fi; \
 	done
-	@for i in $(srcdir)/Lib/*.py `cat pybuilddir.txt`/_sysconfigdata.py $(srcdir)/Lib/*.doc $(srcdir)/Lib/*.egg-info ; \
+	@for i in $(srcdir)/Lib/*.py $(srcdir)/Lib/*.doc $(srcdir)/Lib/*.egg-info ; \
 	do \
 		if test -x $$i; then \
 			$(INSTALL_SCRIPT) $$i $(DESTDIR)$(LIBDEST); \
@@ -979,6 +982,11 @@ libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c
 			echo $(INSTALL_DATA) $$i $(LIBDEST); \
 		fi; \
 	done
+	$(INSTALL_DATA) `cat pysysconfigdatadir.txt`/_sysconfigdata.py \
+		$(DESTDIR)$(LIBDEST)
+	mkdir -p $(DESTDIR)$(LIBDEST)/sysconfigdata
+	$(INSTALL_DATA) `cat pysysconfigdatadir.txt`/_sysconfigdata.py \
+		$(DESTDIR)$(LIBDEST)/sysconfigdata
 	@for d in $(LIBSUBDIRS); \
 	do \
 		a=$(srcdir)/Lib/$$d; \
@@ -1304,7 +1312,7 @@ distclean: clobber
 		Modules/Setup Modules/Setup.local Modules/Setup.config \
 		Modules/ld_so_aix Modules/python.exp Misc/python.pc
 	-rm -f python*-gdb.py
-	-rm -f pybuilddir.txt
+	-rm -f pybuilddir.txt pysysconfigdatadir.txt
 	find $(srcdir)/[a-zA-Z]* '(' -name '*.fdc' -o -name '*~' \
 				     -o -name '[@,#]*' -o -name '*.old' \
 				     -o -name '*.orig' -o -name '*.rej' \
