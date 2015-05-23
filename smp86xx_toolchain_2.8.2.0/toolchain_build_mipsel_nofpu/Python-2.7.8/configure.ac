@@ -733,6 +733,17 @@ SunOS*)
     ;;
 esac
 
+AC_SUBST(PYC_BUILD)
+
+AC_ARG_ENABLE(pyc-build,
+	AS_HELP_STRING([--disable-pyc-build], [disable build of pyc files]),
+	[ PYC_BUILD="${enableval}" ], [ PYC_BUILD=yes ])
+
+AC_SUBST(PYO_BUILD)
+
+AC_ARG_ENABLE(pyo-build,
+	AS_HELP_STRING([--disable-pyo-build], [disable build of pyo files]),
+	[ PYO_BUILD="${enableval}" ], [ PYO_BUILD=yes ])
 
 AC_SUBST(LIBRARY)
 AC_MSG_CHECKING(LIBRARY)
