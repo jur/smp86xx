@@ -2659,6 +2659,12 @@ AC_ARG_ENABLE(ssl,
     	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} ssl"
   	  fi])
 
+AC_ARG_ENABLE(bz2,
+       AS_HELP_STRING([--disable-bz2], [disable BZIP2]),
+       [ if test "$enableval" = "no"; then
+            DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} bz2"
+         fi])
+
 AC_ARG_ENABLE(dbm,
 	AS_HELP_STRING([--disable-dbm], [disable DBM]),
 	[ if test "$enableval" = "no"; then
