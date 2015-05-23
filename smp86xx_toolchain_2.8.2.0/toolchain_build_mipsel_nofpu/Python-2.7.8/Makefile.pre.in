@@ -934,7 +934,6 @@ LIBSUBDIRS=	lib-tk site-packages \
 		json \
 		sqlite3 \
 		logging bsddb csv importlib wsgiref \
-		lib2to3 lib2to3/fixes lib2to3/pgen2 \
 		ctypes ctypes/macholib \
 		idlelib idlelib/Icons \
 		distutils distutils/command $(XMLLIBSUBDIRS) \
@@ -953,8 +952,6 @@ TESTSUBDIRS = lib-tk/test lib-tk/test/test_tkinter \
 	json/tests \
 	sqlite3/test \
 	bsddb/test \
-	lib2to3/tests \
-	lib2to3/tests/data lib2to3/tests/data/fixers lib2to3/tests/data/fixers/myfixes \
 	ctypes/test \
 	idlelib/idle_test \
 	distutils/tests \
@@ -966,6 +963,14 @@ endif
 
 ifeq (@PYDOC@,yes)
 LIBSUBDIRS += pydoc_data
+endif
+
+ifeq (@LIB2TO3@,yes)
+LIBSUBDIRS += lib2to3 lib2to3/fixes lib2to3/pgen2
+TESTSUBDIRS += 	lib2to3/tests				\
+		lib2to3/tests/data			\
+		lib2to3/tests/data/fixers		\
+		lib2to3/tests/data/fixers/myfixes
 endif
 
 libinstall:	build_all $(srcdir)/Lib/$(PLATDIR) $(srcdir)/Modules/xxmodule.c
