@@ -762,12 +762,9 @@ class PyBuildExt(build_ext):
                 pass # Issue 7384: Already linked against curses or tinfo.
             elif curses_library:
                 readline_libs.append(curses_library)
-            elif self.compiler.find_library_file(lib_dirs +
-                                                     ['/usr/lib/termcap'],
-                                                     'termcap'):
+            elif self.compiler.find_library_file(lib_dirs, 'termcap'):
                 readline_libs.append('termcap')
             exts.append( Extension('readline', ['readline.c'],
-                                   library_dirs=['/usr/lib/termcap'],
                                    extra_link_args=readline_extra_link_args,
                                    libraries=readline_libs) )
         else:
