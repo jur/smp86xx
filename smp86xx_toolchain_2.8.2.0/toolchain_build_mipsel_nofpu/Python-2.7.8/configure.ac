@@ -2641,6 +2641,12 @@ if test "$SQLITE3" = "no" ; then
    DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _sqlite3"
 fi
 
+AC_ARG_ENABLE(codecs-cjk,
+	AS_HELP_STRING([--disable-codecs-cjk], [disable CJK codecs]),
+	[ if test "$enableval" = "no"; then
+    	     DISABLED_EXTENSIONS="${DISABLED_EXTENSIONS} _codecs_kr _codecs_jp _codecs_cn _codecs_tw _codecs_hk"
+  	  fi])
+
 AC_SUBST(TK)
 AC_ARG_ENABLE(tk,
 	AS_HELP_STRING([--disable-tk], [disable tk]),
