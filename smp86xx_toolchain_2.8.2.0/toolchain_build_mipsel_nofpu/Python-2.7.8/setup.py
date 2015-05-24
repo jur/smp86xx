@@ -2038,8 +2038,15 @@ class PyBuildExt(build_ext):
 
                 # Pass empty CFLAGS because we'll just append the resulting
                 # CFLAGS to Python's; -g or -O2 is to be avoided.
-                cmd = "cd %s && env CFLAGS='' '%s/configure' %s" \
-                      % (ffi_builddir, ffi_srcdir, " ".join(config_args))
+        	if cross_compiling:
+                	cmd = "cd %s && env CFLAGS='' '%s/configure' --host=%s --build=%s %s" \
+	                      % (ffi_builddir, ffi_srcdir,
+				os.environ.get('HOSTTOOLCHAIN'),
+				os.environ.get('BUILDTOOLCHAIN'),
+				" ".join(config_args))
+		else:
+                	cmd = "cd %s && env CFLAGS='' '%s/configure' %s" \
+	                      % (ffi_builddir, ffi_srcdir, " ".join(config_args))
 
                 res = os.system(cmd)
                 if res or not os.path.exists(ffi_configfile):
