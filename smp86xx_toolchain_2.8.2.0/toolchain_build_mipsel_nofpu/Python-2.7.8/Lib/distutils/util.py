@@ -145,7 +145,7 @@ def change_root (new_root, pathname):
         if not os.path.isabs(pathname):
             return os.path.join(new_root, pathname)
         else:
-            return os.path.join(new_root, pathname[1:])
+            return os.path.join(new_root, pathname.lstrip('/'))
 
     elif os.name == 'nt':
         (drive, path) = os.path.splitdrive(pathname)
