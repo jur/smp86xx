@@ -21,7 +21,7 @@ export _PYTHON_HOST_PLATFORM="linux2-${HOSTARCH}"
 export PYTHONHOME="${BUILDPREFIX}"
 export PYTHONPATH="${SCRIPTDIR}/Python-2.7.8/build/lib.linux2-mipsel-2.7/sysconfigdata/"
 export HOSTPGEN="${BUILDPREFIX}/bin/pgen"
-export PATH="$DESTDIR/$HOSTTOOLCHAIN/bin:$PATH"
+export PATH="$DESTDIR/$HOSTTOOLCHAIN/bin:$DESTDIR/libexec/gcc/mipsel-linux-uclibc/4.0.4:$PATH"
 
 # TBD: Fix path
 export PREFIX="/usr/python"
