@@ -233,6 +233,7 @@ LIBFFI_INCLUDEDIR=	@LIBFFI_INCLUDEDIR@
 ##########################################################################
 # Parser
 PGEN=		Parser/pgen$(EXE)
+HOSTPGEN=	$(PGEN)
 
 PSRCS=		\
 		Parser/acceler.c \
@@ -604,7 +605,7 @@ Modules/pwdmodule.o: $(srcdir)/Modules/pwdmodule.c $(srcdir)/Modules/posixmodule
 $(GRAMMAR_H): $(GRAMMAR_INPUT) $(PGENSRCS)
 		@$(MKDIR_P) Include
 		$(MAKE) $(PGEN)
-		$(PGEN) $(GRAMMAR_INPUT) $(GRAMMAR_H) $(GRAMMAR_C)
+		$(HOSTPGEN) $(GRAMMAR_INPUT) $(GRAMMAR_H) $(GRAMMAR_C)
 $(GRAMMAR_C): $(GRAMMAR_H) $(GRAMMAR_INPUT) $(PGENSRCS)
 		$(MAKE) $(GRAMMAR_H)
 		touch $(GRAMMAR_C)
@@ -774,7 +775,7 @@ $(LIBRARY_OBJS) $(MODOBJS) Modules/python.o: $(PYTHON_HEADERS)
 
 TESTOPTS=	-l $(EXTRATESTOPTS)
 TESTPROG=	$(srcdir)/Lib/test/regrtest.py
-TESTPYTHON=	$(RUNSHARED) ./$(BUILDPYTHON) -Wd -3 -E -tt $(TESTPYTHONOPTS)
+TESTPYTHON=	$(RUNSHARED) ./$(PYTHON_FOR_BUILD) -Wd -3 -E -tt $(TESTPYTHONOPTS)
 test:		all platform
 		-find $(srcdir)/Lib -name '*.py[co]' -print | xargs rm -f
 		-$(TESTPYTHON) $(TESTPROG) $(TESTOPTS)
@@ -797,7 +798,7 @@ testuniversal:	all platform
 		-find $(srcdir)/Lib -name '*.py[co]' -print | xargs rm -f
 		-$(TESTPYTHON) $(TESTPROG) -uall $(TESTOPTS)
 		$(TESTPYTHON) $(TESTPROG) -uall $(TESTOPTS)
-		$(RUNSHARED) /usr/libexec/oah/translate ./$(BUILDPYTHON) -E -tt $(TESTPROG) -uall $(TESTOPTS)
+		$(RUNSHARED) /usr/libexec/oah/translate ./$(PYTHON_FOR_BUILD) -E -tt $(TESTPROG) -uall $(TESTOPTS)
 
 
 # Like testall, but with a single pass only
@@ -1201,6 +1202,7 @@ libainstall:	all python-config
 sharedinstall: sharedmods
 	$(RUNSHARED) DISABLED_EXTENSIONS="$(DISABLED_EXTENSIONS)" \
 		$(PYTHON_FOR_BUILD) $(srcdir)/setup.py install \
+		--skip-build \
 	   	--prefix=$(prefix) \
 		--install-scripts=$(BINDIR) \
 		--install-platlib=$(DESTSHARED) \
@@ -1239,7 +1241,7 @@ frameworkinstallstructure:	$(LDLIBRARY)
 		fi; \
 	done
 	$(LN) -fsn include/python$(VERSION) $(DESTDIR)$(prefix)/Headers
-	sed 's/%VERSION%/'"`$(RUNSHARED) ./$(BUILDPYTHON) -c 'import platform; print platform.python_version()'`"'/g' < $(RESSRCDIR)/Info.plist > $(DESTDIR)$(prefix)/Resources/Info.plist
+	sed 's/%VERSION%/'"`$(RUNSHARED) ./$(PYTHON_FOR_BUILD) -c 'import platform; print platform.python_version()'`"'/g' < $(RESSRCDIR)/Info.plist > $(DESTDIR)$(prefix)/Resources/Info.plist
 	$(LN) -fsn $(VERSION) $(DESTDIR)$(PYTHONFRAMEWORKINSTALLDIR)/Versions/Current
 	$(LN) -fsn Versions/Current/$(PYTHONFRAMEWORK) $(DESTDIR)$(PYTHONFRAMEWORKINSTALLDIR)/$(PYTHONFRAMEWORK)
 	$(LN) -fsn Versions/Current/Headers $(DESTDIR)$(PYTHONFRAMEWORKINSTALLDIR)/Headers
@@ -1275,6 +1277,7 @@ frameworkinstallextras:
 scriptsinstall:
 	SRCDIR=$(srcdir) $(RUNSHARED) \
 	$(PYTHON_FOR_BUILD) $(srcdir)/Tools/scripts/setup.py install \
+	--skip-build \
 	--prefix=$(prefix) \
 	--install-scripts=$(BINDIR) \
 	--root=$(DESTDIR)/
@@ -1296,7 +1299,7 @@ config.status:	$(srcdir)/configure
 
 # Run reindent on the library
 reindent:
-	./$(BUILDPYTHON) $(srcdir)/Tools/scripts/reindent.py -r $(srcdir)/Lib
+	./$(PYTHON_FOR_BUILD) $(srcdir)/Tools/scripts/reindent.py -r $(srcdir)/Lib
 
 # Rerun configure with the same options as it was run last time,
 # provided the config.status script exists
@@ -1406,7 +1409,7 @@ funny:
 
 # Perform some verification checks on any modified files.
 patchcheck:
-	$(RUNSHARED) ./$(BUILDPYTHON) $(srcdir)/Tools/scripts/patchcheck.py
+	$(RUNSHARED) ./$(PYTHON_FOR_BUILD) $(srcdir)/Tools/scripts/patchcheck.py
 
 # Dependencies
 
