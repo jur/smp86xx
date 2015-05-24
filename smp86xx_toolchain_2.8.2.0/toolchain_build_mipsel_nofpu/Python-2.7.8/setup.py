@@ -435,7 +435,7 @@ class PyBuildExt(build_ext):
                                 if '/gcc/' not in d:
                                     add_dir_to_list(self.compiler.library_dirs,
                                                     d)
-                        elif is_gcc and in_incdirs and '/gcc/' not in line:
+                        elif is_gcc and in_incdirs:
                             add_dir_to_list(self.compiler.include_dirs,
                                             line.strip())
         finally:
